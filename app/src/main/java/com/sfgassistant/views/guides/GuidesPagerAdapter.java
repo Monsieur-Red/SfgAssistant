@@ -16,8 +16,6 @@ import java.util.List;
 
 public class GuidesPagerAdapter extends FragmentStatePagerAdapter {
 
-    private static final int NUM_PAGES = 4;
-
     private List<Fragment> fragments;
 
     public GuidesPagerAdapter(FragmentManager fm) {
@@ -27,8 +25,8 @@ public class GuidesPagerAdapter extends FragmentStatePagerAdapter {
         fragments = new ArrayList<>();
         fragments.add(new ClassesView());
         fragments.add(new EnchantmentsView());
-        fragments.add(new FortressView());
-        fragments.add(new PetsView());
+//        fragments.add(new FortressView());
+//        fragments.add(new PetsView());
     }
 
     @Override
@@ -38,7 +36,7 @@ public class GuidesPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return (NUM_PAGES);
+        return (fragments.size());
     }
 
 }

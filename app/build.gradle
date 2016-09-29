@@ -3,7 +3,8 @@ apply plugin: 'com.neenbedankt.android-apt'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "23.0.3"
+//    buildToolsVersion "23.0.3"
+    buildToolsVersion "24.0.2"
 
     defaultConfig {
         applicationId "com.sfgassistant"
@@ -30,8 +31,8 @@ ext {
     junitVersion = '4.12'
 
     // AppCompatV7 & RecyclerView
-    appcompatv7Version = '24.2.0'
-    recyclerViewv7Version = '24.2.0'
+    appcompatv7Version = '24.2.1'
+    recyclerViewv7Version = '24.2.1'
 
     // Retrofit
     retrofitVersion = '2.0.2'
@@ -65,6 +66,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile "junit:junit:$junitVersion"
     compile "com.android.support:appcompat-v7:$appcompatv7Version"
+    compile "com.android.support:design:$appcompatv7Version"
     compile "com.android.support:recyclerview-v7:$recyclerViewv7Version"
     compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
     compile "com.jakewharton:butterknife:$butterknifeVersion"
@@ -82,7 +84,6 @@ dependencies {
     compile "com.squareup.moshi:moshi:$moshiVersion"
 
 
-    compile 'com.android.support:design:24.2.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.mxn.soul:flowingdrawer-core:1.2.5'
     compile 'com.nineoldandroids:library:2.4.0'

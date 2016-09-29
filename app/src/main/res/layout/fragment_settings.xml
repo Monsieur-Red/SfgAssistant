@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <Switch
+        android:id="@+id/switch_drawer_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+
+        android:text="@string/settings_drawer_menu"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:maxLines="1" />
+
+    <Switch
+        android:id="@+id/switch_bottom_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+
+        android:text="@string/settings_bottom_navigation_bar"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:maxLines="1" />
+
+</LinearLayout>

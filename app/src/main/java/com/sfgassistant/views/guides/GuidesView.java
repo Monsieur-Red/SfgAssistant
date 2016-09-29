@@ -36,7 +36,7 @@ public class GuidesView extends Fragment {
 
         final ViewPager   viewPager = ButterKnife.findById(view, R.id.view_pager);
         final NavigationTabStrip navigationTabStrip = ButterKnife.findById(view, R.id.navigation_tab_strip);
-        viewPager.setAdapter(new GuidesPagerAdapter(getActivity().getSupportFragmentManager()));
+        viewPager.setAdapter(new GuidesPagerAdapter(getChildFragmentManager()));
         viewPager.setCurrentItem(0);
         navigationTabStrip.setViewPager(viewPager, 0);
     }

@@ -2,31 +2,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:id="@+id/menu_group_1">
         <item
-            android:id="@+id/menu_news"
-            android:title="@string/news" />
-        <item
             android:id="@+id/menu_guides"
-            android:title="@string/guides" />
-    </group>
+            android:title="@string/guides"
+            android:icon="@drawable/ic_guides" />
 
-    <group android:id="@+id/menu_group_2">
         <item
             android:id="@+id/menu_calculators"
-            android:title="@string/calculators" />
-        <item
-            android:id="@+id/menu_comparators"
-            android:title="@string/comparators" />
-    </group>
+            android:title="@string/calculators"
+            android:icon="@drawable/ic_calculators"/>
 
-    <group android:id="@+id/menu_group_3">
         <item
             android:id="@+id/menu_dungeons"
-            android:title="@string/dungeons" />
+            android:title="@string/dungeons"
+            android:icon="@drawable/ic_dungeons"/>
+
         <item
-            android:id="@+id/menu_demon_portal"
-            android:title="@string/demon_portal" />
-        <item
-            android:id="@+id/menu_raids"
-            android:title="@string/raids" />
+            android:id="@+id/menu_settings"
+            android:title="@string/bottom_nav_bar_settings"
+            android:icon="@drawable/ic_settings"/>
     </group>
+
+    <!--<group android:id="@+id/menu_group_3">-->
+        <!--<item-->
+            <!--android:id="@+id/menu_raids"-->
+            <!--android:title="@string/raids" />-->
+    <!--</group>-->
 </menu>

@@ -10,7 +10,7 @@
         android:id="@+id/navigation_tab_strip"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        app:nts_color="@color/white"
+        app:nts_color="@android:color/white"
         app:nts_size="12sp"
         app:nts_weight="4dp"
         app:nts_factor="2.5"

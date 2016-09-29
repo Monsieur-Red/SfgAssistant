@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:background="@android:color/transparent"
     android:clickable="true">
+
     <LinearLayout
         android:id="@+id/vGlobalMenuHeader"
         android:layout_width="match_parent"
@@ -13,25 +14,17 @@
             android:id="@+id/ivMenuUserProfilePhoto"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_margin="12dp" />
+            android:layout_margin="12dp"
+            android:src="@mipmap/ic_launcher"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="soul.mxn"
-            android:textColor="#2d5d82"
-            android:textSize="16sp"
+            android:text="@string/app_name"
+            android:textColor="@color/primary"
+            android:textSize="28sp"
             android:textStyle="bold" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_margin="16dp"
-            android:background="@android:color/transparent"
-            android:text="Button" />
 
     </LinearLayout>
 
@@ -40,4 +33,5 @@
         android:layout_height="1dp"
         android:layout_gravity="bottom"
         android:background="#dddddd" />
+
 </FrameLayout>

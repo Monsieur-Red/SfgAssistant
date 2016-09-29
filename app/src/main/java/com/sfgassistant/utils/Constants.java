@@ -6,6 +6,8 @@ package com.sfgassistant.utils;
 
 public class Constants {
 
+    public static final String SHARED_PREFS_MENU_DRAWER = "menu drawer";
+
     public static final int VIEW_GUIDES = 0;
     public static final int VIEW_CALCULATORS_STATS = 1;
     public static final int VIEW_COMPARATORS_WEAPONS = 2;

@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 import com.mxn.soul.flowingdrawer_core.MenuFragment;
 import com.sfgassistant.MainActivity;
 import com.sfgassistant.R;
-import com.sfgassistant.utils.Constants;
 
 import butterknife.ButterKnife;
 
@@ -45,16 +44,17 @@ public class MyMenu extends MenuFragment {
 
     private void selectDrawerItem(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
-            case R.id.menu_news:
-                break;
             case R.id.menu_guides:
-                ((MainActivity)getActivity()).replaceView(Constants.VIEW_GUIDES);
+                ((MainActivity)getActivity()).closeDrawer(0);
                 break;
             case R.id.menu_calculators:
-                ((MainActivity)getActivity()).replaceView(Constants.VIEW_CALCULATORS_STATS);
+                ((MainActivity)getActivity()).closeDrawer(1);
                 break;
-            case R.id.menu_comparators:
-                ((MainActivity)getActivity()).replaceView(Constants.VIEW_COMPARATORS_WEAPONS);
+            case R.id.menu_dungeons:
+                ((MainActivity)getActivity()).closeDrawer(2);
+                break;
+            case R.id.menu_settings:
+                ((MainActivity)getActivity()).closeDrawer(3);
                 break;
         }
     }
