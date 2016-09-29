@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.sfgassistant"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+ext {
+    junitVersion = '4.12'
+
+    // AppCompatV7 & RecyclerView
+    appcompatv7Version = '24.2.0'
+    recyclerViewv7Version = '24.2.0'
+
+    // Retrofit
+    retrofitVersion = '2.0.2'
+
+    // Butterknife
+    butterknifeVersion = '8.4.0'
+    butterknifeCompilerVersion = '8.4.0'
+
+    // OkHttp
+    okhttpVersion = '3.2.0'
+    okioVersion = '1.7.0'
+
+    // Gson & Moshi
+    gsonVersion = '2.6.2'
+    gsonConverterVersion = '2.0.1'
+    moshiVersion = '1.2.0'
+
+    // RxJava
+    rxjavaVersion = '1.1.2'
+    rxandroidVersion = '1.1.0'
+    rxjavaAdapterVersion = '2.0.1'
+
+    // Dagger
+    daggerCompilerVersion = '2.5'
+    daggerVersion = '2.5'
+    jsr250apiVersion = '1.0'
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile "junit:junit:$junitVersion"
+    compile "com.android.support:appcompat-v7:$appcompatv7Version"
+    compile "com.android.support:recyclerview-v7:$recyclerViewv7Version"
+    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    compile "com.jakewharton:butterknife:$butterknifeVersion"
+    apt "com.jakewharton:butterknife-compiler:$butterknifeCompilerVersion"
+    compile "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    compile "com.squareup.okio:okio:$okioVersion"
+    compile "com.google.code.gson:gson:$gsonVersion"
+    compile "com.squareup.retrofit2:converter-gson:$gsonConverterVersion"
+    compile "io.reactivex:rxjava:$rxjavaVersion"
+    compile "io.reactivex:rxandroid:$rxandroidVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava:$rxjavaAdapterVersion"
+    compile "com.google.dagger:dagger:$daggerVersion"
+    apt "com.google.dagger:dagger-compiler:$daggerCompilerVersion"
+    provided "javax.annotation:jsr250-api:$jsr250apiVersion"
+    compile "com.squareup.moshi:moshi:$moshiVersion"
+
+
+    compile 'com.android.support:design:24.2.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.mxn.soul:flowingdrawer-core:1.2.5'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'cn.pedant.sweetalert:library:1.3'
+    compile 'com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4'
+    compile 'at.blogc:expandabletextview:1.0.3'
+
+}

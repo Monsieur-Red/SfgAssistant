@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Sfg Assistant</string>
+
+    <!-- Menu Drawer -->
+    <string name="news">News</string>
+    <string name="guides">Guides</string>
+    <string name="calculators">Calculators</string>
+    <string name="comparators">Comparators</string>
+    <string name="dungeons">Dungeons</string>
+    <string name="demon_portal">Demon\'s Portal</string>
+    <string name="raids">Raids</string>
+
+    <!-- Guides -->
+    <string-array name="guides_title">
+        <item>Class</item>
+        <item>Enchantments</item>
+        <item>Fortress</item>
+        <item>Pets</item>
+    </string-array>
+    <string name="class_race">Class and Race</string>
+    <string name="enchantments">Enchantments</string>
+    <string name="fortress">Fortress</string>
+    <string name="pets">Pets</string>
+
+    <!-- Classes -->
+    <string name="race">Race: </string>
+    <string name="classs">Class: </string>
+    <string name="strength">Strength</string>
+    <string name="dexterity">Dexterity</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="constitution">Contitution</string>
+    <string name="luck">Luck</string>
+
+    <!-- Enchantments -->
+    <string name="enchantments_faq" formatted="false">Q Where is the witch?\nA Magic shop -> click the Inconspicous book next to Fidget if you are level 66+.\n\nQ What does the witch do?\nA She brews spell scrolls in her cauldron. She needs ingredients in order to complete her ritual. Once complete (=the cauldron shows 100%), a random spell scroll becomes available. You can directly buy it here: magic shop -> Inconspicous book -> click on the scroll you would like to buy and the equipped item the scroll matches will be automatically enchanted with it.\n\nQ What does the witch need for her ritual?\nA She needs many ingredients. The type of ingredients changes every day and it resets at midnight. For example, on day 1 she needs belts, on day 2 she needs rings, on day 3 she needs weapons. Note: the progress of the cauldron does not reset! Of course the goal of 100% does not have to be reached in only one day. The cauldron only resets once the ritual is complete and a new spell scroll is available.\n\nQ Type of ingredients?\nA She needs all types of items except shields!\n\n(More information on S&amp;F forum!!)</string>
+    <string name="type">Type</string>
+    <string name="name">Name</string>
+    <string name="effect">Effect</string>
+
+    <!-- Calculators -->
+    <string name="quests_calculator">Quests</string>
+    <string name="stats_calculator">Stats</string>
+
+    <!-- Stats Calculator -->
+    <string name="level">Level</string>
+    <string name="weapon_damage">Weapon Damage</string>
+    <string name="basis">Basis</string>
+    <string name="equipment">Equipment</string>
+    <string name="temporary">Temporary</string>
+    <string name="zero">0</string>
+    <string name="bonus">Bonus</string>
+    <string name="guild">Guild</string>
+    <string name="dungeon">Dungeon</string>
+    <string name="plus"><b>+</b></string>
+    <string name="minus"><b>-</b></string>
+    <string name="stats_estimation">Stats Estimation</string>
+    <string name="damage">Damage</string>
+    <string name="hit_points">Hit Points</string>
+    <string name="critical_hit">Critical Hit</string>
+
+    <!-- Comparators -->
+    <string name="weapons_comparator">Weapons Dmg</string>
+    <string name="dungeons_comparator">Dungeons Monster</string>
+
+    <!-- Weapons Comparator -->
+    <string name="min_dmg">Min Dmg</string>
+    <string name="max_dmg">Max Dmg</string>
+    <string name="your_intel">Your Intelligence</string>
+    <string name="your_str">Your Strength</string>
+    <string name="your_dex">Your Dexterity</string>
+    <string name="weapon_intel">Weapon Intel</string>
+    <string name="weapon_str">Weapon Str</string>
+    <string name="weapon_dex">Weapon Dex</string>
+    <string name="gem_intel">Gem Intel</string>
+    <string name="gem_str">Gem Str</string>
+    <string name="gem_dex">Gem Dex</string>
+    <string name="weapon_1">Weapon 1</string>
+    <string name="weapon_2">Weapon 2</string>
+    <string name="total_intel">Total Intel</string>
+    <string name="total_str">Total Str</string>
+    <string name="total_dex">Total Dex</string>
+    <string name="dmg_average">Dmg Average</string>
+
+</resources>

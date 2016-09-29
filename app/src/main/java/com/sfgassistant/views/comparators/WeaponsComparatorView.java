@@ -1,0 +1,150 @@
+package com.sfgassistant.views.comparators;
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.sfgassistant.R;
+import com.sfgassistant.models.WeaponsComparator.WeaponsComparatorResult;
+import com.sfgassistant.presenters.WeaponsComparatorPresenter;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.OnTextChanged;
+
+/**
+ * Created by pierr on 25/09/2016.
+ */
+
+public class WeaponsComparatorView extends Fragment implements WeaponsComparator.View {
+
+    private WeaponsComparatorPresenter  presenter;
+
+    @BindView(R.id.edit_text_my_attribute) EditText mainAttr;
+    @BindView(R.id.text_view_weapon_attr) TextView weaponAttr;
+    @BindView(R.id.text_view_gem_attr) TextView gemAttr;
+    @BindView(R.id.text_view_weapon_attr_2) TextView weaponAttr2;
+    @BindView(R.id.text_view_total_attr) TextView totalAttr;
+
+    @BindView(R.id.text_view_weapon_1_min_dmg) TextView minDmg;
+    @BindView(R.id.text_view_weapon_2_min_dmg) TextView minDmg2;
+    @BindView(R.id.text_view_weapon_1_max_dmg) TextView maxDmg;
+    @BindView(R.id.text_view_weapon_2_max_dmg) TextView maxDmg2;
+    @BindView(R.id.text_view_weapon_1_average_dmg) TextView avgDmg;
+    @BindView(R.id.text_view_weapon_2_average_dmg) TextView avgDmg2;
+    @BindView(R.id.text_view_weapon_1_weapon_attribute) TextView weaponAttribute;
+    @BindView(R.id.text_view_weapon_2_weapon_attribute) TextView weaponAttribute2;
+    @BindView(R.id.text_view_weapon_1_total_attribute) TextView totalAttribute;
+    @BindView(R.id.text_view_weapon_2_total_attribute) TextView totalAttribute2;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        presenter = new WeaponsComparatorPresenter(this);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_weapons_comparator, container, false);
+        ButterKnife.bind(this, view);
+        return (view);
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        OnClickWarriorBtn();
+    }
+
+    @Override
+    public void setData(WeaponsComparatorResult result, WeaponsComparatorResult result2) {
+        minDmg.setText(result.getMinDmg());
+        minDmg2.setText(result2.getMinDmg());
+        maxDmg.setText(result.getMaxDmg());
+        maxDmg2.setText(result2.getMaxDmg());
+        avgDmg.setText(result.getAverageDmg());
+        avgDmg2.setText(result2.getAverageDmg());
+        weaponAttribute.setText(result.getWeaponAttribute());
+        weaponAttribute2.setText(result2.getWeaponAttribute());
+        totalAttribute.setText(result.getAttributeTotal());
+        totalAttribute2.setText(result2.getAttributeTotal());
+    }
+
+    @OnClick(R.id.btn_warrior)
+    public void OnClickWarriorBtn() {
+        mainAttr.setHint(R.string.your_str);
+        weaponAttr.setText(R.string.weapon_str);
+        weaponAttr2.setText(R.string.weapon_str);
+        gemAttr.setText(R.string.gem_str);
+        totalAttr.setText(R.string.total_str);
+    }
+
+    @OnClick(R.id.btn_mage)
+    public void OnClickMageBtn() {
+        mainAttr.setHint(R.string.your_intel);
+        weaponAttr.setText(R.string.weapon_intel);
+        weaponAttr2.setText(R.string.weapon_intel);
+        gemAttr.setText(R.string.gem_intel);
+        totalAttr.setText(R.string.total_intel);
+    }
+
+    @OnClick(R.id.btn_scout)
+    public void OnClickScoutBtn() {
+        mainAttr.setHint(R.string.your_dex);
+        weaponAttr.setText(R.string.weapon_dex);
+        weaponAttr2.setText(R.string.weapon_dex);
+        gemAttr.setText(R.string.gem_dex);
+        totalAttr.setText(R.string.total_dex);
+    }
+
+    @OnTextChanged(R.id.edit_text_my_attribute)
+    public void OnTextChangedMyAttr(CharSequence text) {
+        presenter.setMainAttribute(text.toString());
+    }
+
+    @OnTextChanged(R.id.edit_text_weapon_1_min_dmg)
+    public void OnTextChangedWeapon1MinDmg(CharSequence text) {
+        presenter.setMinDmg(text.toString());
+    }
+
+    @OnTextChanged(R.id.edit_text_weapon_2_min_dmg)
+    public void OnTextChangedWeapon2MinDmg(CharSequence text) {
+        presenter.setMinDmg2(text.toString());
+    }
+
+    @OnTextChanged(R.id.edit_text_weapon_1_max_dmg)
+    public void OnTextChangedWeapon1MaxDmg(CharSequence text) {
+        presenter.setMaxDmg(text.toString());
+    }
+
+    @OnTextChanged(R.id.edit_text_weapon_2_max_dmg)
+    public void OnTextChangedWeapon2MaxDmg(CharSequence text) {
+        presenter.setMaxDmg2(text.toString());
+    }
+
+    @OnTextChanged(R.id.edit_text_weapon_1_attribute)
+    public void OnTextChangedWeapon1Attr(CharSequence text) {
+        presenter.setWeaponAttribute(text.toString());
+    }
+
+    @OnTextChanged(R.id.edit_text_weapon_2_attribute)
+    public void OnTextChangedWeapon2Attr(CharSequence text) {
+        presenter.setWeaponAttribute2(text.toString());
+    }
+
+    @OnTextChanged(R.id.edit_text_weapon_1_gem)
+    public void OnTextChangedWeapon1Gem(CharSequence text) {
+        presenter.setGemAttribute(text.toString());
+    }
+
+    @OnTextChanged(R.id.edit_text_weapon_2_gem)
+    public void OnTextChangedWeapon2Gem(CharSequence text) {
+        presenter.setGemAttribute2(text.toString());
+    }
+
+}

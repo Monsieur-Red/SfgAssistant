@@ -1,0 +1,56 @@
+[
+  {
+    "image": "enchantment_amulets.png",
+	"type": "Amulets",
+	"name": "Unholy Acquisitiveness",
+	"effect": "+10% chance Find items"
+  },
+  {
+    "image": "enchantment_rings.png",
+	"type": "Rings",
+	"name": "The Grave Robber's Prayer",
+	"effect": "+10% Gold per quest"
+  },
+  {
+    "image": "enchantment_belts.png",
+	"type": "Belts",
+	"name": "Thirsty Wanderer",
+	"effect": "Extra beer 1 per day"
+  },
+  {
+    "image": "enchantment_weapons.png",
+	"type": "Weapons",
+	"name": "Sword of Vengeance",
+	"effect": "+5% damage Crit. hit"
+  },
+  {
+    "image": "enchantment_breastplates.png",
+	"type": "Breast plate",
+	"name": "Mario's Beard",
+	"effect": "+50% chance Find mushrooms"
+  },
+  {
+    "image": "enchantment_shoes.png",
+	"type": "Shoes",
+	"name": "36960-feet boots",
+	"effect": "-30 seconds Travel duration"
+  },
+  {
+    "image": "enchantment_talismans.png",
+	"type": "Talismans",
+	"name": "Robber Baron Ritual",
+	"effect": "Up to +20% Arena gold"
+  },
+  {
+    "image": "enchantment_gloves.png",
+	"type": "Gloves",
+	"name": "Shadow of the Cowboy",
+	"effect": "Reaction boost 1 (higher stikes first)"
+  },
+  {
+    "image": "enchantment_hats.png",
+	"type": "Hat",
+	"name": "Adventurer's Archaeological Aura",
+	"effect": "+10% XP per quest"
+  }
+]
