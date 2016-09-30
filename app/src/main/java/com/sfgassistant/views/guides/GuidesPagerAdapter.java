@@ -21,7 +21,6 @@ public class GuidesPagerAdapter extends FragmentStatePagerAdapter {
     public GuidesPagerAdapter(FragmentManager fm) {
         super(fm);
 
-        // Init Fragment List
         fragments = new ArrayList<>();
         fragments.add(new ClassesView());
         fragments.add(new EnchantmentsView());

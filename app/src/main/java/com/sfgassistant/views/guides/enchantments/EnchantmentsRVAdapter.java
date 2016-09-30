@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sfgassistant.R;
-import com.sfgassistant.models.Enchantment;
+import com.sfgassistant.models.guide.Enchantment;
 import com.sfgassistant.utils.Constants;
 import com.squareup.picasso.Picasso;
 

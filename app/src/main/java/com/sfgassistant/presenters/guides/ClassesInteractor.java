@@ -1,8 +1,8 @@
 package com.sfgassistant.presenters.guides;
 
-import com.sfgassistant.models.Classs;
+import com.sfgassistant.models.guide.Classs;
 import com.sfgassistant.models.ModelManager;
-import com.sfgassistant.models.Race;
+import com.sfgassistant.models.guide.Race;
 
 import java.util.List;
 

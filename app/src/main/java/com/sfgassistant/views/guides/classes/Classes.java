@@ -1,7 +1,7 @@
 package com.sfgassistant.views.guides.classes;
 
-import com.sfgassistant.models.Classs;
-import com.sfgassistant.models.Race;
+import com.sfgassistant.models.guide.Classs;
+import com.sfgassistant.models.guide.Race;
 
 /**
  * Created by pierr on 18/09/2016.

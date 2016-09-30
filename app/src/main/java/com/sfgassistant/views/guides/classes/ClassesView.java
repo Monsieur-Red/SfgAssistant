@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import com.sfgassistant.MainActivity;
 import com.sfgassistant.R;
-import com.sfgassistant.models.Classs;
-import com.sfgassistant.models.Race;
+import com.sfgassistant.models.guide.Classs;
+import com.sfgassistant.models.guide.Race;
 import com.sfgassistant.presenters.guides.ClassesPresenter;
 
 import butterknife.BindView;

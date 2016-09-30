@@ -1,4 +1,4 @@
-package com.sfgassistant.models;
+package com.sfgassistant.models.guide;
 
 /**
  * Created by pierr on 18/09/2016.

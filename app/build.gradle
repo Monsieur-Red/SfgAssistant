@@ -68,21 +68,12 @@ dependencies {
     compile "com.android.support:appcompat-v7:$appcompatv7Version"
     compile "com.android.support:design:$appcompatv7Version"
     compile "com.android.support:recyclerview-v7:$recyclerViewv7Version"
+    compile 'io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.0.4'
     compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
     compile "com.jakewharton:butterknife:$butterknifeVersion"
     apt "com.jakewharton:butterknife-compiler:$butterknifeCompilerVersion"
-    compile "com.squareup.okhttp3:okhttp:$okhttpVersion"
-    compile "com.squareup.okio:okio:$okioVersion"
     compile "com.google.code.gson:gson:$gsonVersion"
-    compile "com.squareup.retrofit2:converter-gson:$gsonConverterVersion"
-    compile "io.reactivex:rxjava:$rxjavaVersion"
-    compile "io.reactivex:rxandroid:$rxandroidVersion"
-    compile "com.squareup.retrofit2:adapter-rxjava:$rxjavaAdapterVersion"
-    compile "com.google.dagger:dagger:$daggerVersion"
-    apt "com.google.dagger:dagger-compiler:$daggerCompilerVersion"
-    provided "javax.annotation:jsr250-api:$jsr250apiVersion"
     compile "com.squareup.moshi:moshi:$moshiVersion"
-
 
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.mxn.soul:flowingdrawer-core:1.2.5'
@@ -90,5 +81,5 @@ dependencies {
     compile 'cn.pedant.sweetalert:library:1.3'
     compile 'com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4'
     compile 'at.blogc:expandabletextview:1.0.3'
-
+    compile 'com.github.eluleci:flatui:3.0.0'
 }

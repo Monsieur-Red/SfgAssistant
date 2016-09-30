@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <at.blogc.android.views.ExpandableTextView
+            android:id="@+id/expandableTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+
+            android:text="@string/dungeons_faq"
+            android:textColor="@color/primary_text"
+            android:textSize="15sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            app:animation_duration="500"
+            android:background="@color/primary" />
+
+        <ImageButton
+            android:id="@+id/btn_expand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+
+            android:layout_gravity="center"
+            android:src="@drawable/ic_expand_more_white_24dp"
+            android:background="@android:color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_all"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_all"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:textAllCaps="false"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_1"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_1"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_2"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_2"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_3"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_3"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_4"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_4"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_5"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_5"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_6"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_6"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_7"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_7"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_8"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_8"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_9"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_9"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_10"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_10"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_11"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_11"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_12"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_12"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_13"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_13"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_14"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_button_14"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:gravity="center"
+            android:text="@string/dungeons_advice"
+            android:textColor="@color/primary_text"
+            android:textSize="12sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

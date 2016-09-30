@@ -1,4 +1,4 @@
-package com.sfgassistant.models;
+package com.sfgassistant.models.guide;
 
 import com.google.gson.annotations.SerializedName;
 

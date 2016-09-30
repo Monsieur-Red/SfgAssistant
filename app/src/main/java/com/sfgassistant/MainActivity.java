@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.cengalabs.flatui.FlatUI;
 import com.mxn.soul.flowingdrawer_core.FlowingView;
 import com.mxn.soul.flowingdrawer_core.LeftDrawerLayout;
 import com.sfgassistant.models.ModelManager;
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences preferences = getSharedPreferences(getString(R.string.package_name), Context.MODE_PRIVATE);
         boolean drawerMenu = preferences.getBoolean(Constants.SHARED_PREFS_MENU_DRAWER, false);
+
+        FlatUI.initDefaultValues(this);
+        FlatUI.setDefaultTheme(R.array.button_active);
 
         if (drawerMenu)
             setContentView(R.layout.activity_main_drawer_menu);

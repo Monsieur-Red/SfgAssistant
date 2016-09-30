@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.sfgassistant.views.calculators.StatsCalculatorView;
 import com.sfgassistant.views.comparators.WeaponsComparatorView;
+import com.sfgassistant.views.dungeons.DungeonsView;
 import com.sfgassistant.views.guides.GuidesView;
 import com.sfgassistant.views.settings.SettingsView;
 
@@ -31,7 +32,7 @@ public class MainPagerAdapter extends FragmentStatePagerAdapter {
         fragments = new ArrayList<>();
         fragments.add(new GuidesView());
         fragments.add(new StatsCalculatorView());
-        fragments.add(new WeaponsComparatorView());
+        fragments.add(new DungeonsView());
         fragments.add(new SettingsView());
     }
 

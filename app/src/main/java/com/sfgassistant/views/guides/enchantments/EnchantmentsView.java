@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 import com.sfgassistant.MainActivity;
 import com.sfgassistant.R;
-import com.sfgassistant.models.Enchantment;
+import com.sfgassistant.models.guide.Enchantment;
 
 import java.util.List;
 
@@ -44,7 +44,7 @@ public class EnchantmentsView extends Fragment {
         final RecyclerView recyclerView = ButterKnife.findById(view, R.id.recycler_view);
         recyclerView.setAdapter(new EnchantmentsRVAdapter(enchantments));
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        recyclerView.setNestedScrollingEnabled(true);
+        recyclerView.setNestedScrollingEnabled(false);
         recyclerView.setHasFixedSize(false);
 
         final ExpandableTextView expandableTextView = ButterKnife.findById(view, R.id.expandableTextView);

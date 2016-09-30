@@ -1,0 +1,100 @@
+[
+  {
+	"level": "1",
+    "name": "Die entweihten Katakomben",
+    "description": "Die Toten sind erstaunlich lebendig.",
+    "key": "dungeon_key_1.png",
+	"key_description": "Nanu, ein Schlüssel... Wo der wohl passt?"
+  },
+  {
+	"level": "2",
+    "name": "Die Minen von Gloria",
+    "description": "Glück auf! Harte Arbeit steht bevor.",
+    "key": "dungeon_key_2.png",
+	"key_description": "Von Zwergen geschmiedet, von dir gefunden."
+  },
+  {
+	"level": "3",
+    "name": "Die Ruinen von Gnark",
+    "description": "Wo die wilden Kerle wohnen...",
+    "key": "dungeon_key_3.png",
+	"key_description": "Er wurde einem Räuber geraubt."
+  },
+  {
+	"level": "4",
+    "name": "Die Halsabschneidergrotte",
+    "description": "Krummsäbel und krumme Geschäfte.",
+    "key": "dungeon_key_4.png",
+	"key_description": "Die Halsabschneidergrotte liegt in der berühmten Piratenbucht."
+  },
+  {
+	"level": "5",
+    "name": "Der Smaragdschuppenaltar",
+    "description": "Wir müssen alle Opfer bringen...",
+    "key": "dungeon_key_5.png",
+	"key_description": "Geheiligtes Artefakt einer alten, grausamen Kultur."
+  },
+  {
+	"level": "6",
+    "name": "Der kranke Baum",
+    "description": "Seine Wurzeln reichen bis in höllische Tiefen.",
+    "key": "dungeon_key_6.png",
+	"key_description": "Igitt, der ist bestimmt total verseucht!"
+  },
+  {
+	"level": "7",
+    "name": "Der Magmastrom",
+    "description": "Es geht heiß her im Untergrund.",
+    "key": "dungeon_key_7.png",
+	"key_description": "Der Schlüssel zum Magmastrom"
+  },
+  {
+	"level": "8",
+    "name": "Der Frostbluttempel",
+    "description": "Das Blut gefriert einem in den Adern.",
+    "key": "dungeon_key_8.png",
+	"key_description": "Achtung, Gefrierbrandgefahr!"
+  },
+  {
+	"level": "9",
+    "name": "Die Pyramide des Wahnsinns",
+    "description": "Nur nicht Verstand oder Leben verlieren!",
+    "key": "dungeon_key_9.png",
+	"key_description": "Der Schlüssel mit dem Sprung in der Schüssel."
+  },
+  {
+	"level": "10",
+    "name": "Die Schwarzschädelfestung",
+    "description": "Tief im Innern gibt es einen Souvenirstand.",
+    "key": "dungeon_key_10.png",
+	"key_description": "Sieht nicht freundlich aus."
+  },
+  {
+	"level": "11",
+    "name": "Der Zirkus des Grauens",
+    "description": "Menschen, Tiere, Monster!",
+    "key": "dungeon_key_11.png",
+	"key_description": ""
+  },
+  {
+	"level": "12",
+    "name": "Die Hölle",
+    "description": "SO schlimm kann sie doch nicht sein...",
+    "key": "dungeon_key_12.png",
+	"key_description": ""
+  },
+  {
+	"level": "13",
+    "name": "Der 13. Stock",
+    "description": "Steig ein, wenn du dich traust!",
+    "key": "dungeon_key_13.png",
+	"key_description": ""
+  },
+  {
+	"level": "14",
+    "name": "Osteros",
+    "description": "Hinter der Wand, da liegt ein Land...",
+    "key": "dungeon_key_14.png",
+	"key_description": ""
+  }
+]

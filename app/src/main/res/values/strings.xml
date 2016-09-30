@@ -35,7 +35,7 @@
     <string name="strength">Strength</string>
     <string name="dexterity">Dexterity</string>
     <string name="intelligence">Intelligence</string>
-    <string name="constitution">Contitution</string>
+    <string name="constitution">Constitution</string>
     <string name="luck">Luck</string>
 
     <!-- Enchantments -->
@@ -88,8 +88,43 @@
     <string name="total_dex">Total Dex</string>
     <string name="dmg_average">Dmg Average</string>
 
+    <!-- Dungeons -->
+    <string-array name="dungeons_tabs_title">
+        <item>Light world</item>
+        <item>Shadow world</item>
+        <item>The Tower</item>
+    </string-array>
+    <string name="dungeons_faq" formatted="false">Q When can I get a Dungeon key?\nA Key 1 can be found with level 10+.\nKey 2 can be found with level 20+.\nKey 3 can be found with level 30+.\nKey 4 can be found with level 40+.\nKey 5 can be found with level 50+.\nKey 6 can be found with level 70+ (and bought from the shop).\nKey 7 can be found with level 80+.\nKey 8 can be found with level 95+.\nKey 9 can be found with level 110 on (and bought from the shop).\nThe 10th dungeon will be open after completing dungeons 1&#8211;9.\n\nQ How do I know I will get a key for completing a quest?\nA The key is shown as a reward for the quest (similar to standard items).\n\nQ What if I sell a key?\nA It does not matter. You can find the key again until you open the dungeon.\n\nQ What if I lose a quest with a key as reward?\nA It does not matter. You can find the key again until you open the dungeon.\n\nQ Do I have to complete a dungeon to get the next key?\nA No. You can open multiple dungeons without having to complete some of them first.\n\nQ I’m level x and I haven’t gotten the xth key yet?\nA Keys are randomly generated. Sometimes you can have a character with level 30 for example and you still haven’t found the key to the second dungeon yet (although you can find it from level 20 on). It is pure chance…either luck or bad luck. Be patient and keep waiting, you will definitely get your key.\n\n(More information on Guidescroll.com!!)</string>
+    <string name="dungeons_button_all">All</string>
+    <string name="dungeons_button_1">1</string>
+    <string name="dungeons_button_2">2</string>
+    <string name="dungeons_button_3">3</string>
+    <string name="dungeons_button_4">4</string>
+    <string name="dungeons_button_5">5</string>
+    <string name="dungeons_button_6">6</string>
+    <string name="dungeons_button_7">7</string>
+    <string name="dungeons_button_8">8</string>
+    <string name="dungeons_button_9">9</string>
+    <string name="dungeons_button_10">10</string>
+    <string name="dungeons_button_11">11</string>
+    <string name="dungeons_button_12">12</string>
+    <string name="dungeons_button_13">13</string>
+    <string name="dungeons_button_14">14</string>
+    <string name="dungeons_advice">(More dungeons are displayed, more lags you got :/)</string>
+    <string name="dungeons_section_header" formatted="false">%s &#8211; %s</string>
+    <string name="dungeons_section_item_title" formatted="false">%s &#8211; %s lvl %s (Gain %s xp)</string>
+    <string name="dungeons_section_item_name" formatted="false">%s &#8211; %s</string>
+    <string name="dungeons_section_item_level" formatted="false">lvl %s</string>
+    <string name="dungeons_section_item_experience" formatted="false">Gain %s xp</string>
+    <string name="dungeons_hp">hp</string>
+    <string name="dungeons_str">str</string>
+    <string name="dungeons_dex">dex</string>
+    <string name="dungeons_intel">intel</string>
+    <string name="dungeons_cons">cons</string>
+    <string name="dungeons_luck">luck</string>
+
     <!-- Settings -->
-    <string name="settings_drawer_menu">Drawer menu</string>
+    <string name="settings_drawer_menu">Top Left Drawer menu</string>
     <string name="settings_bottom_navigation_bar">Bottom navigation bar</string>
     <string name="settings_toast_restart_your_app">Please restart the app for the applied changes to take effect.</string>
 

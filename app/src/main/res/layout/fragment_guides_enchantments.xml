@@ -57,7 +57,7 @@
 
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Type"
+                android:text="@string/type"
                 android:textColor="@color/primary_text"
                 android:textSize="15sp"
                 android:textStyle="bold"/>
@@ -71,7 +71,7 @@
 
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Name"
+                android:text="@string/name"
                 android:textColor="@color/primary_text"
                 android:textSize="15sp"
                 android:textStyle="bold"/>
@@ -85,7 +85,7 @@
 
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="Effect"
+                android:text="@string/effect"
                 android:textColor="@color/primary_text"
                 android:textSize="15sp"
                 android:textStyle="bold"/>

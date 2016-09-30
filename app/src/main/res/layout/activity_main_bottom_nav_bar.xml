@@ -39,6 +39,6 @@
         android:layout_gravity="bottom"
         app:tabIndicatorColor="@android:color/white"
         app:tabIndicatorHeight="2dp"
-        app:tabBackground="@drawable/selector_tab"/>
+        app:tabBackground="@drawable/selector_tab" />
 
 </android.support.design.widget.CoordinatorLayout>
