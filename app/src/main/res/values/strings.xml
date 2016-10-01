@@ -39,7 +39,8 @@
     <string name="luck">Luck</string>
 
     <!-- Enchantments -->
-    <string name="enchantments_faq" formatted="false">Q Where is the witch?\nA Magic shop -> click the Inconspicous book next to Fidget if you are level 66+.\n\nQ What does the witch do?\nA She brews spell scrolls in her cauldron. She needs ingredients in order to complete her ritual. Once complete (=the cauldron shows 100%), a random spell scroll becomes available. You can directly buy it here: magic shop -> Inconspicous book -> click on the scroll you would like to buy and the equipped item the scroll matches will be automatically enchanted with it.\n\nQ What does the witch need for her ritual?\nA She needs many ingredients. The type of ingredients changes every day and it resets at midnight. For example, on day 1 she needs belts, on day 2 she needs rings, on day 3 she needs weapons. Note: the progress of the cauldron does not reset! Of course the goal of 100% does not have to be reached in only one day. The cauldron only resets once the ritual is complete and a new spell scroll is available.\n\nQ Type of ingredients?\nA She needs all types of items except shields!\n\n(More information on S&amp;F forum!!)</string>
+    <string name="enchantments_faq" formatted="false">Q Where is the witch?\nA Magic shop -> click the Inconspicous book next to Fidget if you are level <b>66+</b>.\n\nQ What does the witch do?\nA She brews spell scrolls in her cauldron. She needs ingredients in order to complete her ritual. Once complete (=the cauldron shows 100%), a random spell scroll becomes available. You can directly buy it here: magic shop -> Inconspicous book -> click on the scroll you would like to buy and the equipped item the scroll matches will be automatically enchanted with it.\n\nQ What does the witch need for her ritual?\nA She needs many ingredients. The type of ingredients changes every day and it resets at midnight. For example, on day 1 she needs belts, on day 2 she needs rings, on day 3 she needs weapons. Note: the progress of the cauldron does not reset! Of course the goal of 100% does not have to be reached in only one day. The cauldron only resets once the ritual is complete and a new spell scroll is available.\n\nQ Type of ingredients?\nA She needs all types of items except shields!\n\n(More information on S&amp;F forum!!)</string>
+    <string name="enchantments_type_effect" formatted="false">%s : %s</string>
     <string name="type">Type</string>
     <string name="name">Name</string>
     <string name="effect">Effect</string>
@@ -49,6 +50,10 @@
     <string name="stats_calculator">Stats</string>
 
     <!-- Stats Calculator -->
+    <string-array name="calculators_tabs_title">
+        <item>Stats</item>
+        <item>Weapons</item>
+    </string-array>
     <string name="level">Level</string>
     <string name="weapon_damage">Weapon Damage</string>
     <string name="basis">Basis</string>
@@ -110,7 +115,7 @@
     <string name="dungeons_button_12">12</string>
     <string name="dungeons_button_13">13</string>
     <string name="dungeons_button_14">14</string>
-    <string name="dungeons_advice">(More dungeons are displayed, more lags you got :/)</string>
+    <string name="dungeons_advice">(More dungeons you displayed, more lags you got :/)</string>
     <string name="dungeons_section_header" formatted="false">%s &#8211; %s</string>
     <string name="dungeons_section_item_title" formatted="false">%s &#8211; %s lvl %s (Gain %s xp)</string>
     <string name="dungeons_section_item_name" formatted="false">%s &#8211; %s</string>
@@ -123,10 +128,25 @@
     <string name="dungeons_cons">cons</string>
     <string name="dungeons_luck">luck</string>
 
+    <!-- The Tower -->
+    <string name="dungeons_tower_faq">After completing dungeon 9, players will receive access to the Tower. With the help of three followers, a warrior, a scout and a mage, you can fight your way through the Tower\'s <b>100</b> floors.\nThe followers can be leveled up and equipped with class-specific items from the Arcane Toilet. Epic items for your followers can be found during the adventure.\n\nHint: The epic items you find in the Tower cannot be sacrificed in the Arcane Toilet. Moreover, you don\'t receive gold for the Tower items you sell in the shops.\nHint: Your followers\' maximum level cannot exceed your own level!\nHint: Defeating the Tower monsters doesn\'t add new stickers to your scrapbook!\n\nCredits : iTZKooPA (User of S&amp;F Forum)</string>
+    <string name="dungeons_tower_button_1_10" formatted="false">1&#8211;10</string>
+    <string name="dungeons_tower_button_11_20" formatted="false">11&#8211;20</string>
+    <string name="dungeons_tower_button_21_30" formatted="false">21&#8211;30</string>
+    <string name="dungeons_tower_button_31_40" formatted="false">31&#8211;40</string>
+    <string name="dungeons_tower_button_41_50" formatted="false">41&#8211;50</string>
+    <string name="dungeons_tower_button_51_60" formatted="false">51&#8211;60</string>
+    <string name="dungeons_tower_button_61_70" formatted="false">61&#8211;70</string>
+    <string name="dungeons_tower_button_71_80" formatted="false">71&#8211;80</string>
+    <string name="dungeons_tower_button_81_90" formatted="false">81&#8211;90</string>
+    <string name="dungeons_tower_button_91_100" formatted="false">91&#8211;*</string>
+    <string name="dungeons_tower_advice">(More stages you displayed, more lags you got :/)</string>
+
+
     <!-- Settings -->
     <string name="settings_drawer_menu">Top Left Drawer menu</string>
     <string name="settings_bottom_navigation_bar">Bottom navigation bar</string>
     <string name="settings_toast_restart_your_app">Please restart the app for the applied changes to take effect.</string>
 
-    
+
 </resources>

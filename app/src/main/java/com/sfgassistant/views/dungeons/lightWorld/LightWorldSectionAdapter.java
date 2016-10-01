@@ -145,7 +145,7 @@ public class LightWorldSectionAdapter extends StatelessSection {
 
         headerHolder.name.setText(String.format(context.getResources().getString(R.string.dungeons_section_header), lightWorldDetails.getLevel(), lightWorldDetails.getName()));
         headerHolder.description.setText(lightWorldDetails.getDescription());
-        Picasso.with(context).load(Constants.PATH_ASSETS_DUNGEONS_KEYS + lightWorldDetails.getKey()).error(R.drawable.error_img).into(headerHolder.keyImg);
+        Picasso.with(context).load(Constants.PATH_IMAGE_DUNGEONS_LIGHT_KEYS + lightWorldDetails.getKey()).error(R.drawable.error_img).into(headerHolder.keyImg);
         headerHolder.keyDescription.setText(lightWorldDetails.getKeyDescription());
     }
 

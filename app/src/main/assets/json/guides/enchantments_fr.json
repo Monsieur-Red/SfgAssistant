@@ -1,0 +1,56 @@
+[
+  {
+    "image": "enchantment_amulets.png",
+	"type": "Amulettes",
+	"name": "Instinct de possession impie",
+	"effect": "+10% de chances Trouver objets"
+  },
+  {
+    "image": "enchantment_rings.png",
+	"type": "Anneaux",
+	"name": "Prière du pilleur de tombe",
+	"effect": "+10% d'or par aventure"
+  },
+  {
+    "image": "enchantment_belts.png",
+	"type": "Ceinture",
+	"name": "Promeneur assoiffé",
+	"effect": "Bière supp. 1 par jour"
+  },
+  {
+    "image": "enchantment_weapons.png",
+	"type": "Armes",
+	"name": "Épée de la vengeance",
+	"effect": "+5% de dégâts Coups crit."
+  },
+  {
+    "image": "enchantment_breastplates.png",
+	"type": "Plastron",
+	"name": "Barbe de Mario",
+	"effect": "+50% de chances Trouver cham."
+  },
+  {
+    "image": "enchantment_shoes.png",
+	"type": "Chaussures",
+	"name": "Botte 36960",
+	"effect": "-30 secondes Durée de quête"
+  },
+  {
+    "image": "enchantment_talismans.png",
+	"type": "Talismans",
+	"name": "Rituel du baron voleur",
+	"effect": "Jusqu'à +20% Or en arêne"
+  },
+  {
+    "image": "enchantment_gloves.png",
+	"type": "Gants",
+	"name": "Ombre du cowboy",
+	"effect": "Réactivité 1 (le plus élevé commence le combat)"
+  },
+  {
+    "image": "enchantment_hats.png",
+	"type": "Coiffe",
+	"name": "Aura archéologique de l'aventurier",
+	"effect": "+10% d'XP par aventure"
+  }
+]

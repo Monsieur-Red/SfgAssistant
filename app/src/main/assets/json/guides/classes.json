@@ -1,23 +1,23 @@
 [
   {
-    "classs": "Mage",
-	"strength": "0",
+    "class": "Mage",
+	"strenght": "0",
 	"dexterity": "0",
 	"intelligence": "+8",
 	"constitution": "+2",
 	"luck": "+5"
   },
   {
-    "classs": "Warrior",
-	"strength": "+7",
+    "race": "Warrior",
+	"strenght": "+7",
 	"dexterity": "+3",
 	"intelligence": "0",
 	"constitution": "+5",
 	"luck": "0"
   },
     {
-    "classs": "Scout",
-	"strength": "+1",
+    "race": "Scout",
+	"strenght": "+1",
 	"dexterity": "+7",
 	"intelligence": "+1",
 	"constitution": "+4",

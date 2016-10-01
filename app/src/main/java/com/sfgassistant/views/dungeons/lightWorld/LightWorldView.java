@@ -57,6 +57,12 @@ public class LightWorldView extends Fragment {
 
         final ExpandableTextView expandableTextView = ButterKnife.findById(view, R.id.expandableTextView);
         final ImageButton expandBtn = ButterKnife.findById(view, R.id.btn_expand);
+        expandableTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                expandableTextView.toggle();
+            }
+        });
         expandableTextView.setOnExpandListener(new ExpandableTextView.OnExpandListener() {
             @Override
             public void onExpand(ExpandableTextView view) {

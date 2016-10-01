@@ -4,97 +4,97 @@
     "name": "Die entweihten Katakomben",
     "description": "Die Toten sind erstaunlich lebendig.",
     "key": "key_1.png",
-	"key_description": "Nanu, ein Schlüssel... Wo der wohl passt?"
+	"key_description": "Nanu, ein Schlüssel... Der kommt mir doch irgendwie bekannt vor!"
   },
   {
 	"level": "2",
     "name": "Die Minen von Gloria",
     "description": "Glück auf! Harte Arbeit steht bevor.",
     "key": "key_2.png",
-	"key_description": "Von Zwergen geschmiedet, von dir gefunden."
+	"key_description": "Im Schatten geschmiedet, von dir im Dunkeln ertastet."
   },
   {
 	"level": "3",
     "name": "Die Ruinen von Gnark",
     "description": "Wo die wilden Kerle wohnen...",
     "key": "key_3.png",
-	"key_description": "Er wurde einem Räuber geraubt."
+	"key_description": "Schlüsselförmig und doch schattenhaft."
   },
   {
 	"level": "4",
     "name": "Die Halsabschneidergrotte",
     "description": "Krummsäbel und krumme Geschäfte.",
     "key": "key_4.png",
-	"key_description": "Die Halsabschneidergrotte liegt in der berühmten Piratenbucht."
+	"key_description": "Die Halsabschneidergrotte liegt im Halbschatten."
   },
   {
 	"level": "5",
     "name": "Der Smaragdschuppenaltar",
     "description": "Wir müssen alle Opfer bringen...",
     "key": "key_5.png",
-	"key_description": "Geheiligtes Artefakt einer alten, grausamen Kultur."
+	"key_description": "Zwielichtiges Artefakt einer alten, schattenreichen Kultur."
   },
   {
 	"level": "6",
     "name": "Der kranke Baum",
     "description": "Seine Wurzeln reichen bis in höllische Tiefen.",
     "key": "key_6.png",
-	"key_description": "Igitt, der ist bestimmt total verseucht!"
+	"key_description": "Vor Leichen sollst du weichen!"
   },
   {
 	"level": "7",
     "name": "Der Magmastrom",
     "description": "Es geht heiß her im Untergrund.",
     "key": "key_7.png",
-	"key_description": "Der Schlüssel zum Magmastrom"
+	"key_description": "Der Magmastrom ist erkaltet."
   },
   {
 	"level": "8",
     "name": "Der Frostbluttempel",
     "description": "Das Blut gefriert einem in den Adern.",
     "key": "key_8.png",
-	"key_description": "Achtung, Gefrierbrandgefahr!"
+	"key_description": "Achtung, im Schatten wird's kalt!"
   },
   {
 	"level": "9",
     "name": "Die Pyramide des Wahnsinns",
     "description": "Nur nicht Verstand oder Leben verlieren!",
     "key": "key_9.png",
-	"key_description": "Der Schlüssel mit dem Sprung in der Schüssel."
+	"key_description": "Der Schlüssel für alle, die einen Schatten haben."
   },
   {
 	"level": "10",
     "name": "Die Schwarzschädelfestung",
     "description": "Tief im Innern gibt es einen Souvenirstand.",
     "key": "key_10.png",
-	"key_description": "Sieht nicht freundlich aus."
+	"key_description": "Sieht düster aus."
   },
   {
 	"level": "11",
     "name": "Der Zirkus des Grauens",
     "description": "Menschen, Tiere, Monster!",
     "key": "key_11.png",
-	"key_description": ""
+	"key_description": "Menschen, Tiere, Silhouetten!"
   },
   {
 	"level": "12",
     "name": "Die Hölle",
     "description": "SO schlimm kann sie doch nicht sein...",
     "key": "key_12.png",
-	"key_description": ""
+	"key_description": "Die Schattenwelt hat ihre ganz eigene Hölle!"
   },
   {
 	"level": "13",
     "name": "Der 13. Stock",
     "description": "Steig ein, wenn du dich traust!",
     "key": "key_13.png",
-	"key_description": ""
+	"key_description": "13 Schattierungen des Grauens."
   },
   {
 	"level": "14",
     "name": "Osteros",
     "description": "Hinter der Wand, da liegt ein Land...",
     "key": "key_14.png",
-	"key_description": ""
+	"key_description": "Alles dahinter liegt im Verborgenen."
   }
 ]

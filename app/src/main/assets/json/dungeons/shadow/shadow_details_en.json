@@ -4,97 +4,97 @@
     "name": "Desecrated Catacombs",
     "description": "The dead are surprisingly alive.",
     "key": "key_1.png",
-	"key_description": "Hmm, a key? Makes you wonder where it might fit..."
+	"key_description": "Oh, a key... Looks some kind of familiar to me!"
   },
   {
 	"level": "2",
     "name": "The Mines of Gloria",
     "description": "Hi-Ho, Hi-Ho, it's off to work we go.",
     "key": "key_2.png",
-	"key_description": "Forged by dwarves, looted by you."
+	"key_description": "Forged in the shadows, found by you in the dark."
   },
   {
 	"level": "3",
     "name": "The Ruins of Gnark",
     "description": "Frequented by criminal elements.",
     "key": "key_3.png",
-	"key_description": "It was robbed from a robber."
+	"key_description": "Key-shaped and yet shady."
   },
   {
 	"level": "4",
     "name": "The Cutthroat Grotto",
     "description": "The fight against piracy has just begun.",
     "key": "key_4.png",
-	"key_description": "Cutthroat Grotto is located at the infamous Pirate Bay."
+	"key_description": "The Cutthroat Grotto is in half-shade."
   },
   {
 	"level": "5",
     "name": "The Emerald Scale Altar",
     "description": "Life is full of sacrifice.",
     "key": "key_5.png",
-	"key_description": "Sacred relic of an ancient (and pretty cruel) culture."
+	"key_description": "Shady artifact of an old shadow-filled culture."
   },
   {
 	"level": "6",
     "name": "The Toxic Tree",
     "description": "Its roots reach down into infernal deeps.",
     "key": "key_6.png",
-	"key_description": "Yuck, this thing looks seriously contaminated."
+	"key_description": "Stay away from corpses!"
   },
   {
 	"level": "7",
     "name": "The Magma Stream",
     "description": "It's getting hot in here.",
     "key": "key_7.png",
-	"key_description": "Your ticket to the hottest dungeon in this game."
+	"key_description": "The Magma Stream is cold now."
   },
   {
 	"level": "8",
     "name": "The Frost Blood Temple",
     "description": "Will make your blood run cold.",
     "key": "key_8.png",
-	"key_description": "Feels like freezer burn."
+	"key_description": "Beware, it's cold in the shade!"
   },
   {
 	"level": "9",
     "name": "The Pyramids of Madness",
     "description": "Don't lose your sanity (or your life).",
-    "key": "dungeon_key_9.png",
-	"key_description": "You would have to be crazy not to use it."
+    "key": "key_9.png",
+	"key_description": "The key for all who are in the shade."
   },
   {
 	"level": "10",
     "name": "Black Skull Fortress",
     "description": "Deep inside there's even a gift shop.",
     "key": "key_10.png",
-	"key_description": "Does not look very inviting."
+	"key_description": "Looking gloomy here."
   },
   {
 	"level": "11",
     "name": "Circus of Terror",
     "description": "Humans, animals, monsters!",
     "key": "key_11.png",
-	"key_description": ""
+	"key_description": "People, animals, silhouettes!"
   },
   {
 	"level": "12",
     "name": "Hell",
     "description": "It can't be THAT bad...",
     "key": "key_12.png",
-	"key_description": ""
+	"key_description": "Everything behind it is hidden."
   },
   {
 	"level": "13",
     "name": "The 13th floor",
     "description": "Get in if you dare!",
     "key": "key_13.png",
-	"key_description": ""
+	"key_description": "The shadow world has its very own hell!"
   },
   {
 	"level": "14",
     "name": "Easteros",
     "description": "Behind the wall a land doth call...",
     "key": "key_14.png",
-	"key_description": ""
+	"key_description": "Everything behind it lies in the hidden."
   }
 ]

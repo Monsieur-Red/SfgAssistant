@@ -1,0 +1,56 @@
+[
+  {
+    "image": "enchantment_amulets.png",
+	"type": "Amulette",
+	"name": "Unheilige Sammelwut",
+	"effect": "+10% Chance Gegenst. finden"
+  },
+  {
+    "image": "enchantment_rings.png",
+	"type": "Ringe",
+	"name": "Gebet des Grabräubers",
+	"effect": "+10% Gold pro Abenteuer Belohnung"
+  },
+  {
+    "image": "enchantment_belts.png",
+	"type": "Gürtel",
+	"name": "Durstiger Wanderer",
+	"effect": "Extra Bier 1 pro Tag"
+  },
+  {
+    "image": "enchantment_weapons.png",
+	"type": "Waffen",
+	"name": "Fuchtel des Rächers",
+	"effect": "+5% Schaden Krit. Treffer"
+  },
+  {
+    "image": "enchantment_breastplates.png",
+	"type": "Brustpanzer",
+	"name": "Marios Bart",
+	"effect": "+50% Chance Pilze finden"
+  },
+  {
+    "image": "enchantment_shoes.png",
+	"type": "Schuhe",
+	"name": "36960-Fuß-Stiefel",
+	"effect": "-30 Sekunden Reisezeit"
+  },
+  {
+    "image": "enchantment_talismans.png",
+	"type": "Talismane",
+	"name": "Raubritter-Ritual",
+	"effect": "bis zu +20% Kampf-Gold"
+  },
+  {
+    "image": "enchantment_gloves.png",
+	"type": "Handschuhe",
+	"name": "Schatten des Cowboys",
+	"effect": "Reaktionswert 1 (höher beginnt Kampf)"
+  },
+  {
+    "image": "enchantment_hats.png",
+	"type": "Kopfbedeckungen",
+	"name": "Abenteuerarchäologenaura",
+	"effect": "+10% Erfahrung pro Abenteuer"
+  }
+]

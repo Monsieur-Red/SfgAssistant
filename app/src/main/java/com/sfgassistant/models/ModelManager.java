@@ -41,7 +41,7 @@ public class ModelManager {
         JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<Race>>(){}.getType());
 
         try {
-            races = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, Constants.FILE_RACES));
+            races = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, Constants.FILE_JSON_RACES));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -54,7 +54,7 @@ public class ModelManager {
         JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<Classs>>(){}.getType());
 
         try {
-            classes = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, Constants.FILE_CLASSES));
+            classes = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, Constants.FILE_JSON_CLASSES));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -65,9 +65,25 @@ public class ModelManager {
     public List<Enchantment> getEnchantments() {
         List<Enchantment>   enchantments = new ArrayList<>();
         JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<Enchantment>>(){}.getType());
+        String file;
+
+        switch (language) {
+            case Constants.LANGUAGE_EN:
+                file = Constants.FILE_JSON_ENCHANTMENTS_EN;
+                break;
+            case Constants.LANGUAGE_DE:
+                file = Constants.FILE_JSON_ENCHANTMENTS_DE;
+                break;
+            case Constants.LANGUAGE_FR:
+                file = Constants.FILE_JSON_ENCHANTMENTS_FR;
+                break;
+            default:
+                file = Constants.FILE_JSON_ENCHANTMENTS_EN;
+                break;
+        }
 
         try {
-            enchantments = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, Constants.FILE_ENCHANTMENTS));
+            enchantments = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, file));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -82,16 +98,16 @@ public class ModelManager {
 
         switch (language) {
             case Constants.LANGUAGE_EN:
-                file = Constants.FILE_DUNGEONS_LIGHT_EN;
+                file = Constants.FILE_JSON_DUNGEONS_LIGHT_EN;
                 break;
             case Constants.LANGUAGE_DE:
-                file = Constants.FILE_DUNGEONS_LIGHT_DE;
+                file = Constants.FILE_JSON_DUNGEONS_LIGHT_DE;
                 break;
             case Constants.LANGUAGE_FR:
-                file = Constants.FILE_DUNGEONS_LIGHT_FR;
+                file = Constants.FILE_JSON_DUNGEONS_LIGHT_FR;
                 break;
             default:
-                file = Constants.FILE_DUNGEONS_LIGHT_EN;
+                file = Constants.FILE_JSON_DUNGEONS_LIGHT_EN;
                 break;
         }
 
@@ -111,16 +127,16 @@ public class ModelManager {
 
         switch (language) {
             case Constants.LANGUAGE_EN:
-                file = Constants.FILE_DUNGEONS_LIGHT_DETAILS_EN;
+                file = Constants.FILE_JSON_DUNGEONS_LIGHT_DETAILS_EN;
                 break;
             case Constants.LANGUAGE_DE:
-                file = Constants.FILE_DUNGEONS_LIGHT_DETAILS_DE;
+                file = Constants.FILE_JSON_DUNGEONS_LIGHT_DETAILS_DE;
                 break;
             case Constants.LANGUAGE_FR:
-                file = Constants.FILE_DUNGEONS_LIGHT_DETAILS_FR;
+                file = Constants.FILE_JSON_DUNGEONS_LIGHT_DETAILS_FR;
                 break;
             default:
-                file = Constants.FILE_DUNGEONS_LIGHT_DETAILS_EN;
+                file = Constants.FILE_JSON_DUNGEONS_LIGHT_DETAILS_EN;
                 break;
         }
 
@@ -140,16 +156,16 @@ public class ModelManager {
 
         switch (language) {
             case Constants.LANGUAGE_EN:
-                file = Constants.FILE_DUNGEONS_TOWER_EN;
+                file = Constants.FILE_JSON_DUNGEONS_TOWER_EN;
                 break;
             case Constants.LANGUAGE_DE:
-                file = Constants.FILE_DUNGEONS_TOWER_DE;
+                file = Constants.FILE_JSON_DUNGEONS_TOWER_DE;
                 break;
             case Constants.LANGUAGE_FR:
-                file = Constants.FILE_DUNGEONS_TOWER_FR;
+                file = Constants.FILE_JSON_DUNGEONS_TOWER_FR;
                 break;
             default:
-                file = Constants.FILE_DUNGEONS_TOWER_EN;
+                file = Constants.FILE_JSON_DUNGEONS_TOWER_EN;
                 break;
         }
 

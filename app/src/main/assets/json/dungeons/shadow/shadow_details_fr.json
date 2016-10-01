@@ -4,97 +4,97 @@
     "name": "Les catacombes profanées",
     "description": "Les morts sont drôlement vivants.",
     "key": "key_1.png",
-	"key_description": "Voyons, une clé... Dans quelle serrure peut-elle bien aller ?"
+	"key_description": "Oh, une clé... Elle me dit quelque chose !"
   },
   {
 	"level": "2",
     "name": "Les mines de Gloria",
     "description": "Bonne chance ! Un dur travail t'attend.",
     "key": "key_2.png",
-	"key_description": "Forgée par des nains, découverte par toi."
+	"key_description": "Forgée dans les ombres, découverte dans les ténèbres."
   },
   {
 	"level": "3",
     "name": "Les ruines de Gnark",
     "description": "Le repaire des sauvages...",
     "key": "key_3.png",
-	"key_description": "Elle a été volée par un voleur."
+	"key_description": "En forme de clé, et pourtant louche."
   },
   {
 	"level": "4",
     "name": "Grotte des coupeurs de gorge",
     "description": "Sabre courbé et affaires louches.",
     "key": "key_4.png",
-	"key_description": "La grotte des coupeurs de gorge est située dans la célèbre baie des pirates."
+	"key_description": "La grotte des Coupe-Gorges est en demi-lune."
   },
   {
 	"level": "5",
     "name": "L'autel sacré en écaille d'émeraude",
     "description": "Nous devons tous faire des sacrifices.",
     "key": "key_5.png",
-	"key_description": "Artefact sacré d'une ancienne civilisation cruelle."
+	"key_description": "Un étrange artefact d'une culture basée sur les ténèbres."
   },
   {
 	"level": "6",
     "name": "L'arbre malade",
     "description": "Ses racines descendent jusque dans les profondeurs infernales.",
     "key": "key_6.png",
-	"key_description": "Beurk, elle est sûrement totalement contaminée."
+	"key_description": "Ne t'approche pas des cadavres !"
   },
   {
 	"level": "7",
     "name": "Coulée de magma",
     "description": "Ça dépote au sous-sol.",
     "key": "key_7.png",
-	"key_description": " La clé qui mène à la coulée de magma."
+	"key_description": "La vapeur du magma s'est refroidie."
   },
   {
 	"level": "8",
     "name": "Le temple de sang-givré",
     "description": "On a le sang qui gèle dans les veines.",
     "key": "key_8.png",
-	"key_description": "Attention, la clé risque de vous coller à la peau."
+	"key_description": "Brrr... On se les gèle à l'ombre !"
   },
   {
 	"level": "9",
     "name": "La pyramide de la folie",
     "description": "L'esprit ou la vie !",
     "key": "key_9.png",
-	"key_description": "La clé qui fait tourner la tête. "
+	"key_description": "La clé de tout ce qui est tapi dans l'ombre."
   },
   {
 	"level": "10",
     "name": "La forteresse des crânes noirs",
     "description": "Dans ses profondeurs se cache une boutique souvenirs.",
     "key": "key_10.png",
-	"key_description": "N'a pas l'air commode."
+	"key_description": "Ce lieu file la chair de poule."
   },
   {
 	"level": "11",
     "name": "Le cirque de l'horreur",
     "description": "Humains, animaux, monstres !",
     "key": "key_11.png",
-	"key_description": ""
+	"key_description": "Clowns, animaux et silhouettes !"
   },
   {
 	"level": "12",
     "name": "L'enfer",
     "description": "Ça ne peut pas être SI terrible...",
     "key": "key_12.png",
-	"key_description": ""
+	"key_description": "Tout ce qui se trouve derrière est caché."
   },
   {
 	"level": "13",
     "name": "13e étage",
     "description": "Entre si tu l'oses !",
     "key": "key_13.png",
-	"key_description": ""
+	"key_description": "Le monde des ombres a son propre enfer !"
   },
   {
 	"level": "14",
     "name": "Easteros",
     "description": "De derrière ce mur émane un étrange murmure… ",
     "key": "key_14.png",
-	"key_description": ""
+	"key_description": "Tout ce qu'il renferme est caché dans les ombres."
   }
 ]

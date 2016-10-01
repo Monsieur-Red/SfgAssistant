@@ -31,9 +31,8 @@ public class EnchantmentsRVAdapter extends RecyclerView.Adapter<EnchantmentsRVAd
 
     public class DataObjectHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.image) ImageView image;
-        @BindView(R.id.type) TextView type;
         @BindView(R.id.name) TextView name;
-        @BindView(R.id.effect) TextView effect;
+        @BindView(R.id.type_and_effect) TextView typeAndEffect;
 
         public DataObjectHolder(View itemView) {
             super(itemView);
@@ -53,10 +52,9 @@ public class EnchantmentsRVAdapter extends RecyclerView.Adapter<EnchantmentsRVAd
     public void onBindViewHolder(DataObjectHolder holder, int position) {
         Enchantment enchantment = enchantments.get(position);
 
-        Picasso.with(holder.image.getContext()).load(Constants.PATH_ASSETS_IMAGE + enchantment.getImage()).into(holder.image);
-        holder.type.setText(enchantment.getType());
         holder.name.setText(enchantment.getName());
-        holder.effect.setText(enchantment.getEffect());
+        Picasso.with(holder.image.getContext()).load(Constants.PATH_IMAGE_ENCHANTMENTS + enchantment.getImage()).into(holder.image);
+        holder.typeAndEffect.setText(String.format(holder.typeAndEffect.getResources().getString(R.string.enchantments_type_effect), enchantment.getType(), enchantment.getEffect()));
     }
 
     @Override

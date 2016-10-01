@@ -36,69 +36,11 @@
             android:src="@drawable/ic_expand_more_white_24dp"
             android:background="@android:color/transparent"/>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp">
-
-            <TextView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:padding="4dp"
-                android:layout_gravity="center" />
-
-            <TextView
-                android:id="@+id/type"
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
-                android:padding="4dp"
-
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/type"
-                android:textColor="@color/primary_text"
-                android:textSize="15sp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:id="@+id/name"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="4dp"
-
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/name"
-                android:textColor="@color/primary_text"
-                android:textSize="15sp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:id="@+id/effect"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="4dp"
-
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/effect"
-                android:textColor="@color/primary_text"
-                android:textSize="15sp"
-                android:textStyle="bold"/>
-
-        </LinearLayout>
-
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_margin="10dp" />
 
     </LinearLayout>
 
