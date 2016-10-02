@@ -5,16 +5,22 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.sfgassistant.R;
 import com.sfgassistant.models.WeaponsComparator.WeaponsComparatorResult;
 import com.sfgassistant.presenters.WeaponsComparatorPresenter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import butterknife.OnItemSelected;
 import butterknife.OnTextChanged;
 
 /**
@@ -52,6 +58,16 @@ public class WeaponsComparatorView extends Fragment implements WeaponsComparator
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_weapons_comparator, container, false);
         ButterKnife.bind(this, view);
+
+        Spinner guildSpinner = ButterKnife.findById(view, R.id.spinner_bonus_guild);
+        List<String> numbers = new ArrayList<>();
+        for (int i = 0; i <= 50; ++i) {
+            numbers.add(String.valueOf(i) + "%");
+        }
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), R.layout.spinner_item, numbers);
+        adapter.setDropDownViewResource(R.layout.spinner_dropdow_item);
+        guildSpinner.setAdapter(adapter);
+
         return (view);
     }
 
@@ -147,4 +163,8 @@ public class WeaponsComparatorView extends Fragment implements WeaponsComparator
         presenter.setGemAttribute2(text.toString());
     }
 
+    @OnItemSelected(R.id.spinner_bonus_guild)
+    public void OnItemClickGuild(Spinner spinner, int position) {
+        presenter.setGuildBonus((String) spinner.getItemAtPosition(position));
+    }
 }

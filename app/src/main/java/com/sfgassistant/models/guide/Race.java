@@ -7,7 +7,7 @@ package com.sfgassistant.models.guide;
 public class Race {
 
     private String  race;
-    private String  strenght;
+    private String  strength;
     private String  dexterity;
     private String  intelligence;
     private String  constitution;
@@ -17,8 +17,8 @@ public class Race {
         return race;
     }
 
-    public String getStrenght() {
-        return strenght;
+    public String getStrength() {
+        return strength;
     }
 
     public String getDexterity() {

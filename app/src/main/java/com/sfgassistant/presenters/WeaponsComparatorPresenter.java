@@ -7,6 +7,9 @@ import com.sfgassistant.models.WeaponsComparator.WeaponsComparatorResult;
 import com.sfgassistant.views.comparators.WeaponsComparator;
 import com.sfgassistant.views.comparators.WeaponsComparatorView;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 /**
  * Created by pierr on 25/09/2016.
  */
@@ -16,11 +19,13 @@ public class WeaponsComparatorPresenter implements WeaponsComparator.Presenter {
     private WeaponsComparatorView   view;
     private WeaponsComparatorModel  data;
     private WeaponsComparatorModel  data2;
+    private NumberFormat numberFormat;
 
     public WeaponsComparatorPresenter(WeaponsComparatorView view) {
         this.view = view;
         data = new WeaponsComparatorModel();
         data2 = new WeaponsComparatorModel();
+        numberFormat = NumberFormat.getNumberInstance(Locale.getDefault());
     }
 
     @Override
@@ -103,24 +108,51 @@ public class WeaponsComparatorPresenter implements WeaponsComparator.Presenter {
             data2.setGemAttribute(Integer.valueOf(gemAttribute));
         view.setData(updateResult(), updateResult2());
     }
+
+    @Override
+    public void setGuildBonus(String bonus) {
+        if (TextUtils.isEmpty(bonus))
+            data.setGuildBonus(0);
+        else {
+            data.setGuildBonus(Integer.valueOf(bonus.replace("%", "")));
+            data2.setGuildBonus(Integer.valueOf(bonus.replace("%", "")));
+        }
+        view.setData(updateResult(), updateResult());
+        view.setData(updateResult(), updateResult2());
+    }
+
     private WeaponsComparatorResult updateResult() {
-        int mainAttr = data.getMainAttribute();
-        int attrTotal = mainAttr + data.getWeaponAttribute() + data.getGemAttribute();
+        int attrTotal = data.getMainAttribute() + data.getWeaponAttribute() + data.getGemAttribute();
         int minDmg = data.getMinDmg() * (1 + attrTotal / 10);
         int maxDmg = data.getMaxDmg() * (1 + attrTotal / 10);
-        int avgDmg = (minDmg + maxDmg) / 2;
+//        int avgDmg = (minDmg + maxDmg) / 2;
+        int avgDmg = ((data.getMinDmg() + data.getMaxDmg()) / 2) * (1 + attrTotal / 10);
+        int guildBonus = data.getGuildBonus();
 
-        return new WeaponsComparatorResult(String.valueOf(minDmg), String.valueOf(maxDmg), String.valueOf(avgDmg), String.valueOf(data.getWeaponAttribute()), String.valueOf(attrTotal));
+        if (guildBonus != 0) {
+            minDmg += ((minDmg * guildBonus) / 100);
+            maxDmg += ((maxDmg * guildBonus) / 100);
+            avgDmg += ((avgDmg * guildBonus) / 100);
+        }
+
+        return new WeaponsComparatorResult(numberFormat.format(minDmg), numberFormat.format(maxDmg), numberFormat.format(avgDmg), numberFormat.format(data2.getWeaponAttribute()), numberFormat.format(attrTotal));
     }
 
     private WeaponsComparatorResult updateResult2() {
-        int mainAttr = data.getMainAttribute();
-        int attrTotal = mainAttr + data2.getWeaponAttribute() + data2.getGemAttribute();
+        int attrTotal = data.getMainAttribute() + data2.getWeaponAttribute() + data2.getGemAttribute();
         int minDmg = data2.getMinDmg() * (1 + attrTotal / 10);
         int maxDmg = data2.getMaxDmg() * (1 + attrTotal / 10);
         int avgDmg = (minDmg + maxDmg) / 2;
 
-        return new WeaponsComparatorResult(String.valueOf(minDmg), String.valueOf(maxDmg), String.valueOf(avgDmg), String.valueOf(data2.getWeaponAttribute()), String.valueOf(attrTotal));
+        int guildBonus = data.getGuildBonus();
+
+        if (guildBonus != 0) {
+            minDmg += ((minDmg * guildBonus) / 100);
+            maxDmg += ((maxDmg * guildBonus) / 100);
+            avgDmg += ((avgDmg * guildBonus) / 100);
+        }
+
+        return new WeaponsComparatorResult(numberFormat.format(minDmg), numberFormat.format(maxDmg), numberFormat.format(avgDmg), numberFormat.format(data2.getWeaponAttribute()), numberFormat.format(attrTotal));
     }
 }
 

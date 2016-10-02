@@ -1,7 +1,7 @@
 [
   {
     "D":"1",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Gespenst",
     "Level":"172",
     "Class":"Mage",
@@ -15,7 +15,7 @@
   },
   {
     "D":"1",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Skelett",
     "Level":"174",
     "Class":"Warrior",
@@ -29,7 +29,7 @@
   },
   {
     "D":"1",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Widerlicher Wiedergänger",
     "Level":"176",
     "Class":"Warrior",
@@ -43,7 +43,7 @@
   },
   {
     "D":"1",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Verschlagener Vampir",
     "Level":"178",
     "Class":"Scout",
@@ -57,7 +57,7 @@
   },
   {
     "D":"1",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Nachtghoul",
     "Level":"180",
     "Class":"Warrior",
@@ -71,7 +71,7 @@
   },
   {
     "D":"1",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Banshee",
     "Level":"182",
     "Class":"Mage",
@@ -85,7 +85,7 @@
   },
   {
     "D":"1",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Skelettkrieger",
     "Level":"184",
     "Class":"Warrior",
@@ -99,7 +99,7 @@
   },
   {
     "D":"1",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Voodoo-Meister",
     "Level":"186",
     "Class":"Mage",
@@ -113,7 +113,7 @@
   },
   {
     "D":"1",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Fleischgolem",
     "Level":"188",
     "Class":"Warrior",
@@ -127,7 +127,7 @@
   },
   {
     "D":"1",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Herr der Finsternis",
     "Level":"190",
     "Class":"Scout",
@@ -141,7 +141,7 @@
   },
   {
     "D":"2",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Wasserglompf",
     "Level":"192",
     "Class":"Scout",
@@ -155,7 +155,7 @@
   },
   {
     "D":"2",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Yeti",
     "Level":"194",
     "Class":"Warrior",
@@ -169,7 +169,7 @@
   },
   {
     "D":"2",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Skelett",
     "Level":"196",
     "Class":"Warrior",
@@ -183,7 +183,7 @@
   },
   {
     "D":"2",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Grässlicher Gremlin",
     "Level":"198",
     "Class":"Scout",
@@ -197,7 +197,7 @@
   },
   {
     "D":"2",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Steingigant",
     "Level":"200",
     "Class":"Warrior",
@@ -211,7 +211,7 @@
   },
   {
     "D":"2",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Feuerelementar",
     "Level":"202",
     "Class":"Mage",
@@ -225,7 +225,7 @@
   },
   {
     "D":"2",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Steintroll",
     "Level":"204",
     "Class":"Warrior",
@@ -239,7 +239,7 @@
   },
   {
     "D":"2",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Rotlichtsuccubus",
     "Level":"206",
     "Class":"Scout",
@@ -253,7 +253,7 @@
   },
   {
     "D":"2",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Abscheulicher Dämon",
     "Level":"208",
     "Class":"Scout",
@@ -267,7 +267,7 @@
   },
   {
     "D":"2",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Höllenwesen",
     "Level":"210",
     "Class":"Warrior",
@@ -281,7 +281,7 @@
   },
   {
     "D":"3",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Kanalratte",
     "Level":"212",
     "Class":"Scout",
@@ -295,7 +295,7 @@
   },
   {
     "D":"3",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Staubfledermaus",
     "Level":"214",
     "Class":"Scout",
@@ -309,7 +309,7 @@
   },
   {
     "D":"3",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Terrortarantel",
     "Level":"216",
     "Class":"Scout",
@@ -323,7 +323,7 @@
   },
   {
     "D":"3",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Rabiater Räuber",
     "Level":"218",
     "Class":"Warrior",
@@ -337,7 +337,7 @@
   },
   {
     "D":"3",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Hinterhältiger Halunke",
     "Level":"220",
     "Class":"Warrior",
@@ -351,7 +351,7 @@
   },
   {
     "D":"3",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Grimmiger Wolf",
     "Level":"222",
     "Class":"Scout",
@@ -365,7 +365,7 @@
   },
   {
     "D":"3",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Böser Bandit",
     "Level":"224",
     "Class":"Warrior",
@@ -379,7 +379,7 @@
   },
   {
     "D":"3",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Ungeheuer",
     "Level":"226",
     "Class":"Scout",
@@ -393,7 +393,7 @@
   },
   {
     "D":"3",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Grabräuber",
     "Level":"228",
     "Class":"Warrior",
@@ -407,7 +407,7 @@
   },
   {
     "D":"3",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Räuberhauptmann",
     "Level":"230",
     "Class":"Warrior",
@@ -421,7 +421,7 @@
   },
   {
     "D":"4",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Windelementar",
     "Level":"232",
     "Class":"Scout",
@@ -435,7 +435,7 @@
   },
   {
     "D":"4",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Pirat Düsterbart",
     "Level":"234",
     "Class":"Scout",
@@ -449,7 +449,7 @@
   },
   {
     "D":"4",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Rabiater Räuber",
     "Level":"236",
     "Class":"Warrior",
@@ -463,7 +463,7 @@
   },
   {
     "D":"4",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Schattenalligator",
     "Level":"238",
     "Class":"Warrior",
@@ -477,7 +477,7 @@
   },
   {
     "D":"4",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Pirat John Nightingale",
     "Level":"240",
     "Class":"Warrior",
@@ -491,7 +491,7 @@
   },
   {
     "D":"4",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Fieser Monsterhase",
     "Level":"242",
     "Class":"Scout",
@@ -505,7 +505,7 @@
   },
   {
     "D":"4",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Halsabschneider",
     "Level":"244",
     "Class":"Warrior",
@@ -519,7 +519,7 @@
   },
   {
     "D":"4",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Pirat Blutnase",
     "Level":"246",
     "Class":"Warrior",
@@ -533,7 +533,7 @@
   },
   {
     "D":"4",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Oktopus",
     "Level":"248",
     "Class":"Scout",
@@ -547,7 +547,7 @@
   },
   {
     "D":"4",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Seeräuberhauptmann",
     "Level":"250",
     "Class":"Scout",
@@ -561,7 +561,7 @@
   },
   {
     "D":"5",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Klapperkobra",
     "Level":"252",
     "Class":"Scout",
@@ -575,7 +575,7 @@
   },
   {
     "D":"5",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Schlitzerechse",
     "Level":"254",
     "Class":"Scout",
@@ -589,7 +589,7 @@
   },
   {
     "D":"5",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Brüllraptor",
     "Level":"256",
     "Class":"Scout",
@@ -603,7 +603,7 @@
   },
   {
     "D":"5",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Sumpfkrieger",
     "Level":"258",
     "Class":"Scout",
@@ -617,7 +617,7 @@
   },
   {
     "D":"5",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Grüner Rex",
     "Level":"260",
     "Class":"Warrior",
@@ -631,7 +631,7 @@
   },
   {
     "D":"5",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Echsenbandit",
     "Level":"262",
     "Class":"Scout",
@@ -645,7 +645,7 @@
   },
   {
     "D":"5",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Dragor der Sümpfe",
     "Level":"264",
     "Class":"Warrior",
@@ -659,7 +659,7 @@
   },
   {
     "D":"5",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Medusa der Sümpfe",
     "Level":"266",
     "Class":"Mage",
@@ -673,7 +673,7 @@
   },
   {
     "D":"5",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Drache des Gifts",
     "Level":"268",
     "Class":"Warrior",
@@ -687,7 +687,7 @@
   },
   {
     "D":"5",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Echsenkönig",
     "Level":"270",
     "Class":"Scout",
@@ -701,7 +701,7 @@
   },
   {
     "D":"6",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Verseuchter Baum",
     "Level":"272",
     "Class":"Warrior",
@@ -715,7 +715,7 @@
   },
   {
     "D":"6",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Grässlicher Gremlin",
     "Level":"274",
     "Class":"Scout",
@@ -729,7 +729,7 @@
   },
   {
     "D":"6",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Tollwütiger Wolf",
     "Level":"276",
     "Class":"Mage",
@@ -743,7 +743,7 @@
   },
   {
     "D":"6",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Schleimblob",
     "Level":"278",
     "Class":"Scout",
@@ -757,7 +757,7 @@
   },
   {
     "D":"6",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Grünlicher Gremlin",
     "Level":"280",
     "Class":"Scout",
@@ -771,7 +771,7 @@
   },
   {
     "D":"6",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Infizierter Braunbär",
     "Level":"282",
     "Class":"Warrior",
@@ -785,7 +785,7 @@
   },
   {
     "D":"6",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Gieriger Gremlin",
     "Level":"284",
     "Class":"Scout",
@@ -799,7 +799,7 @@
   },
   {
     "D":"6",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Sumpfmampfe",
     "Level":"286",
     "Class":"Mage",
@@ -813,7 +813,7 @@
   },
   {
     "D":"6",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Grausiger Gremlin",
     "Level":"288",
     "Class":"Scout",
@@ -827,7 +827,7 @@
   },
   {
     "D":"6",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Grausiger Giftgremlin",
     "Level":"290",
     "Class":"Scout",
@@ -841,7 +841,7 @@
   },
   {
     "D":"7",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Feuerstachelskorpion",
     "Level":"292",
     "Class":"Scout",
@@ -855,7 +855,7 @@
   },
   {
     "D":"7",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Feuerbasilisk",
     "Level":"294",
     "Class":"Scout",
@@ -869,7 +869,7 @@
   },
   {
     "D":"7",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Lavablob",
     "Level":"296",
     "Class":"Mage",
@@ -883,7 +883,7 @@
   },
   {
     "D":"7",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Magmagigant",
     "Level":"298",
     "Class":"Warrior",
@@ -897,7 +897,7 @@
   },
   {
     "D":"7",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Drache der Finsternis",
     "Level":"300",
     "Class":"Warrior",
@@ -911,7 +911,7 @@
   },
   {
     "D":"7",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Höllenzyklop",
     "Level":"302",
     "Class":"Warrior",
@@ -925,7 +925,7 @@
   },
   {
     "D":"7",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Feuerelementar",
     "Level":"304",
     "Class":"Mage",
@@ -939,7 +939,7 @@
   },
   {
     "D":"7",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Magmagigant",
     "Level":"306",
     "Class":"Warrior",
@@ -953,7 +953,7 @@
   },
   {
     "D":"7",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Riesendrache",
     "Level":"308",
     "Class":"Warrior",
@@ -967,7 +967,7 @@
   },
   {
     "D":"7",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Vulkangeist",
     "Level":"310",
     "Class":"Warrior",
@@ -981,7 +981,7 @@
   },
   {
     "D":"8",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Yeti",
     "Level":"312",
     "Class":"Warrior",
@@ -995,7 +995,7 @@
   },
   {
     "D":"8",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Schwarzes Phantom",
     "Level":"314",
     "Class":"Scout",
@@ -1009,7 +1009,7 @@
   },
   {
     "D":"8",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Dragor der Kälte",
     "Level":"316",
     "Class":"Warrior",
@@ -1023,7 +1023,7 @@
   },
   {
     "D":"8",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Unheiliger Mönch",
     "Level":"318",
     "Class":"Scout",
@@ -1037,7 +1037,7 @@
   },
   {
     "D":"8",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Alien der Hölle",
     "Level":"320",
     "Class":"Scout",
@@ -1051,7 +1051,7 @@
   },
   {
     "D":"8",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Extraterrestrischer",
     "Level":"322",
     "Class":"Mage",
@@ -1065,7 +1065,7 @@
   },
   {
     "D":"8",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Drache des Wahnsinns",
     "Level":"324",
     "Class":"Warrior",
@@ -1079,7 +1079,7 @@
   },
   {
     "D":"8",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Alien des Zwielichts",
     "Level":"326",
     "Class":"Scout",
@@ -1093,7 +1093,7 @@
   },
   {
     "D":"8",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Fernweltler",
     "Level":"328",
     "Class":"Mage",
@@ -1107,7 +1107,7 @@
   },
   {
     "D":"8",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Mordmaschine",
     "Level":"330",
     "Class":"Mage",
@@ -1121,7 +1121,7 @@
   },
   {
     "D":"9",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Höhlenzyklop",
     "Level":"332",
     "Class":"Warrior",
@@ -1135,7 +1135,7 @@
   },
   {
     "D":"9",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Sandsturm",
     "Level":"334",
     "Class":"Mage",
@@ -1149,7 +1149,7 @@
   },
   {
     "D":"9",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Alien der Hölle",
     "Level":"336",
     "Class":"Scout",
@@ -1163,7 +1163,7 @@
   },
   {
     "D":"9",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Bigfoot",
     "Level":"338",
     "Class":"Warrior",
@@ -1177,7 +1177,7 @@
   },
   {
     "D":"9",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Gespenst",
     "Level":"340",
     "Class":"Mage",
@@ -1191,7 +1191,7 @@
   },
   {
     "D":"9",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Don Capisce",
     "Level":"342",
     "Class":"Warrior",
@@ -1205,7 +1205,7 @@
   },
   {
     "D":"9",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Schrecklicher Dämon",
     "Level":"344",
     "Class":"Scout",
@@ -1219,7 +1219,7 @@
   },
   {
     "D":"9",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Rosa Monsterhäschen",
     "Level":"346",
     "Class":"Scout",
@@ -1233,7 +1233,7 @@
   },
   {
     "D":"9",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Banshee",
     "Level":"348",
     "Class":"Mage",
@@ -1247,7 +1247,7 @@
   },
   {
     "D":"9",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"",
     "Level":"350",
     "Class":"Spiegelbild Spiegelbild",
@@ -1261,7 +1261,7 @@
   },
   {
     "D":"10",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Finsterer Reiter",
     "Level":"352",
     "Class":"Scout",
@@ -1275,7 +1275,7 @@
   },
   {
     "D":"10",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Skelettkämpfer",
     "Level":"354",
     "Class":"Warrior",
@@ -1289,7 +1289,7 @@
   },
   {
     "D":"10",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Schwarzschädelkrieger",
     "Level":"356",
     "Class":"Warrior",
@@ -1303,7 +1303,7 @@
   },
   {
     "D":"10",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Nachttroll",
     "Level":"358",
     "Class":"Warrior",
@@ -1317,7 +1317,7 @@
   },
   {
     "D":"10",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Panther",
     "Level":"360",
     "Class":"Scout",
@@ -1331,7 +1331,7 @@
   },
   {
     "D":"10",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Menschenfresser",
     "Level":"362",
     "Class":"Scout",
@@ -1345,7 +1345,7 @@
   },
   {
     "D":"10",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Dragor der Sümpfe",
     "Level":"364",
     "Class":"Mage",
@@ -1359,7 +1359,7 @@
   },
   {
     "D":"10",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Schwarzschädelkrieger",
     "Level":"366",
     "Class":"Warrior",
@@ -1373,7 +1373,7 @@
   },
   {
     "D":"10",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Drache der Finsternis",
     "Level":"368",
     "Class":"Warrior",
@@ -1387,7 +1387,7 @@
   },
   {
     "D":"10",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Schwarzschädelritter",
     "Level":"370",
     "Class":"Warrior",
@@ -1401,7 +1401,7 @@
   },
   {
     "D":"11",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Happy Slappy, der Clown",
     "Level":"372",
     "Class":"Warrior",
@@ -1415,7 +1415,7 @@
   },
   {
     "D":"11",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Der blinde Messerwerfer",
     "Level":"374",
     "Class":"Scout",
@@ -1429,7 +1429,7 @@
   },
   {
     "D":"11",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Zwergenwüchsiger Gnom",
     "Level":"376",
     "Class":"Warrior",
@@ -1443,7 +1443,7 @@
   },
   {
     "D":"11",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Die bärtige Lady",
     "Level":"378",
     "Class":"Warrior",
@@ -1457,7 +1457,7 @@
   },
   {
     "D":"11",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Der verrückte Jongleur",
     "Level":"380",
     "Class":"Mage",
@@ -1471,7 +1471,7 @@
   },
   {
     "D":"11",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Siamesische Zwillinge",
     "Level":"382",
     "Class":"Scout",
@@ -1485,7 +1485,7 @@
   },
   {
     "D":"11",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Spaßmacher Bronko",
     "Level":"384",
     "Class":"Warrior",
@@ -1499,7 +1499,7 @@
   },
   {
     "D":"11",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Der Schlangenmensch",
     "Level":"386",
     "Class":"Scout",
@@ -1513,7 +1513,7 @@
   },
   {
     "D":"11",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Madame Mystique",
     "Level":"388",
     "Class":"Mage",
@@ -1527,7 +1527,7 @@
   },
   {
     "D":"11",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Beppo der Terror-Clown",
     "Level":"390",
     "Class":"Warrior",
@@ -1541,7 +1541,7 @@
   },
   {
     "D":"12",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Ruhelose Seele",
     "Level":"392",
     "Class":"Mage",
@@ -1555,7 +1555,7 @@
   },
   {
     "D":"12",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Wütende Seele",
     "Level":"394",
     "Class":"Mage",
@@ -1569,7 +1569,7 @@
   },
   {
     "D":"12",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Alte Seele",
     "Level":"396",
     "Class":"Warrior",
@@ -1583,7 +1583,7 @@
   },
   {
     "D":"12",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Quälgeist",
     "Level":"398",
     "Class":"Scout",
@@ -1597,7 +1597,7 @@
   },
   {
     "D":"12",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Seelenklumpen",
     "Level":"400",
     "Class":"Mage",
@@ -1611,7 +1611,7 @@
   },
   {
     "D":"12",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Peitscher",
     "Level":"404",
     "Class":"Warrior",
@@ -1625,7 +1625,7 @@
   },
   {
     "D":"12",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Höllenhund",
     "Level":"408",
     "Class":"Scout",
@@ -1639,7 +1639,7 @@
   },
   {
     "D":"12",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Führerhaufen",
     "Level":"412",
     "Class":"Warrior",
@@ -1653,7 +1653,7 @@
   },
   {
     "D":"12",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Des Teufels Advokat",
     "Level":"416",
     "Class":"Warrior",
@@ -1667,7 +1667,7 @@
   },
   {
     "D":"12",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Beelzeboss",
     "Level":"420",
     "Class":"Warrior",
@@ -1681,7 +1681,7 @@
   },
   {
     "D":"13",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Hellgore der Höllische",
     "Level":"424",
     "Class":"Warrior",
@@ -1695,7 +1695,7 @@
   },
   {
     "D":"13",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Heinrich die Zauberfee",
     "Level":"428",
     "Class":"Mage",
@@ -1709,7 +1709,7 @@
   },
   {
     "D":"13",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Düse der Panty-Raider",
     "Level":"432",
     "Class":"Warrior",
@@ -1723,7 +1723,7 @@
   },
   {
     "D":"13",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Klöppel van Hellsing",
     "Level":"436",
     "Class":"Mage",
@@ -1737,7 +1737,7 @@
   },
   {
     "D":"13",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Der KOmaKOmmandeur",
     "Level":"440",
     "Class":"Warrior",
@@ -1751,7 +1751,7 @@
   },
   {
     "D":"13",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Rohmann der Ruchlose",
     "Level":"444",
     "Class":"Scout",
@@ -1765,7 +1765,7 @@
   },
   {
     "D":"13",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Bernd das Marketeer",
     "Level":"448",
     "Class":"Mage",
@@ -1779,7 +1779,7 @@
   },
   {
     "D":"13",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Hannes der Kontraktor",
     "Level":"452",
     "Class":"Warrior",
@@ -1793,7 +1793,7 @@
   },
   {
     "D":"13",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Motu mit dem Knüppel",
     "Level":"456",
     "Class":"Warrior",
@@ -1807,7 +1807,7 @@
   },
   {
     "D":"13",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Jan der Hämmerer",
     "Level":"460",
     "Class":"Warrior",
@@ -1821,7 +1821,7 @@
   },
   {
     "D":"14",
-    "Level":"1",
+    "Stage":"1",
     "Opponent":"Robert Besoffleon",
     "Level":"464",
     "Class":"Warrior",
@@ -1835,7 +1835,7 @@
   },
   {
     "D":"14",
-    "Level":"2",
+    "Stage":"2",
     "Opponent":"Linkshänder-Lennister",
     "Level":"468",
     "Class":"Warrior",
@@ -1849,7 +1849,7 @@
   },
   {
     "D":"14",
-    "Level":"3",
+    "Stage":"3",
     "Opponent":"Petyr der Pimp",
     "Level":"472",
     "Class":"Mage",
@@ -1863,7 +1863,7 @@
   },
   {
     "D":"14",
-    "Level":"4",
+    "Stage":"4",
     "Opponent":"Holundor",
     "Level":"476",
     "Class":"Warrior",
@@ -1877,7 +1877,7 @@
   },
   {
     "D":"14",
-    "Level":"5",
+    "Stage":"5",
     "Opponent":"Drogo der Bedrohliche",
     "Level":"480",
     "Class":"Warrior",
@@ -1891,7 +1891,7 @@
   },
   {
     "D":"14",
-    "Level":"6",
+    "Stage":"6",
     "Opponent":"Die Rote Blindschleiche",
     "Level":"484",
     "Class":"Mage",
@@ -1905,7 +1905,7 @@
   },
   {
     "D":"14",
-    "Level":"7",
+    "Stage":"7",
     "Opponent":"Königin Mutter",
     "Level":"488",
     "Class":"Scout",
@@ -1919,7 +1919,7 @@
   },
   {
     "D":"14",
-    "Level":"8",
+    "Stage":"8",
     "Opponent":"Der Zwergpudel",
     "Level":"492",
     "Class":"Warrior",
@@ -1933,7 +1933,7 @@
   },
   {
     "D":"14",
-    "Level":"9",
+    "Stage":"9",
     "Opponent":"Das Reitende Hügelbeet",
     "Level":"496",
     "Class":"Warrior",
@@ -1947,7 +1947,7 @@
   },
   {
     "D":"14",
-    "Level":"10",
+    "Stage":"10",
     "Opponent":"Joffrey der Jungdespot",
     "Level":"500",
     "Class":"Mage",
@@ -1961,7 +1961,7 @@
   },
   {
     "D":"14",
-    "Level":"11",
+    "Stage":"11",
     "Opponent":"Unterkühlter Unhold",
     "Level":"",
     "Class":" ",
@@ -1975,7 +1975,7 @@
   },
   {
     "D":"14",
-    "Level":"12",
+    "Stage":"12",
     "Opponent":"Brygitte",
     "Level":"",
     "Class":" ",
@@ -1989,7 +1989,7 @@
   },
   {
     "D":"14",
-    "Level":"13",
+    "Stage":"13",
     "Opponent":"Schneemann und Schattenwolf",
     "Level":"",
     "Class":" ",
@@ -2003,7 +2003,7 @@
   },
   {
     "D":"14",
-    "Level":"14",
+    "Stage":"14",
     "Opponent":"Die Frau in Rot",
     "Level":"",
     "Class":" ",
@@ -2017,7 +2017,7 @@
   },
   {
     "D":"14",
-    "Level":"15",
+    "Stage":"15",
     "Opponent":"Burschikose Brienne",
     "Level":"",
     "Class":" ",
@@ -2031,7 +2031,7 @@
   },
   {
     "D":"14",
-    "Level":"16",
+    "Stage":"16",
     "Opponent":"Ramsay der Erniedriger",
     "Level":"",
     "Class":" ",
@@ -2045,7 +2045,7 @@
   },
   {
     "D":"14",
-    "Level":"17",
+    "Stage":"17",
     "Opponent":"Gesichtsloser",
     "Level":"",
     "Class":" ",
@@ -2059,7 +2059,7 @@
   },
   {
     "D":"14",
-    "Level":"18",
+    "Stage":"18",
     "Opponent":"Giftzwerg",
     "Level":"",
     "Class":" ",
@@ -2073,7 +2073,7 @@
   },
   {
     "D":"14",
-    "Level":"19",
+    "Stage":"19",
     "Opponent":"Der Beschützer",
     "Level":"",
     "Class":" ",
@@ -2087,7 +2087,7 @@
   },
   {
     "D":"14",
-    "Level":"20",
+    "Stage":"20",
     "Opponent":"Die Schwer Entflammbare",
     "Level":"",
     "Class":" ",

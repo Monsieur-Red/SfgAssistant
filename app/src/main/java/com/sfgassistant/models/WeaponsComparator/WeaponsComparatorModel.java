@@ -12,6 +12,7 @@ public class WeaponsComparatorModel {
     private int maxDmg;
     private int weaponAttribute;
     private int gemAttribute;
+    private int guildBonus;
 
     public WeaponsComparatorModel() {
         mainAttribute = 0;
@@ -19,6 +20,7 @@ public class WeaponsComparatorModel {
         maxDmg = 0;
         weaponAttribute = 0;
         gemAttribute = 0;
+        guildBonus = 0;
     }
 
     public int getMainAttribute() {
@@ -59,5 +61,13 @@ public class WeaponsComparatorModel {
 
     public void setGemAttribute(int gemAttribute) {
         this.gemAttribute = gemAttribute;
+    }
+
+    public int getGuildBonus() {
+        return guildBonus;
+    }
+
+    public void setGuildBonus(int guildBonus) {
+        this.guildBonus = guildBonus;
     }
 }

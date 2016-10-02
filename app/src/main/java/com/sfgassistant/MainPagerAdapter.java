@@ -10,8 +10,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sfgassistant.views.calculators.CalculatorsView;
-import com.sfgassistant.views.calculators.StatsCalculatorView;
-import com.sfgassistant.views.comparators.WeaponsComparatorView;
 import com.sfgassistant.views.dungeons.DungeonsView;
 import com.sfgassistant.views.guides.GuidesView;
 import com.sfgassistant.views.settings.SettingsView;

@@ -25,5 +25,7 @@ public interface WeaponsComparator {
         void setMaxDmg2(String maxDmg);
         void setWeaponAttribute2(String weaponAttribute);
         void setGemAttribute2(String gemAttribute);
+
+        void setGuildBonus(String bonus);
     }
 }

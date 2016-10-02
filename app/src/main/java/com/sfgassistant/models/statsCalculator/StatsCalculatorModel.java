@@ -1,11 +1,14 @@
 package com.sfgassistant.models.statsCalculator;
 
+import com.sfgassistant.utils.Constants;
+
 /**
  * Created by pierr on 25/09/2016.
  */
 
 public class StatsCalculatorModel {
 
+    private int classs;
     private int level;
     private int weaponDmg;
 
@@ -26,6 +29,7 @@ public class StatsCalculatorModel {
 
     private int guildBonus;
     private int dungeonBonus;
+    private boolean potionEternalLife;
 
     private int dmgPlus;
     private int constitutionPlus;
@@ -35,6 +39,7 @@ public class StatsCalculatorModel {
     private int luckMinus;
 
     public StatsCalculatorModel() {
+        classs = Constants.CLASS_WARRIOR;
         level = 0;
         weaponDmg = 0;
 
@@ -53,12 +58,24 @@ public class StatsCalculatorModel {
         petsLuck = 0;
         temporaryLuck = 0;
 
+        guildBonus = 0;
+        dungeonBonus = 0;
+        potionEternalLife = false;
+
         dmgPlus = 0;
         constitutionPlus = 0;
         luckPlus = 0;
         dmgMinus = 0;
         constitutionMinus = 0;
         luckMinus = 0;
+    }
+
+    public int getClasss() {
+        return classs;
+    }
+
+    public void setClasss(int classs) {
+        this.classs = classs;
     }
 
     public int getLevel() {
@@ -187,6 +204,14 @@ public class StatsCalculatorModel {
 
     public void setDungeonBonus(int dungeonBonus) {
         this.dungeonBonus = dungeonBonus;
+    }
+
+    public boolean isPotionEternalLife() {
+        return potionEternalLife;
+    }
+
+    public void setPotionEternalLife(boolean potionEternalLife) {
+        this.potionEternalLife = potionEternalLife;
     }
 
     public int getDmgPlus() {

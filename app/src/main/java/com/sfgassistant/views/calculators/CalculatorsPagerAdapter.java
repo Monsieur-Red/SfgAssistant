@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.sfgassistant.views.calculators.stats.StatsCalculatorView;
 import com.sfgassistant.views.comparators.WeaponsComparatorView;
 
 import java.util.ArrayList;

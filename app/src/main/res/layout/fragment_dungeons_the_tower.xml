@@ -54,7 +54,7 @@
                 android:gravity="center"
                 android:text="@string/dungeons_tower_button_1_10"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:maxLines="1"
                 flatui:fl_theme="@array/button_active"
                 flatui:fl_blockButtonEffectHeight="3dp"
@@ -71,7 +71,7 @@
                 android:gravity="center"
                 android:text="@string/dungeons_tower_button_11_20"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:maxLines="1"
                 flatui:fl_theme="@array/button_active"
                 flatui:fl_blockButtonEffectHeight="3dp"
@@ -88,7 +88,7 @@
                 android:gravity="center"
                 android:text="@string/dungeons_tower_button_21_30"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:maxLines="1"
                 flatui:fl_theme="@array/button_active"
                 flatui:fl_blockButtonEffectHeight="3dp"
@@ -105,7 +105,7 @@
                 android:gravity="center"
                 android:text="@string/dungeons_tower_button_31_40"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:maxLines="1"
                 flatui:fl_theme="@array/button_active"
                 flatui:fl_blockButtonEffectHeight="3dp"
@@ -122,7 +122,7 @@
                 android:gravity="center"
                 android:text="@string/dungeons_tower_button_41_50"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:maxLines="1"
                 flatui:fl_theme="@array/button_active"
                 flatui:fl_blockButtonEffectHeight="3dp"
@@ -135,7 +135,7 @@
             android:orientation="horizontal">
 
             <com.cengalabs.flatui.views.FlatButton
-                android:id="@+id/btn_8"
+                android:id="@+id/btn_6"
                 android:layout_width="0dp"
                 android:layout_height="36dp"
                 android:layout_weight="1"
@@ -145,7 +145,41 @@
                 android:gravity="center"
                 android:text="@string/dungeons_tower_button_51_60"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="13sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_7"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_tower_button_61_70"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:maxLines="1"
+                flatui:fl_theme="@array/button_active"
+                flatui:fl_blockButtonEffectHeight="3dp"
+                flatui:fl_cornerRadius="5dp"/>
+
+            <com.cengalabs.flatui.views.FlatButton
+                android:id="@+id/btn_8"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/dungeons_tower_button_71_80"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
                 android:maxLines="1"
                 flatui:fl_theme="@array/button_active"
                 flatui:fl_blockButtonEffectHeight="3dp"
@@ -160,9 +194,9 @@
 
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="@string/dungeons_tower_button_61_70"
+                android:text="@string/dungeons_tower_button_81_90"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:maxLines="1"
                 flatui:fl_theme="@array/button_active"
                 flatui:fl_blockButtonEffectHeight="3dp"
@@ -177,43 +211,9 @@
 
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="@string/dungeons_tower_button_71_80"
-                android:textColor="@android:color/white"
-                android:textSize="15sp"
-                android:maxLines="1"
-                flatui:fl_theme="@array/button_active"
-                flatui:fl_blockButtonEffectHeight="3dp"
-                flatui:fl_cornerRadius="5dp"/>
-
-            <com.cengalabs.flatui.views.FlatButton
-                android:id="@+id/btn_11"
-                android:layout_width="0dp"
-                android:layout_height="36dp"
-                android:layout_weight="1"
-                android:layout_margin="4dp"
-
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="@string/dungeons_tower_button_81_90"
-                android:textColor="@android:color/white"
-                android:textSize="15sp"
-                android:maxLines="1"
-                flatui:fl_theme="@array/button_active"
-                flatui:fl_blockButtonEffectHeight="3dp"
-                flatui:fl_cornerRadius="5dp"/>
-
-            <com.cengalabs.flatui.views.FlatButton
-                android:id="@+id/btn_12"
-                android:layout_width="0dp"
-                android:layout_height="36dp"
-                android:layout_weight="1"
-                android:layout_margin="4dp"
-
-                android:layout_gravity="center"
-                android:gravity="center"
                 android:text="@string/dungeons_tower_button_91_100"
                 android:textColor="@android:color/white"
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:maxLines="1"
                 flatui:fl_theme="@array/button_active"
                 flatui:fl_blockButtonEffectHeight="3dp"

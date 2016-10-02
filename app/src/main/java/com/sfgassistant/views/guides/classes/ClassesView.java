@@ -79,7 +79,7 @@ public class ClassesView extends Fragment implements Classes.View, View.OnClickL
     @Override
     public void setData(Race race) {
         this.race.setText(race.getRace());
-        strRace.setText(race.getStrenght());
+        strRace.setText(race.getStrength());
         dexRace.setText(race.getDexterity());
         intRace.setText(race.getIntelligence());
         consRace.setText(race.getConstitution());

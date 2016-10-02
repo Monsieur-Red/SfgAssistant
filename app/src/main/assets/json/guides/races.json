@@ -1,7 +1,7 @@
 [
   {
     "race": "Human",
-	"strenght": "0",
+	"strength": "0",
 	"dexterity": "0",
 	"intelligence": "0",
 	"constitution": "0",
@@ -9,7 +9,7 @@
   },
   {
     "race": "Orc",
-	"strenght": "1",
+	"strength": "1",
 	"dexterity": "0",
 	"intelligence": "-1",
 	"constitution": "0",
@@ -17,7 +17,7 @@
   },
     {
     "race": "Elf",
-	"strenght": "-1",
+	"strength": "-1",
 	"dexterity": "+2",
 	"intelligence": "0",
 	"constitution": "-1",
@@ -25,7 +25,7 @@
   },
     {
     "race": "Dark Elf",
-	"strenght": "-2",
+	"strength": "-2",
 	"dexterity": "+2",
 	"intelligence": "+1",
 	"constitution": "-1",
@@ -33,7 +33,7 @@
   },
     {
     "race": "Dwarf",
-	"strenght": "0",
+	"strength": "0",
 	"dexterity": "-2",
 	"intelligence": "-1",
 	"constitution": "+2",
@@ -41,7 +41,7 @@
   },
     {
     "race": "Goblin",
-	"strenght": "-2",
+	"strength": "-2",
 	"dexterity": "+2",
 	"intelligence": "0",
 	"constitution": "-1",
@@ -49,7 +49,7 @@
   },
     {
     "race": "Gnome",
-	"strenght": "-2",
+	"strength": "-2",
 	"dexterity": "+3",
 	"intelligence": "-1",
 	"constitution": "-1",
@@ -57,7 +57,7 @@
   },
     {
     "race": "Demon",
-	"strenght": "+3",
+	"strength": "+3",
 	"dexterity": "-1",
 	"intelligence": "0",
 	"constitution": "+1",

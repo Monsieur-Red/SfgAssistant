@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu Drawer -->
+    <string name="guides">Guides</string>
+    <string name="calculators">Outils</string>
+    <string name="dungeons">Donjons</string>
+
+    <!-- Bottom Navigation Bar -->
+    <string name="bottom_nav_bar_guides">Guides</string>
+    <string name="bottom_nav_bar_calculators">Outils</string>
+    <string name="bottom_nav_bar_dungeons">Donjons</string>
+    <string name="bottom_nav_bar_settings">Paramètres</string>
+
+    <!-- Guides -->
+    <string-array name="guides_title">
+        <item>Classe &amp; Race</item>
+        <item>Enchantements</item>
+    </string-array>
+    <string name="pets">Familiers</string>
+
+    <!-- Classes -->
+    <string name="race">Race : </string>
+    <string name="classs">Classe : </string>
+    <string name="strength">Force</string>
+    <string name="dexterity">Habilité</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="constitution">Endurance</string>
+    <string name="luck">Chance</string>
+
+    <!-- Calculators -->
+    <string name="quests_calculator">Quêtes</string>
+    <string name="stats_calculator">Stats</string>
+
+    <!-- Stats Calculator -->
+    <string-array name="calculators_tabs_title">
+        <item>Stats</item>
+        <item>Armes</item>
+    </string-array>
+    <string name="level">Niveau</string>
+    <string name="weapon_damage">Dégâts arme</string>
+    <string name="basis">Base</string>
+    <string name="equipment">Équipement</string>
+    <string name="temporary">Bonus temp</string>
+    <string name="bonus">Bonus de portail</string>
+    <string name="guild">Guilde</string>
+    <string name="dungeon">Donjon</string>
+    <string name="potion_eternal_life">Potion de vie éternelle</string>
+    <string name="damage">Dégâts</string>
+    <string name="hit_points">Vie</string>
+    <string name="critical_hit">Coup critique</string>
+
+    <!-- Weapons Comparator -->
+    <string name="calculators_weapons_advice_1">(Sans équiper une arme)</string>
+    <string name="calculators_weapons_advice_2">Quand tu vas équiper l\'arme, tu auras surement un peu plus de dégâts que prévu car je ne prends pas en compte les bonus temporaires (potions) dans mon calcul.</string>
+    <string name="min_dmg">Dégâts Min</string>
+    <string name="max_dmg">Dégâts Max</string>
+    <string name="your_intel">Ton Intelligence</string>
+    <string name="your_str">Ta Force</string>
+    <string name="your_dex">Ton Habilité</string>
+    <string name="weapon_intel">Arme Intel</string>
+    <string name="weapon_str">Arme Force</string>
+    <string name="weapon_dex">Arme Habilité</string>
+    <string name="gem_intel">Gemme Intel</string>
+    <string name="gem_str">Gemme Force</string>
+    <string name="gem_dex">Gemme Habilité</string>
+    <string name="weapon_1">Arme 1</string>
+    <string name="weapon_2">Arme 2</string>
+    <string name="total_intel">Total Intelligence</string>
+    <string name="total_str">Total Force</string>
+    <string name="total_dex">Total Habilité</string>
+    <string name="dmg_average">Dégâts Moyens</string>
+
+    <!-- Dungeons -->
+    <string-array name="dungeons_tabs_title">
+        <item>Lumière</item>
+        <item>Ombres</item>
+        <item>La tour</item>
+    </string-array>
+    <string name="dungeons_advice">(Plus tu affiches des donjons, plus tu lags :/)</string>
+
+    <!-- The Tower -->
+    <string name="dungeons_tower_advice">(Plus tu affiches des étages, plus tu lags :/)</string>
+    <string name="dungeons_tower_rv_row_title" formatted="false">%s &#8211; %s lvl %s (Gain %s or)</string>
+
+    <!-- Settings -->
+    <string name="settings_drawer_menu">Menu de navigation en haut à gauche</string>
+    <string name="settings_bottom_navigation_bar">Barre de navigation en bas</string>
+    <string name="settings_toast_restart_your_app">Redémarre l\'application afin de réaliser les changements.</string>
+
+
+</resources>

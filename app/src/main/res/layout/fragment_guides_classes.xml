@@ -255,7 +255,7 @@
 
                     android:layout_gravity="center"
                     android:textSize="18sp"
-                    android:singleLine="true"/>
+                    android:maxLines="1"/>
 
                 <TextView
                     android:id="@+id/race"
@@ -291,8 +291,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
                 android:paddingRight="20dp"
                 android:paddingLeft="20dp">
 
@@ -305,7 +305,7 @@
                     android:text="@string/strength"
                     android:textColor="@color/primary_text"
                     android:textSize="18sp"
-                    android:singleLine="true"/>
+                    android:maxLines="1"/>
 
                 <TextView
                     android:id="@+id/strength_race"
@@ -341,8 +341,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
                 android:paddingRight="20dp"
                 android:paddingLeft="20dp">
 
@@ -355,7 +355,7 @@
                     android:text="@string/dexterity"
                     android:textColor="@color/primary_text"
                     android:textSize="18sp"
-                    android:singleLine="true"/>
+                    android:maxLines="1"/>
 
                 <TextView
                     android:id="@+id/dexterity_race"
@@ -391,8 +391,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
                 android:paddingRight="20dp"
                 android:paddingLeft="20dp">
 
@@ -405,7 +405,7 @@
                     android:text="@string/intelligence"
                     android:textColor="@color/primary_text"
                     android:textSize="18sp"
-                    android:singleLine="true"/>
+                    android:maxLines="1"/>
 
                 <TextView
                     android:id="@+id/intelligence_race"
@@ -441,8 +441,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
                 android:paddingRight="20dp"
                 android:paddingLeft="20dp">
 
@@ -455,7 +455,7 @@
                     android:text="@string/constitution"
                     android:textColor="@color/primary_text"
                     android:textSize="18sp"
-                    android:singleLine="true"/>
+                    android:maxLines="1"/>
 
                 <TextView
                     android:id="@+id/constitution_race"
@@ -491,8 +491,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
                 android:paddingRight="20dp"
                 android:paddingLeft="20dp">
 
@@ -505,7 +505,7 @@
                     android:text="@string/luck"
                     android:textColor="@color/primary_text"
                     android:textSize="18sp"
-                    android:singleLine="true"/>
+                    android:maxLines="1"/>
 
                 <TextView
                     android:id="@+id/luck_race"

@@ -12,8 +12,8 @@ import android.widget.ImageButton;
 import com.cengalabs.flatui.views.FlatButton;
 import com.sfgassistant.MainActivity;
 import com.sfgassistant.R;
-import com.sfgassistant.models.dungeons.LightWorld;
-import com.sfgassistant.models.dungeons.LightWorldDetails;
+import com.sfgassistant.models.dungeons.Dungeon;
+import com.sfgassistant.models.dungeons.DungeonDetails;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -49,9 +49,8 @@ public class LightWorldView extends Fragment {
         View view = inflater.inflate(R.layout.fragment_dungeons_light_world, container, false);
         ButterKnife.bind(this, view);
 
-        List<LightWorld> lightWorldDungeons = ((MainActivity)getActivity()).getModelManager().getLightWorldDungeons();
-        List<LightWorldDetails> lightWorldDetailsDungeons = ((MainActivity)getActivity()).getModelManager().getLightWorldDungeonsDetails();
-
+        List<Dungeon> dungeonDungeons = ((MainActivity)getActivity()).getModelManager().getLightWorldDungeons();
+        List<DungeonDetails> dungeonDetailsDungeons = ((MainActivity)getActivity()).getModelManager().getLightWorldDungeonsDetails();
         buttonsState = new boolean[15];
         Arrays.fill(buttonsState, Boolean.TRUE);
 
@@ -84,22 +83,22 @@ public class LightWorldView extends Fragment {
         final RecyclerView recyclerView = ButterKnife.findById(view, R.id.recycler_view);
         adapter = new SectionedRecyclerViewAdapter();
         int i2 = 0;
-        for (int i = 0; i < lightWorldDetailsDungeons.size(); i++) {
-            LightWorldDetails lightWorldDetails = lightWorldDetailsDungeons.get(i);
-            List<LightWorld> lightWorlds = new ArrayList<>();
-            LightWorld lightWorld = lightWorldDungeons.get(i2);
+        for (int i = 0; i < dungeonDetailsDungeons.size(); i++) {
+            DungeonDetails dungeonDetails = dungeonDetailsDungeons.get(i);
+            List<Dungeon> Dungeons = new ArrayList<>();
+            Dungeon Dungeon = dungeonDungeons.get(i2);
 
-            while (lightWorld != null && Integer.valueOf(lightWorld.getDungeonLvl()) == i + 1) {
-                lightWorlds.add(lightWorld);
+            while (Dungeon != null && Integer.valueOf(Dungeon.getDungeonLvl()) == i + 1) {
+                Dungeons.add(Dungeon);
 
                 i2++;
-                if (i2 < lightWorldDungeons.size())
-                    lightWorld = lightWorldDungeons.get(i2);
+                if (i2 < dungeonDungeons.size())
+                    Dungeon = dungeonDungeons.get(i2);
                 else
-                    lightWorld = null;
+                    Dungeon = null;
             }
 
-            adapter.addSection(String.valueOf(i + 1),new LightWorldSectionAdapter(getContext(), adapter, lightWorldDetails, lightWorlds));
+            adapter.addSection(String.valueOf(i + 1),new LightWorldSectionAdapter(getContext(), adapter, dungeonDetails, Dungeons));
         }
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(adapter);

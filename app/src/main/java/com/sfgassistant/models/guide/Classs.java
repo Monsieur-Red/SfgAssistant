@@ -1,6 +1,7 @@
 package com.sfgassistant.models.guide;
 
 import com.google.gson.annotations.SerializedName;
+import com.squareup.moshi.Json;
 
 /**
  * Created by pierr on 18/09/2016.
@@ -8,7 +9,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class Classs {
 
-    private String  classs;
+    @Json(name = "class") private String  classs;
     private String  strength;
     private String  dexterity;
     private String  intelligence;

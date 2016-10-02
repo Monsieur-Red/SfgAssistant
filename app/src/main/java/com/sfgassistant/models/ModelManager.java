@@ -3,8 +3,8 @@ package com.sfgassistant.models;
 import android.content.res.AssetManager;
 
 import com.google.gson.reflect.TypeToken;
-import com.sfgassistant.models.dungeons.LightWorldDetails;
-import com.sfgassistant.models.dungeons.LightWorld;
+import com.sfgassistant.models.dungeons.DungeonDetails;
+import com.sfgassistant.models.dungeons.Dungeon;
 import com.sfgassistant.models.dungeons.TowerStage;
 import com.sfgassistant.models.guide.Classs;
 import com.sfgassistant.models.guide.Enchantment;
@@ -91,9 +91,9 @@ public class ModelManager {
         return enchantments;
     }
 
-    public List<LightWorld> getLightWorldDungeons() {
-        List<LightWorld> lightWorlds = new ArrayList<>();
-        JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<LightWorld>>(){}.getType());
+    public List<Dungeon> getLightWorldDungeons() {
+        List<Dungeon> Dungeons = new ArrayList<>();
+        JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<Dungeon>>(){}.getType());
         String file;
 
         switch (language) {
@@ -112,17 +112,17 @@ public class ModelManager {
         }
 
         try {
-            lightWorlds = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, file));
+            Dungeons = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, file));
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        return lightWorlds;
+        return Dungeons;
     }
 
-    public List<LightWorldDetails> getLightWorldDungeonsDetails() {
-        List<LightWorldDetails> lightWorldsDetails = new ArrayList<>();
-        JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<LightWorldDetails>>(){}.getType());
+    public List<DungeonDetails> getLightWorldDungeonsDetails() {
+        List<DungeonDetails> lightWorldsDetails = new ArrayList<>();
+        JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<DungeonDetails>>(){}.getType());
         String file;
 
         switch (language) {
@@ -137,6 +137,64 @@ public class ModelManager {
                 break;
             default:
                 file = Constants.FILE_JSON_DUNGEONS_LIGHT_DETAILS_EN;
+                break;
+        }
+
+        try {
+            lightWorldsDetails = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, file));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return lightWorldsDetails;
+    }
+
+    public List<Dungeon> getShadowWorldDungeons() {
+        List<Dungeon> Dungeons = new ArrayList<>();
+        JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<Dungeon>>(){}.getType());
+        String file;
+
+        switch (language) {
+            case Constants.LANGUAGE_EN:
+                file = Constants.FILE_JSON_DUNGEONS_SHADOW_EN;
+                break;
+            case Constants.LANGUAGE_DE:
+                file = Constants.FILE_JSON_DUNGEONS_SHADOW_DE;
+                break;
+            case Constants.LANGUAGE_FR:
+                file = Constants.FILE_JSON_DUNGEONS_SHADOW_FR;
+                break;
+            default:
+                file = Constants.FILE_JSON_DUNGEONS_SHADOW_EN;
+                break;
+        }
+
+        try {
+            Dungeons = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, file));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return Dungeons;
+    }
+
+    public List<DungeonDetails> getShadowWorldDungeonsDetails() {
+        List<DungeonDetails> lightWorldsDetails = new ArrayList<>();
+        JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<DungeonDetails>>(){}.getType());
+        String file;
+
+        switch (language) {
+            case Constants.LANGUAGE_EN:
+                file = Constants.FILE_JSON_DUNGEONS_SHADOW_DETAILS_EN;
+                break;
+            case Constants.LANGUAGE_DE:
+                file = Constants.FILE_JSON_DUNGEONS_SHADOW_DETAILS_DE;
+                break;
+            case Constants.LANGUAGE_FR:
+                file = Constants.FILE_JSON_DUNGEONS_SHADOW_DETAILS_FR;
+                break;
+            default:
+                file = Constants.FILE_JSON_DUNGEONS_SHADOW_DETAILS_EN;
                 break;
         }
 

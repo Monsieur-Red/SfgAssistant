@@ -32,7 +32,4 @@
         <item>@color/concrete</item>
     </integer-array>
 
-    <!--<color name="button">#F0C043</color>-->
-    <!--<color name="button_shadow">#d49d11</color>-->
-
 </resources>

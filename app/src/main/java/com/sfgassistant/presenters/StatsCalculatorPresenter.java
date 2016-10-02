@@ -4,8 +4,12 @@ import android.text.TextUtils;
 
 import com.sfgassistant.models.statsCalculator.StatsCalculatorModel;
 import com.sfgassistant.models.statsCalculator.StatsCalculatorResult;
-import com.sfgassistant.views.calculators.StatsCalculator;
-import com.sfgassistant.views.calculators.StatsCalculatorView;
+import com.sfgassistant.utils.Constants;
+import com.sfgassistant.views.calculators.stats.StatsCalculator;
+import com.sfgassistant.views.calculators.stats.StatsCalculatorView;
+
+import java.text.NumberFormat;
+import java.util.Locale;
 
 /**
  * Created by pierr on 25/09/2016.
@@ -13,12 +17,20 @@ import com.sfgassistant.views.calculators.StatsCalculatorView;
 
 public class StatsCalculatorPresenter implements StatsCalculator.Presenter {
 
-    private StatsCalculatorView     view;
-    private StatsCalculatorModel    data;
+    private StatsCalculatorView view;
+    private StatsCalculatorModel data;
+    private NumberFormat numberFormat;
 
     public StatsCalculatorPresenter(StatsCalculatorView view) {
         this.view = view;
         data = new StatsCalculatorModel();
+        numberFormat = NumberFormat.getNumberInstance(Locale.getDefault());
+    }
+
+    @Override
+    public void setClass(int classs) {
+        data.setClasss(classs);
+        view.setData(updateResult());
     }
 
     @Override
@@ -166,6 +178,12 @@ public class StatsCalculatorPresenter implements StatsCalculator.Presenter {
     }
 
     @Override
+    public void setPotionEternalLife(boolean isChecked) {
+        data.setPotionEternalLife(isChecked);
+        view.setData(updateResult());
+    }
+
+    @Override
     public void addStr(String str) {
         if (TextUtils.isEmpty(str))
             data.setDmgPlus(0);
@@ -237,9 +255,23 @@ public class StatsCalculatorPresenter implements StatsCalculator.Presenter {
             if (guildBonus != 0)
                 dmgValue += ((dmgValue * guildBonus) / 100);
 
-            hitPts = constitutionStat * 2 * (data.getLevel() + 1);
+            switch (data.getClasss()) {
+                case Constants.CLASS_MAGE:
+                    hitPts = constitutionStat * 2 * (data.getLevel() + 1);
+                    break;
+                case Constants.CLASS_SCOUT:
+                    hitPts = constitutionStat * 4 * (data.getLevel() + 1);
+                    break;
+                case Constants.CLASS_WARRIOR:
+                    hitPts = constitutionStat * 5 * (data.getLevel() + 1);
+                    break;
+            }
+
             if (dungeonBonus != 0)
                 hitPts += ((hitPts * dungeonBonus) / 100);
+
+            if (data.isPotionEternalLife())
+                hitPts += hitPts * 0.25;
 
             criticalHit = Math.round(luckStat * 5 / (data.getLevel() * 2));
 
@@ -247,7 +279,7 @@ public class StatsCalculatorPresenter implements StatsCalculator.Presenter {
                 criticalHit = 50;
         }
 
-        return new StatsCalculatorResult(String.valueOf(dmgStat), "~" + String.valueOf(dmgValue), String.valueOf(constitutionStat), String.valueOf(hitPts), String.valueOf(luckStat), String.valueOf(criticalHit) + "%");
+        return new StatsCalculatorResult(numberFormat.format(dmgStat), "~" +numberFormat.format(dmgValue), numberFormat.format(constitutionStat), numberFormat.format(hitPts), numberFormat.format(luckStat), numberFormat.format(criticalHit) + "%");
     }
 
 }

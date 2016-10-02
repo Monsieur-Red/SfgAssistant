@@ -1,32 +1,34 @@
 <resources>
-    <string name="app_name">Sfg Assistant</string>
+    <string name="app_name" translatable="false">Sfg Assistant</string>
     <string name="package_name" translatable="false">com.sfgassistant</string>
 
+    <!-- AdMob ad unit IDs -->
+    <string name="ad_app_id" translatable="false">ca-app-pub-6260347260794661~8095611833</string>
+    <string name="banner_ad_unit_id_testing" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6260347260794661/</string>
+
     <!-- Menu Drawer -->
-    <string name="news">News</string>
+    <!--<string name="news">News</string>-->
     <string name="guides">Guides</string>
-    <string name="calculators">Calculators</string>
-    <string name="comparators">Comparators</string>
+    <string name="calculators">Tools</string>
+    <!--<string name="comparators">Comparators</string>-->
     <string name="dungeons">Dungeons</string>
-    <string name="demon_portal">Demon\'s Portal</string>
-    <string name="raids">Raids</string>
+    <!--<string name="demon_portal">Demon\'s Portal</string>-->
+    <!--<string name="raids">Raids</string>-->
 
     <!-- Bottom Navigation Bar -->
     <string name="bottom_nav_bar_guides">Guides</string>
-    <string name="bottom_nav_bar_calculators">Calculators</string>
+    <string name="bottom_nav_bar_calculators">Tools</string>
     <string name="bottom_nav_bar_dungeons">Dungeons</string>
     <string name="bottom_nav_bar_settings">Settings</string>
 
     <!-- Guides -->
     <string-array name="guides_title">
-        <item>Class &amp; Races</item>
+        <item>Class &amp; Race</item>
         <item>Enchantments</item>
         <!--<item>Fortress</item>-->
         <!--<item>Pets</item>-->
     </string-array>
-    <string name="class_race">Class and Race</string>
-    <string name="enchantments">Enchantments</string>
-    <string name="fortress">Fortress</string>
     <string name="pets">Pets</string>
 
     <!-- Classes -->
@@ -39,11 +41,8 @@
     <string name="luck">Luck</string>
 
     <!-- Enchantments -->
-    <string name="enchantments_faq" formatted="false">Q Where is the witch?\nA Magic shop -> click the Inconspicous book next to Fidget if you are level <b>66+</b>.\n\nQ What does the witch do?\nA She brews spell scrolls in her cauldron. She needs ingredients in order to complete her ritual. Once complete (=the cauldron shows 100%), a random spell scroll becomes available. You can directly buy it here: magic shop -> Inconspicous book -> click on the scroll you would like to buy and the equipped item the scroll matches will be automatically enchanted with it.\n\nQ What does the witch need for her ritual?\nA She needs many ingredients. The type of ingredients changes every day and it resets at midnight. For example, on day 1 she needs belts, on day 2 she needs rings, on day 3 she needs weapons. Note: the progress of the cauldron does not reset! Of course the goal of 100% does not have to be reached in only one day. The cauldron only resets once the ritual is complete and a new spell scroll is available.\n\nQ Type of ingredients?\nA She needs all types of items except shields!\n\n(More information on S&amp;F forum!!)</string>
-    <string name="enchantments_type_effect" formatted="false">%s : %s</string>
-    <string name="type">Type</string>
-    <string name="name">Name</string>
-    <string name="effect">Effect</string>
+    <string name="enchantments_faq" formatted="false" translatable="false">Q Where is the witch?\nA Magic shop -> click the Inconspicous book next to Fidget if you are level <b>66+</b>.\n\nQ What does the witch do?\nA She brews spell scrolls in her cauldron. She needs ingredients in order to complete her ritual. Once complete (=the cauldron shows 100%), a random spell scroll becomes available. You can directly buy it here: magic shop -> Inconspicous book -> click on the scroll you would like to buy and the equipped item the scroll matches will be automatically enchanted with it.\n\nQ What does the witch need for her ritual?\nA She needs many ingredients. The type of ingredients changes every day and it resets at midnight. For example, on day 1 she needs belts, on day 2 she needs rings, on day 3 she needs weapons. Note: the progress of the cauldron does not reset! Of course the goal of 100% does not have to be reached in only one day. The cauldron only resets once the ritual is complete and a new spell scroll is available.\n\nQ Type of ingredients?\nA She needs all types of items except shields!\n\n(More information on S&amp;F forum!!)</string>
+    <string name="enchantments_type_effect" formatted="false" translatable="false">%s : %s</string>
 
     <!-- Calculators -->
     <string name="quests_calculator">Quests</string>
@@ -59,22 +58,20 @@
     <string name="basis">Basis</string>
     <string name="equipment">Equipment</string>
     <string name="temporary">Temporary</string>
-    <string name="zero">0</string>
-    <string name="bonus">Bonus</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="bonus">Portal bonus</string>
     <string name="guild">Guild</string>
     <string name="dungeon">Dungeon</string>
-    <string name="plus"><b>+</b></string>
-    <string name="minus"><b>-</b></string>
-    <string name="stats_estimation">Stats Estimation</string>
+    <string name="potion_eternal_life">Potion of Eternal Life</string>
+    <string name="plus" translatable="false"><b>+</b></string>
+    <string name="minus" translatable="false"><b>-</b></string>
     <string name="damage">Damage</string>
     <string name="hit_points">Hit Points</string>
     <string name="critical_hit">Critical Hit</string>
 
-    <!-- Comparators -->
-    <string name="weapons_comparator">Weapons Dmg</string>
-    <string name="dungeons_comparator">Dungeons Monster</string>
-
     <!-- Weapons Comparator -->
+    <string name="calculators_weapons_advice_1">(Without your equipped weapon)</string>
+    <string name="calculators_weapons_advice_2">When the weapon will be equipped, you should have a little more damage because the formula doesn\'t take temporary bonus such as potions into parameter.</string>
     <string name="min_dmg">Min Dmg</string>
     <string name="max_dmg">Max Dmg</string>
     <string name="your_intel">Your Intelligence</string>
@@ -99,49 +96,49 @@
         <item>Shadow world</item>
         <item>The Tower</item>
     </string-array>
-    <string name="dungeons_faq" formatted="false">Q When can I get a Dungeon key?\nA Key 1 can be found with level 10+.\nKey 2 can be found with level 20+.\nKey 3 can be found with level 30+.\nKey 4 can be found with level 40+.\nKey 5 can be found with level 50+.\nKey 6 can be found with level 70+ (and bought from the shop).\nKey 7 can be found with level 80+.\nKey 8 can be found with level 95+.\nKey 9 can be found with level 110 on (and bought from the shop).\nThe 10th dungeon will be open after completing dungeons 1&#8211;9.\n\nQ How do I know I will get a key for completing a quest?\nA The key is shown as a reward for the quest (similar to standard items).\n\nQ What if I sell a key?\nA It does not matter. You can find the key again until you open the dungeon.\n\nQ What if I lose a quest with a key as reward?\nA It does not matter. You can find the key again until you open the dungeon.\n\nQ Do I have to complete a dungeon to get the next key?\nA No. You can open multiple dungeons without having to complete some of them first.\n\nQ I’m level x and I haven’t gotten the xth key yet?\nA Keys are randomly generated. Sometimes you can have a character with level 30 for example and you still haven’t found the key to the second dungeon yet (although you can find it from level 20 on). It is pure chance…either luck or bad luck. Be patient and keep waiting, you will definitely get your key.\n\n(More information on Guidescroll.com!!)</string>
-    <string name="dungeons_button_all">All</string>
-    <string name="dungeons_button_1">1</string>
-    <string name="dungeons_button_2">2</string>
-    <string name="dungeons_button_3">3</string>
-    <string name="dungeons_button_4">4</string>
-    <string name="dungeons_button_5">5</string>
-    <string name="dungeons_button_6">6</string>
-    <string name="dungeons_button_7">7</string>
-    <string name="dungeons_button_8">8</string>
-    <string name="dungeons_button_9">9</string>
-    <string name="dungeons_button_10">10</string>
-    <string name="dungeons_button_11">11</string>
-    <string name="dungeons_button_12">12</string>
-    <string name="dungeons_button_13">13</string>
-    <string name="dungeons_button_14">14</string>
+    <string name="dungeons_light_faq" formatted="false" translatable="false">Q When can I get a Dungeon key?\nA Key 1 can be found with level 10+.\nKey 2 can be found with level 20+.\nKey 3 can be found with level 30+.\nKey 4 can be found with level 40+.\nKey 5 can be found with level 50+.\nKey 6 can be found with level 70+ (and bought from the shop).\nKey 7 can be found with level 80+.\nKey 8 can be found with level 95+.\nKey 9 can be found with level 110 on (and bought from the shop).\nThe 10th dungeon will be open after completing dungeons 1&#8211;9.\n\nQ How do I know I will get a key for completing a quest?\nA The key is shown as a reward for the quest (similar to standard items).\n\nQ What if I sell a key?\nA It does not matter. You can find the key again until you open the dungeon.\n\nQ What if I lose a quest with a key as reward?\nA It does not matter. You can find the key again until you open the dungeon.\n\nQ Do I have to complete a dungeon to get the next key?\nA No. You can open multiple dungeons without having to complete some of them first.\n\nQ I’m level x and I haven’t gotten the xth key yet?\nA Keys are randomly generated. Sometimes you can have a character with level 30 for example and you still haven’t found the key to the second dungeon yet (although you can find it from level 20 on). It is pure chance…either luck or bad luck. Be patient and keep waiting, you will definitely get your key.\n\n(More information on Guidescroll.com!!)</string>
+    <string name="dungeons_shadow_faq" formatted="false" translatable="false">Q What is shadow world?\nA <b>150</b> dungeon floors for you and your tower followers.\n\nQ How can I access it?\nA You can find the key in the gem mine (just like a gem). You do not automatically find it on your first attempt.\n\nQ Where is it?\nA Once you get the key, you will see a icon next to the boat in bottom right corner of dungeon window click there to toggle back and forth from light and shadow worlds.\n\nCredits : Leander&amp;bobo baggins (CM&amp;Modo of S&amp;F Forum)</string>
+    <string name="dungeons_button_all" translatable="false">All</string>
+    <string name="dungeons_button_1" translatable="false">1</string>
+    <string name="dungeons_button_2" translatable="false">2</string>
+    <string name="dungeons_button_3" translatable="false">3</string>
+    <string name="dungeons_button_4" translatable="false">4</string>
+    <string name="dungeons_button_5" translatable="false">5</string>
+    <string name="dungeons_button_6" translatable="false">6</string>
+    <string name="dungeons_button_7" translatable="false">7</string>
+    <string name="dungeons_button_8" translatable="false">8</string>
+    <string name="dungeons_button_9" translatable="false">9</string>
+    <string name="dungeons_button_10" translatable="false">10</string>
+    <string name="dungeons_button_11" translatable="false">11</string>
+    <string name="dungeons_button_12" translatable="false">12</string>
+    <string name="dungeons_button_13" translatable="false">13</string>
+    <string name="dungeons_button_14" translatable="false">14</string>
     <string name="dungeons_advice">(More dungeons you displayed, more lags you got :/)</string>
-    <string name="dungeons_section_header" formatted="false">%s &#8211; %s</string>
-    <string name="dungeons_section_item_title" formatted="false">%s &#8211; %s lvl %s (Gain %s xp)</string>
-    <string name="dungeons_section_item_name" formatted="false">%s &#8211; %s</string>
-    <string name="dungeons_section_item_level" formatted="false">lvl %s</string>
-    <string name="dungeons_section_item_experience" formatted="false">Gain %s xp</string>
-    <string name="dungeons_hp">hp</string>
-    <string name="dungeons_str">str</string>
-    <string name="dungeons_dex">dex</string>
-    <string name="dungeons_intel">intel</string>
-    <string name="dungeons_cons">cons</string>
-    <string name="dungeons_luck">luck</string>
+    <string name="dungeons_section_header" formatted="false" translatable="false">%s &#8211; %s</string>
+    <string name="dungeons_section_item_title" formatted="false" translatable="false">%s &#8211; %s lvl %s (Gain %s xp)</string>
+    <string name="dungeons_section_item_name" formatted="false" translatable="false">%s &#8211; %s</string>
+    <string name="dungeons_section_item_level" formatted="false" translatable="false">lvl %s</string>
+    <!--<string name="dungeons_hp">hp</string>-->
+    <!--<string name="dungeons_str">str</string>-->
+    <!--<string name="dungeons_dex">dex</string>-->
+    <!--<string name="dungeons_intel">intel</string>-->
+    <!--<string name="dungeons_cons">cons</string>-->
+    <!--<string name="dungeons_luck">luck</string>-->
 
     <!-- The Tower -->
-    <string name="dungeons_tower_faq">After completing dungeon 9, players will receive access to the Tower. With the help of three followers, a warrior, a scout and a mage, you can fight your way through the Tower\'s <b>100</b> floors.\nThe followers can be leveled up and equipped with class-specific items from the Arcane Toilet. Epic items for your followers can be found during the adventure.\n\nHint: The epic items you find in the Tower cannot be sacrificed in the Arcane Toilet. Moreover, you don\'t receive gold for the Tower items you sell in the shops.\nHint: Your followers\' maximum level cannot exceed your own level!\nHint: Defeating the Tower monsters doesn\'t add new stickers to your scrapbook!\n\nCredits : iTZKooPA (User of S&amp;F Forum)</string>
-    <string name="dungeons_tower_button_1_10" formatted="false">1&#8211;10</string>
-    <string name="dungeons_tower_button_11_20" formatted="false">11&#8211;20</string>
-    <string name="dungeons_tower_button_21_30" formatted="false">21&#8211;30</string>
-    <string name="dungeons_tower_button_31_40" formatted="false">31&#8211;40</string>
-    <string name="dungeons_tower_button_41_50" formatted="false">41&#8211;50</string>
-    <string name="dungeons_tower_button_51_60" formatted="false">51&#8211;60</string>
-    <string name="dungeons_tower_button_61_70" formatted="false">61&#8211;70</string>
-    <string name="dungeons_tower_button_71_80" formatted="false">71&#8211;80</string>
-    <string name="dungeons_tower_button_81_90" formatted="false">81&#8211;90</string>
-    <string name="dungeons_tower_button_91_100" formatted="false">91&#8211;*</string>
+    <string name="dungeons_tower_faq" translatable="false">After completing dungeon 9, players will receive access to the Tower. With the help of three followers, a warrior, a scout and a mage, you can fight your way through the Tower\'s <b>100</b> floors.\nThe followers can be leveled up and equipped with class-specific items from the Arcane Toilet. Epic items for your followers can be found during the adventure.\n\nHint: The epic items you find in the Tower cannot be sacrificed in the Arcane Toilet. Moreover, you don\'t receive gold for the Tower items you sell in the shops.\nHint: Your followers\' maximum level cannot exceed your own level!\nHint: Defeating the Tower monsters doesn\'t add new stickers to your scrapbook!\n\nCredits : iTZKooPA (User of S&amp;F Forum)</string>
+    <string name="dungeons_tower_button_1_10" formatted="false" translatable="false">1&#8211;10</string>
+    <string name="dungeons_tower_button_11_20" formatted="false" translatable="false">11&#8211;20</string>
+    <string name="dungeons_tower_button_21_30" formatted="false" translatable="false">21&#8211;30</string>
+    <string name="dungeons_tower_button_31_40" formatted="false" translatable="false">31&#8211;40</string>
+    <string name="dungeons_tower_button_41_50" formatted="false" translatable="false">41&#8211;50</string>
+    <string name="dungeons_tower_button_51_60" formatted="false" translatable="false">51&#8211;60</string>
+    <string name="dungeons_tower_button_61_70" formatted="false" translatable="false">61&#8211;70</string>
+    <string name="dungeons_tower_button_71_80" formatted="false" translatable="false">71&#8211;80</string>
+    <string name="dungeons_tower_button_81_90" formatted="false" translatable="false">81&#8211;90</string>
+    <string name="dungeons_tower_button_91_100" formatted="false" translatable="false">91&#8211;*</string>
     <string name="dungeons_tower_advice">(More stages you displayed, more lags you got :/)</string>
-
+    <string name="dungeons_tower_rv_row_title" formatted="false">%s &#8211; %s lvl %s (Gain %s gold)</string>
 
     <!-- Settings -->
     <string name="settings_drawer_menu">Top Left Drawer menu</string>

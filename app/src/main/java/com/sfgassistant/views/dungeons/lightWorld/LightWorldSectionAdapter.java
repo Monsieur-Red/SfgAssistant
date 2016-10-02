@@ -6,20 +6,16 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.sfgassistant.R;
-import com.sfgassistant.models.dungeons.LightWorld;
-import com.sfgassistant.models.dungeons.LightWorldDetails;
+import com.sfgassistant.models.dungeons.Dungeon;
+import com.sfgassistant.models.dungeons.DungeonDetails;
 import com.sfgassistant.utils.Constants;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 import io.github.luizgrp.sectionedrecyclerviewadapter.SectionedRecyclerViewAdapter;
 import io.github.luizgrp.sectionedrecyclerviewadapter.StatelessSection;
 
@@ -31,16 +27,16 @@ public class LightWorldSectionAdapter extends StatelessSection {
 
     private Context context;
     private SectionedRecyclerViewAdapter adapter;
-    private LightWorldDetails lightWorldDetails;
-    private List<LightWorld> lightWorlds;
+    private DungeonDetails dungeonDetails;
+    private List<Dungeon> Dungeons;
     private boolean expanded;
 
-    public LightWorldSectionAdapter(Context context, SectionedRecyclerViewAdapter adapter, LightWorldDetails lightWorldDetails, List<LightWorld> lightWorlds) {
+    public LightWorldSectionAdapter(Context context, SectionedRecyclerViewAdapter adapter, DungeonDetails dungeonDetails, List<Dungeon> Dungeons) {
         super(R.layout.fragment_dungeons_light_world_rv_section_header, R.layout.fragment_dungeons_light_world_rv_section_item);
         this.context = context;
         this.adapter = adapter;
-        this.lightWorldDetails = lightWorldDetails;
-        this.lightWorlds = lightWorlds;
+        this.dungeonDetails = dungeonDetails;
+        this.Dungeons = Dungeons;
         expanded = true;
     }
 
@@ -131,7 +127,7 @@ public class LightWorldSectionAdapter extends StatelessSection {
     public int getContentItemsTotal() {
         if (!expanded)
             return 0;
-        return lightWorlds.size();
+        return Dungeons.size();
     }
 
     @Override
@@ -143,10 +139,10 @@ public class LightWorldSectionAdapter extends StatelessSection {
     public void onBindHeaderViewHolder(RecyclerView.ViewHolder holder) {
         final HeaderViewHolder headerHolder = (HeaderViewHolder) holder;
 
-        headerHolder.name.setText(String.format(context.getResources().getString(R.string.dungeons_section_header), lightWorldDetails.getLevel(), lightWorldDetails.getName()));
-        headerHolder.description.setText(lightWorldDetails.getDescription());
-        Picasso.with(context).load(Constants.PATH_IMAGE_DUNGEONS_LIGHT_KEYS + lightWorldDetails.getKey()).error(R.drawable.error_img).into(headerHolder.keyImg);
-        headerHolder.keyDescription.setText(lightWorldDetails.getKeyDescription());
+        headerHolder.name.setText(String.format(context.getResources().getString(R.string.dungeons_section_header), dungeonDetails.getLevel(), dungeonDetails.getName()));
+        headerHolder.description.setText(dungeonDetails.getDescription());
+        Picasso.with(context).load(Constants.PATH_IMAGE_DUNGEONS_LIGHT_KEYS + dungeonDetails.getKey()).error(R.drawable.error_img).into(headerHolder.keyImg);
+        headerHolder.keyDescription.setText(dungeonDetails.getKeyDescription());
     }
 
     @Override
@@ -157,11 +153,11 @@ public class LightWorldSectionAdapter extends StatelessSection {
     @Override
     public void onBindItemViewHolder(RecyclerView.ViewHolder holder, int position) {
         final ItemViewHolder itemHolder = (ItemViewHolder) holder;
-        final LightWorld lightWorld = lightWorlds.get(position);
+        final Dungeon Dungeon = Dungeons.get(position);
 
-        itemHolder.title.setText(String.format(context.getResources().getString(R.string.dungeons_section_item_title), lightWorld.getDungeonStage(), lightWorld.getOpponentName(), lightWorld.getOpponentLvl(), lightWorld.getExperience()));
+        itemHolder.title.setText(String.format(context.getResources().getString(R.string.dungeons_section_item_title), Dungeon.getDungeonStage(), Dungeon.getOpponentName(), Dungeon.getOpponentLvl(), Dungeon.getExperience()));
 
-        switch (lightWorld.getOpponentClass()) {
+        switch (Dungeon.getOpponentClass()) {
             case Constants.CLASS_MAGE_STR:
                 itemHolder.title.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_mage, 0, 0, 0);
                 itemHolder.intel.setTypeface(Typeface.DEFAULT_BOLD);
@@ -175,11 +171,11 @@ public class LightWorldSectionAdapter extends StatelessSection {
                 itemHolder.dex.setTypeface(Typeface.DEFAULT_BOLD);
                 break;
         }
-        itemHolder.hp.setText(lightWorld.getOpponentHp());
-        itemHolder.str.setText(lightWorld.getOpponentStr());
-        itemHolder.dex.setText(lightWorld.getOpponentDex());
-        itemHolder.intel.setText(lightWorld.getOpponentIntel());
-        itemHolder.cons.setText(lightWorld.getOpponentCons());
-        itemHolder.luck.setText(lightWorld.getOpponentLuck());
+        itemHolder.hp.setText(Dungeon.getOpponentHp());
+        itemHolder.str.setText(Dungeon.getOpponentStr());
+        itemHolder.dex.setText(Dungeon.getOpponentDex());
+        itemHolder.intel.setText(Dungeon.getOpponentIntel());
+        itemHolder.cons.setText(Dungeon.getOpponentCons());
+        itemHolder.luck.setText(Dungeon.getOpponentLuck());
     }
 }

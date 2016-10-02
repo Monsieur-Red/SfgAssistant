@@ -10,6 +10,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.cengalabs.flatui.FlatUI;
+import com.crashlytics.android.Crashlytics;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.mxn.soul.flowingdrawer_core.FlowingView;
 import com.mxn.soul.flowingdrawer_core.LeftDrawerLayout;
 import com.sfgassistant.models.ModelManager;
@@ -19,6 +22,7 @@ import com.sfgassistant.widgets.MyViewPager;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.fabric.sdk.android.Fabric;
 
 /**
  * Created by pierr on 17/09/2016.
@@ -26,6 +30,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
+    @BindView(R.id.adView) AdView mAdView;
     @BindView(R.id.view_pager) MyViewPager viewPager;
 
     private LeftDrawerLayout mLeftDrawerLayout;
@@ -35,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
 
         SharedPreferences preferences = getSharedPreferences(getString(R.string.package_name), Context.MODE_PRIVATE);
         boolean drawerMenu = preferences.getBoolean(Constants.SHARED_PREFS_MENU_DRAWER, false);
@@ -65,6 +71,9 @@ public class MainActivity extends AppCompatActivity {
             setupTabLayout(pagerAdapter);
             viewPager.setPagingEnabled(true);
         }
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     private void setupToolbar() {
@@ -103,22 +112,33 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    public void onPause() {
+        if (mAdView != null)
+            mAdView.pause();
+        super.onPause();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mAdView != null)
+            mAdView.resume();
+    }
+
+    @Override
+    public void onDestroy() {
+        if (mAdView != null)
+            mAdView.destroy();
+        super.onDestroy();
+    }
+
+    @Override
     public void onBackPressed() {
         if (mLeftDrawerLayout.isShownMenu()) {
             mLeftDrawerLayout.closeDrawer();
         } else {
             super.onBackPressed();
         }
-    }
-
-    public void replaceView(int idFragment) {
-//        getSupportFragmentManager().beginTransaction()
-//                .replace(R.id.container_fragment, fragments.get(idFragment))
-//                .addToBackStack(null)
-//                .commit();
-
-//        if (mLeftDrawerLayout.isShown())
-//            mLeftDrawerLayout.closeDrawer();
     }
 
     public void closeDrawer(int position) {
