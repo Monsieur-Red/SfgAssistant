@@ -32,8 +32,15 @@
     <string name="pets">Pets</string>
 
     <!-- Classes -->
-    <string name="race">Race: </string>
-    <string name="classs">Class: </string>
+    <string name="class_message">You cannot choose more than 2 races.</string>
+    <string name="class_human">Human</string>
+    <string name="class_orc">Orc</string>
+    <string name="class_elf">Elf</string>
+    <string name="class_dark_elf">Dark Elf</string>
+    <string name="class_dwarf">Dwarf</string>
+    <string name="class_goblin">Goblin</string>
+    <string name="class_gnome">Gnome</string>
+    <string name="class_demon">Demon</string>
     <string name="strength">Strength</string>
     <string name="dexterity">Dexterity</string>
     <string name="intelligence">Intelligence</string>

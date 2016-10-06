@@ -20,8 +20,15 @@
     <string name="pets">Familiers</string>
 
     <!-- Classes -->
-    <string name="race">Race : </string>
-    <string name="classs">Classe : </string>
+    <string name="class_message">Tu ne peux pas choisir plus de deux races simultanément.</string>
+    <string name="class_human">Humain</string>
+    <string name="class_orc">Orc</string>
+    <string name="class_elf">Elf</string>
+    <string name="class_dark_elf">Elf noir</string>
+    <string name="class_dwarf">Nain</string>
+    <string name="class_goblin">Gobelin</string>
+    <string name="class_gnome">Gnome</string>
+    <string name="class_demon">Démon</string>
     <string name="strength">Force</string>
     <string name="dexterity">Habilité</string>
     <string name="intelligence">Intelligence</string>

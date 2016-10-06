@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.BindViews;
 import butterknife.ButterKnife;
 import butterknife.OnCheckedChanged;
 import butterknife.OnClick;
@@ -32,6 +34,7 @@ public class StatsCalculatorView extends Fragment implements StatsCalculator.Vie
 
     private StatsCalculatorPresenter    presenter;
 
+    @BindViews({R.id.btn_mage, R.id.btn_warrior, R.id.btn_scout}) List<ImageView> classButtons;
     @BindView(R.id.text_view_damage) TextView dmgTv;
     @BindView(R.id.text_view_damage_modification) TextView modificationDmgTv;
     @BindView(R.id.text_view_news_damage) TextView newsDmgTv;
@@ -84,6 +87,10 @@ public class StatsCalculatorView extends Fragment implements StatsCalculator.Vie
 
     @OnClick(R.id.btn_warrior)
     public void OnClickWarriorBtn() {
+        classButtons.get(Constants.CLASS_WARRIOR).setSelected(true);
+        classButtons.get(Constants.CLASS_MAGE).setSelected(false);
+        classButtons.get(Constants.CLASS_SCOUT).setSelected(false);
+
         dmgTv.setText(R.string.strength);
         modificationDmgTv.setText(R.string.strength);
         newsDmgTv.setText(R.string.strength);
@@ -92,6 +99,10 @@ public class StatsCalculatorView extends Fragment implements StatsCalculator.Vie
 
     @OnClick(R.id.btn_mage)
     public void OnClickMageBtn() {
+        classButtons.get(Constants.CLASS_WARRIOR).setSelected(false);
+        classButtons.get(Constants.CLASS_MAGE).setSelected(true);
+        classButtons.get(Constants.CLASS_SCOUT).setSelected(false);
+
         dmgTv.setText(R.string.intelligence);
         modificationDmgTv.setText(R.string.intelligence);
         newsDmgTv.setText(R.string.intelligence);
@@ -100,6 +111,10 @@ public class StatsCalculatorView extends Fragment implements StatsCalculator.Vie
 
     @OnClick(R.id.btn_scout)
     public void OnClickScoutBtn() {
+        classButtons.get(Constants.CLASS_WARRIOR).setSelected(false);
+        classButtons.get(Constants.CLASS_MAGE).setSelected(false);
+        classButtons.get(Constants.CLASS_SCOUT).setSelected(true);
+
         dmgTv.setText(R.string.dexterity);
         modificationDmgTv.setText(R.string.dexterity);
         newsDmgTv.setText(R.string.dexterity);

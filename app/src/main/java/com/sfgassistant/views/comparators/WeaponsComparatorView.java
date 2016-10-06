@@ -7,17 +7,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.sfgassistant.R;
 import com.sfgassistant.models.WeaponsComparator.WeaponsComparatorResult;
 import com.sfgassistant.presenters.WeaponsComparatorPresenter;
+import com.sfgassistant.utils.Constants;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.BindViews;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnItemSelected;
@@ -31,6 +34,7 @@ public class WeaponsComparatorView extends Fragment implements WeaponsComparator
 
     private WeaponsComparatorPresenter  presenter;
 
+    @BindViews({R.id.btn_mage, R.id.btn_warrior, R.id.btn_scout}) List<ImageView> classButtons;
     @BindView(R.id.edit_text_my_attribute) EditText mainAttr;
     @BindView(R.id.text_view_weapon_attr) TextView weaponAttr;
     @BindView(R.id.text_view_gem_attr) TextView gemAttr;
@@ -93,6 +97,10 @@ public class WeaponsComparatorView extends Fragment implements WeaponsComparator
 
     @OnClick(R.id.btn_warrior)
     public void OnClickWarriorBtn() {
+        classButtons.get(Constants.CLASS_WARRIOR).setSelected(true);
+        classButtons.get(Constants.CLASS_MAGE).setSelected(false);
+        classButtons.get(Constants.CLASS_SCOUT).setSelected(false);
+
         mainAttr.setHint(R.string.your_str);
         weaponAttr.setText(R.string.weapon_str);
         weaponAttr2.setText(R.string.weapon_str);
@@ -102,6 +110,10 @@ public class WeaponsComparatorView extends Fragment implements WeaponsComparator
 
     @OnClick(R.id.btn_mage)
     public void OnClickMageBtn() {
+        classButtons.get(Constants.CLASS_WARRIOR).setSelected(false);
+        classButtons.get(Constants.CLASS_MAGE).setSelected(true);
+        classButtons.get(Constants.CLASS_SCOUT).setSelected(false);
+
         mainAttr.setHint(R.string.your_intel);
         weaponAttr.setText(R.string.weapon_intel);
         weaponAttr2.setText(R.string.weapon_intel);
@@ -111,6 +123,10 @@ public class WeaponsComparatorView extends Fragment implements WeaponsComparator
 
     @OnClick(R.id.btn_scout)
     public void OnClickScoutBtn() {
+        classButtons.get(Constants.CLASS_WARRIOR).setSelected(false);
+        classButtons.get(Constants.CLASS_MAGE).setSelected(false);
+        classButtons.get(Constants.CLASS_SCOUT).setSelected(true);
+
         mainAttr.setHint(R.string.your_dex);
         weaponAttr.setText(R.string.weapon_dex);
         weaponAttr2.setText(R.string.weapon_dex);

@@ -1,0 +1,66 @@
+[
+  {
+    "race": "Humain",
+	"strength": "0",
+	"dexterity": "0",
+	"intelligence": "0",
+	"constitution": "0",
+	"luck": "0"
+  },
+  {
+    "race": "Orc",
+	"strength": "1",
+	"dexterity": "0",
+	"intelligence": "-1",
+	"constitution": "0",
+	"luck": "0"
+  },
+    {
+    "race": "Elf",
+	"strength": "-1",
+	"dexterity": "+2",
+	"intelligence": "0",
+	"constitution": "-1",
+	"luck": "0"
+  },
+    {
+    "race": "Elf Noir",
+	"strength": "-2",
+	"dexterity": "+2",
+	"intelligence": "+1",
+	"constitution": "-1",
+	"luck": "0"
+  },
+    {
+    "race": "Nain",
+	"strength": "0",
+	"dexterity": "-2",
+	"intelligence": "-1",
+	"constitution": "+2",
+	"luck": "+1"
+  },
+    {
+    "race": "Gobelin",
+	"strength": "-2",
+	"dexterity": "+2",
+	"intelligence": "0",
+	"constitution": "-1",
+	"luck": "+1"
+  },
+    {
+    "race": "Gnome",
+	"strength": "-2",
+	"dexterity": "+3",
+	"intelligence": "-1",
+	"constitution": "-1",
+	"luck": "+1"
+  },
+    {
+    "race": "Démon",
+	"strength": "+3",
+	"dexterity": "-1",
+	"intelligence": "0",
+	"constitution": "+1",
+	"luck": "-3"
+  }
+]

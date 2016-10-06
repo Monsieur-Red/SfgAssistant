@@ -39,9 +39,22 @@ public class ModelManager {
     public List<Race> getRaces() {
         List<Race> races = new ArrayList<>();
         JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<Race>>(){}.getType());
+        String file;
+
+        switch (language) {
+            case Constants.LANGUAGE_EN:
+                file = Constants.FILE_JSON_RACES_EN;
+                break;
+            case Constants.LANGUAGE_FR:
+                file = Constants.FILE_JSON_RACES_FR;
+                break;
+            default:
+                file = Constants.FILE_JSON_RACES_EN;
+                break;
+        }
 
         try {
-            races = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, Constants.FILE_JSON_RACES));
+                races = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, file));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -52,9 +65,22 @@ public class ModelManager {
     public List<Classs> getClasses() {
         List<Classs> classes = new ArrayList<>();
         JsonAdapter<List> jsonAdapter = moshi.adapter(new TypeToken<List<Classs>>(){}.getType());
+        String file;
+
+        switch (language) {
+            case Constants.LANGUAGE_EN:
+                file = Constants.FILE_JSON_CLASSES_EN;
+                break;
+            case Constants.LANGUAGE_FR:
+                file = Constants.FILE_JSON_CLASSES_FR;
+                break;
+            default:
+                file = Constants.FILE_JSON_CLASSES_EN;
+                break;
+        }
 
         try {
-            classes = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, Constants.FILE_JSON_CLASSES));
+            classes = jsonAdapter.fromJson(Tools.loadJSONFromAsset(assetManager, file));
         } catch (IOException e) {
             e.printStackTrace();
         }

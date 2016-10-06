@@ -9,15 +9,10 @@ import com.sfgassistant.models.guide.Race;
 
 public interface Classes {
 
-    interface View {
-        void setData(Race race);
-
-        void setData(Classs classs);
-    }
-
     interface Presenter {
+        Race getRace(int id);
 
-        void onClick(int viewId);
+        Classs getClass(int id);
     }
 
 }

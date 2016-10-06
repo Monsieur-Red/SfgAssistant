@@ -44,8 +44,8 @@ public class ShadowWorldSectionAdapter extends StatelessSection {
         ImageButton expand;
         TextView name;
         TextView description;
-        ImageView keyImg;
-        TextView keyDescription;
+//        ImageView keyImg;
+//        TextView keyDescription;
 
         public HeaderViewHolder(View view) {
             super(view);
@@ -53,8 +53,8 @@ public class ShadowWorldSectionAdapter extends StatelessSection {
             name = (TextView) view.findViewById(R.id.name);
 
             description = (TextView) view.findViewById(R.id.description);
-            keyImg = (ImageView) view.findViewById(R.id.key_img);
-            keyDescription = (TextView) view.findViewById(R.id.key_description);
+//            keyImg = (ImageView) view.findViewById(R.id.key_img);
+//            keyDescription = (TextView) view.findViewById(R.id.key_description);
             view.setOnClickListener(this);
             expand.setOnClickListener(this);
         }
@@ -84,7 +84,6 @@ public class ShadowWorldSectionAdapter extends StatelessSection {
 
         public ItemViewHolder(View view) {
             super(view);
-            //ButterKnife.bind(this, view);
             title = (TextView) view.findViewById(R.id.title);
             hp = (TextView) view.findViewById(R.id.hp);
             str = (TextView) view.findViewById(R.id.str);
@@ -113,8 +112,8 @@ public class ShadowWorldSectionAdapter extends StatelessSection {
 
         headerHolder.name.setText(String.format(context.getResources().getString(R.string.dungeons_section_header), dungeonDetails.getLevel(), dungeonDetails.getName()));
         headerHolder.description.setText(dungeonDetails.getDescription());
-        Picasso.with(context).load(Constants.PATH_IMAGE_DUNGEONS_SHADOW_KEYS + dungeonDetails.getKey()).error(R.drawable.error_img).into(headerHolder.keyImg);
-        headerHolder.keyDescription.setText(dungeonDetails.getKeyDescription());
+//        Picasso.with(context).load(Constants.PATH_IMAGE_DUNGEONS_SHADOW_KEYS + dungeonDetails.getKey()).error(R.drawable.error_img).into(headerHolder.keyImg);
+//        headerHolder.keyDescription.setText(dungeonDetails.getKeyDescription());
     }
 
     @Override
@@ -132,14 +131,20 @@ public class ShadowWorldSectionAdapter extends StatelessSection {
         switch (Dungeon.getOpponentClass()) {
             case Constants.CLASS_MAGE_STR:
                 itemHolder.title.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_mage, 0, 0, 0);
+                itemHolder.str.setTypeface(Typeface.DEFAULT);
                 itemHolder.intel.setTypeface(Typeface.DEFAULT_BOLD);
+                itemHolder.dex.setTypeface(Typeface.DEFAULT);
                 break;
             case Constants.CLASS_WARRIOR_STR:
                 itemHolder.title.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_warrior, 0, 0, 0);
                 itemHolder.str.setTypeface(Typeface.DEFAULT_BOLD);
+                itemHolder.intel.setTypeface(Typeface.DEFAULT);
+                itemHolder.dex.setTypeface(Typeface.DEFAULT);
                 break;
             case Constants.CLASS_SCOUT_STR:
                 itemHolder.title.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_scout, 0, 0, 0);
+                itemHolder.str.setTypeface(Typeface.DEFAULT);
+                itemHolder.intel.setTypeface(Typeface.DEFAULT);
                 itemHolder.dex.setTypeface(Typeface.DEFAULT_BOLD);
                 break;
         }

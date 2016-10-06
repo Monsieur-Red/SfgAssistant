@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,174 +17,162 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center"
-                android:weightSum="6">
+                android:layout_gravity="center">
 
-                <ImageView
-                    android:id="@+id/m_human"
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/btn_human"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/m_human"/>
 
-                <ImageView
-                    android:id="@+id/f_human"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/class_human"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:maxLines="1"
+                    flatui:fl_theme="@array/button_inactive"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_cornerRadius="5dp"/>
+
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/btn_orc"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/f_human"/>
 
-                <ImageView
-                    android:id="@+id/m_orc"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/class_orc"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:maxLines="1"
+                    flatui:fl_theme="@array/button_inactive"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_cornerRadius="5dp"/>
+
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/btn_elf"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/m_orc"/>
 
-                <ImageView
-                    android:id="@+id/f_orc"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/f_orc"/>
-
-                <ImageView
-                    android:id="@+id/m_elf"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/m_elf"/>
-
-                <ImageView
-                    android:id="@+id/f_elf"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/f_elf"/>
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/class_elf"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:maxLines="1"
+                    flatui:fl_theme="@array/button_inactive"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_cornerRadius="5dp"/>
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center"
-                android:weightSum="6">
+                android:layout_gravity="center">
 
-                <ImageView
-                    android:id="@+id/m_darkelf"
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/btn_dark_elf"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/m_darkelf"/>
 
-                <ImageView
-                    android:id="@+id/f_darkelf"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/class_dark_elf"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:maxLines="1"
+                    flatui:fl_theme="@array/button_inactive"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_cornerRadius="5dp"/>
+
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/btn_dwarf"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/f_darkelf"/>
 
-                <ImageView
-                    android:id="@+id/m_dwarf"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/class_dwarf"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:maxLines="1"
+                    flatui:fl_theme="@array/button_inactive"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_cornerRadius="5dp"/>
+
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/btn_goblin"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/m_dwarf"/>
 
-                <ImageView
-                    android:id="@+id/f_dwarf"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/f_dwarf"/>
-
-                <ImageView
-                    android:id="@+id/m_goblin"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/m_goblin"/>
-
-
-                <ImageView
-                    android:id="@+id/f_goblin"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/f_goblin"/>
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/class_goblin"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:maxLines="1"
+                    flatui:fl_theme="@array/button_inactive"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_cornerRadius="5dp"/>
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="center"
-                android:weightSum="6">
+                android:layout_gravity="center">
 
-                <ImageView
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/btn_gnome"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/m_gnome"
-                    android:visibility="invisible"/>
 
-                <ImageView
-                    android:id="@+id/m_gnome"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/class_gnome"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:maxLines="1"
+                    flatui:fl_theme="@array/button_inactive"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_cornerRadius="5dp"/>
+
+                <com.cengalabs.flatui.views.FlatButton
+                    android:id="@+id/btn_demon"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="36dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/m_gnome"/>
 
-                <ImageView
-                    android:id="@+id/f_gnome"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/f_gnome"/>
-
-                <ImageView
-                    android:id="@+id/m_demon"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/m_demon"/>
-
-                <ImageView
-                    android:id="@+id/f_demon"
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/f_demon"/>
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="48dp"
-                    android:layout_weight="1"
-                    android:layout_margin="4dp"
-                    android:src="@drawable/m_gnome"
-                    android:visibility="invisible"/>
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/class_demon"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:maxLines="1"
+                    flatui:fl_theme="@array/button_inactive"
+                    flatui:fl_blockButtonEffectHeight="3dp"
+                    flatui:fl_cornerRadius="5dp"/>
 
             </LinearLayout>
 
@@ -205,28 +194,34 @@
                     android:id="@+id/imageView" />
 
                 <ImageView
-                    android:id="@+id/warrior"
+                    android:id="@+id/btn_warrior"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/warrior"/>
+                    android:layout_gravity="center"
+                    android:src="@drawable/warrior"
+                    android:background="@drawable/selector_button_class"/>
 
                 <ImageView
-                    android:id="@+id/mage"
+                    android:id="@+id/btn_mage"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/mage"/>
+                    android:layout_gravity="center"
+                    android:src="@drawable/mage"
+                    android:background="@drawable/selector_button_class"/>
 
                 <ImageView
-                    android:id="@+id/scout"
+                    android:id="@+id/btn_scout"
                     android:layout_width="0dp"
                     android:layout_height="48dp"
                     android:layout_weight="1"
                     android:layout_margin="4dp"
-                    android:src="@drawable/scout"/>
+                    android:layout_gravity="center"
+                    android:src="@drawable/scout"
+                    android:background="@drawable/selector_button_class"/>
 
                 <ImageView
                     android:layout_width="0dp"
@@ -245,8 +240,8 @@
                 android:layout_marginTop="10dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:paddingRight="20dp"
-                android:paddingLeft="20dp">
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -255,15 +250,30 @@
 
                     android:layout_gravity="center"
                     android:textSize="18sp"
-                    android:maxLines="1"/>
+                    android:maxLines="1"
+                    android:id="@+id/textView3" />
 
                 <TextView
                     android:id="@+id/race"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/primary_text"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/race_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
 
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -276,8 +286,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
 
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -293,8 +303,8 @@
                 android:orientation="horizontal"
                 android:paddingTop="4dp"
                 android:paddingBottom="4dp"
-                android:paddingRight="20dp"
-                android:paddingLeft="20dp">
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -305,10 +315,25 @@
                     android:text="@string/strength"
                     android:textColor="@color/primary_text"
                     android:textSize="18sp"
-                    android:maxLines="1"/>
+                    android:maxLines="1"
+                    android:id="@+id/textView4" />
 
                 <TextView
                     android:id="@+id/strength_race"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/strength_race_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -343,8 +368,8 @@
                 android:orientation="horizontal"
                 android:paddingTop="4dp"
                 android:paddingBottom="4dp"
-                android:paddingRight="20dp"
-                android:paddingLeft="20dp">
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -359,6 +384,20 @@
 
                 <TextView
                     android:id="@+id/dexterity_race"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/dexterity_race_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -393,8 +432,8 @@
                 android:orientation="horizontal"
                 android:paddingTop="4dp"
                 android:paddingBottom="4dp"
-                android:paddingRight="20dp"
-                android:paddingLeft="20dp">
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -409,6 +448,20 @@
 
                 <TextView
                     android:id="@+id/intelligence_race"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/intelligence_race_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -443,8 +496,8 @@
                 android:orientation="horizontal"
                 android:paddingTop="4dp"
                 android:paddingBottom="4dp"
-                android:paddingRight="20dp"
-                android:paddingLeft="20dp">
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -455,10 +508,25 @@
                     android:text="@string/constitution"
                     android:textColor="@color/primary_text"
                     android:textSize="18sp"
-                    android:maxLines="1"/>
+                    android:maxLines="1"
+                    android:id="@+id/textView5" />
 
                 <TextView
                     android:id="@+id/constitution_race"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/constitution_race_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -493,8 +561,8 @@
                 android:orientation="horizontal"
                 android:paddingTop="4dp"
                 android:paddingBottom="4dp"
-                android:paddingRight="20dp"
-                android:paddingLeft="20dp">
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -509,6 +577,20 @@
 
                 <TextView
                     android:id="@+id/luck_race"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/luck_race_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

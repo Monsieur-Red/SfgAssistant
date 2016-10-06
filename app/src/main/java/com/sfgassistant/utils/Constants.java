@@ -14,8 +14,10 @@ public class Constants {
     public static final String PATH_IMAGE_DUNGEONS_LIGHT_KEYS = "file:///android_asset/images/dungeons/light/";
     public static final String PATH_IMAGE_DUNGEONS_SHADOW_KEYS = "file:///android_asset/images/dungeons/shadow/";
 
-    public static final String FILE_JSON_RACES = "json/guides/races.json";
-    public static final String FILE_JSON_CLASSES = "json/guides/classes.json";
+    public static final String FILE_JSON_RACES_EN = "json/guides/races_en.json";
+    public static final String FILE_JSON_RACES_FR = "json/guides/races_fr.json";
+    public static final String FILE_JSON_CLASSES_EN = "json/guides/classes_en.json";
+    public static final String FILE_JSON_CLASSES_FR = "json/guides/classes_fr.json";
     public static final String FILE_JSON_ENCHANTMENTS_EN = "json/guides/enchantments_en.json";
     public static final String FILE_JSON_ENCHANTMENTS_DE = "json/guides/enchantments_de.json";
     public static final String FILE_JSON_ENCHANTMENTS_FR = "json/guides/enchantments_fr.json";
