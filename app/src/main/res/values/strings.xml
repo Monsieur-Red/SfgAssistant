@@ -5,7 +5,7 @@
     <!-- AdMob ad unit IDs -->
     <string name="ad_app_id" translatable="false">ca-app-pub-6260347260794661~8095611833</string>
     <string name="banner_ad_unit_id_testing" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6260347260794661/</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6260347260794661/3525811436/</string>
 
     <!-- Menu Drawer -->
     <!--<string name="news">News</string>-->

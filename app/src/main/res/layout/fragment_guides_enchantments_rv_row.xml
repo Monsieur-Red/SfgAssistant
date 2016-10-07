@@ -19,7 +19,7 @@
         android:layout_gravity="center"
         android:drawablePadding="10dp"
         android:textColor="@color/primary_text"
-        android:textSize="15sp" />
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/type_and_effect"
@@ -29,6 +29,6 @@
 
         android:layout_gravity="center"
         android:textColor="@color/primary_text"
-        android:textSize="15sp" />
+        android:textSize="14sp" />
 
 </LinearLayout>

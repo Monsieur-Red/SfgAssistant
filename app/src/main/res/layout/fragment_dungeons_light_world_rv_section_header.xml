@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
 
         android:textColor="@color/primary_text"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:minLines="1"
         android:textStyle="bold"/>
 
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/primary_text"
-        android:textSize="15sp" />
+        android:textSize="14sp" />
 
     <ImageButton
         android:id="@id/btn_expand"

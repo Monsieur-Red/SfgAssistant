@@ -20,7 +20,7 @@
 
             android:text="@string/enchantments_faq"
             android:textColor="@color/primary_text"
-            android:textSize="15sp"
+            android:textSize="14sp"
             android:maxLines="2"
             android:ellipsize="end"
             app:animation_duration="500"

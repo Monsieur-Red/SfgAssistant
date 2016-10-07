@@ -11,6 +11,7 @@ import android.view.View;
 
 import com.cengalabs.flatui.FlatUI;
 import com.crashlytics.android.Crashlytics;
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.mxn.soul.flowingdrawer_core.FlowingView;

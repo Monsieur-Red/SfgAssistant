@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textColor="@color/primary_text"
-        android:textSize="15sp" />
+        android:textSize="14sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,21 +35,24 @@
                 android:layout_height="wrap_content"
                 android:text="@string/hit_points"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"
+                android:maxLines="1"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/strength"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"
+                android:maxLines="1"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/dexterity"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"
+                android:maxLines="1"/>
 
         </LinearLayout>
 
@@ -66,7 +69,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"/>
 
             <TextView
                 android:id="@+id/str"
@@ -75,7 +78,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"/>
 
             <TextView
                 android:id="@+id/dex"
@@ -84,7 +87,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"/>
 
         </LinearLayout>
 
@@ -99,21 +102,24 @@
                 android:layout_height="wrap_content"
                 android:text="@string/intelligence"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"
+                android:maxLines="1"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/constitution"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"
+                android:maxLines="1"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/luck"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"
+                android:maxLines="1"/>
 
         </LinearLayout>
 
@@ -130,7 +136,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"/>
 
             <TextView
                 android:id="@+id/cons"
@@ -139,7 +145,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"/>
 
             <TextView
                 android:id="@+id/luck"
@@ -148,7 +154,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"/>
+                android:textSize="14sp"/>
 
         </LinearLayout>
 

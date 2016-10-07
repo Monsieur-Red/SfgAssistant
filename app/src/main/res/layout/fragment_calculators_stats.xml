@@ -79,7 +79,7 @@
                 android:gravity="center"
                 android:hint="@string/level"
                 android:textColor="@android:color/black"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:inputType="number"
                 android:maxLines="1"
                 android:nextFocusDown="@+id/edit_text_weapon_damage"
@@ -95,7 +95,7 @@
                 android:gravity="center"
                 android:hint="@string/weapon_damage"
                 android:textColor="@android:color/black"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:inputType="number"
                 android:maxLines="1"
                 android:nextFocusDown="@+id/edit_text_basis_damage"
@@ -131,7 +131,7 @@
                     android:gravity="center"
                     android:text="@string/basis"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <TextView
@@ -143,7 +143,7 @@
                     android:gravity="center"
                     android:text="@string/equipment"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <TextView
@@ -155,7 +155,7 @@
                     android:gravity="center"
                     android:text="@string/pets"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <TextView
@@ -167,7 +167,7 @@
                     android:gravity="center"
                     android:text="@string/temporary"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
             </LinearLayout>
@@ -186,7 +186,7 @@
                     android:layout_gravity="center"
                     android:gravity="start"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <EditText
@@ -199,7 +199,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_equipment_damage"
@@ -215,7 +215,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_pets_damage"
@@ -231,7 +231,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_temporary_damage"
@@ -247,7 +247,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_basis_constitution"
@@ -270,7 +270,7 @@
                     android:text="@string/constitution"
                     android:hint="@string/zero"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <EditText
@@ -283,7 +283,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_equipment_constitution"
@@ -299,7 +299,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_pets_constitution"
@@ -315,7 +315,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_temporary_constitution"
@@ -331,7 +331,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_basis_luck"
@@ -353,7 +353,7 @@
                     android:gravity="start"
                     android:text="@string/luck"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <EditText
@@ -366,7 +366,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_equipment_luck"
@@ -382,7 +382,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_pets_luck"
@@ -398,7 +398,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_temporary_luck"
@@ -414,7 +414,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_plus_damage"
@@ -453,7 +453,7 @@
                     android:gravity="center"
                     android:text="@string/guild"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <TextView
@@ -465,7 +465,7 @@
                     android:gravity="center"
                     android:text="@string/dungeon"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
             </LinearLayout>
@@ -484,7 +484,7 @@
                     android:gravity="start"
                     android:text="@string/bonus"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <Spinner
@@ -519,7 +519,7 @@
                 android:layout_gravity="center"
                 android:text="@string/potion_eternal_life"
                 android:textColor="@color/primary_text"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:maxLines="1" />
 
         </LinearLayout>
@@ -552,7 +552,7 @@
                     android:gravity="center"
                     android:text="@string/plus"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <TextView
@@ -564,7 +564,7 @@
                     android:gravity="center"
                     android:text="@string/minus"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
             </LinearLayout>
@@ -584,7 +584,7 @@
                     android:layout_gravity="center"
                     android:gravity="start"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <EditText
@@ -597,7 +597,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_minus_damage"
@@ -613,7 +613,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_plus_constitution"
@@ -636,7 +636,7 @@
                     android:gravity="start"
                     android:text="@string/constitution"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <EditText
@@ -649,7 +649,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_minus_constitution"
@@ -665,7 +665,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_plus_luck"
@@ -688,7 +688,7 @@
                     android:gravity="start"
                     android:text="@string/luck"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:maxLines="1"/>
 
                 <EditText
@@ -701,7 +701,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_minus_luck"
@@ -717,7 +717,7 @@
                     android:gravity="center"
                     android:hint="@string/zero"
                     android:textColor="@android:color/black"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:inputType="number"
                     android:maxLines="1"
                     android:imeOptions="actionDone"
@@ -750,7 +750,7 @@
                     android:layout_gravity="center"
                     android:gravity="start"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1"/>
 
@@ -765,7 +765,7 @@
                     android:hint="@string/zero"
                     android:textColorHint="@color/primary_text"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1" />
 
@@ -778,7 +778,7 @@
                     android:gravity="start"
                     android:text="@string/damage"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1"/>
 
@@ -793,7 +793,7 @@
                     android:hint="@string/zero"
                     android:textColorHint="@color/primary_text"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1" />
 
@@ -814,7 +814,7 @@
                     android:gravity="start"
                     android:text="@string/constitution"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1"
                     android:id="@+id/textView" />
@@ -830,7 +830,7 @@
                     android:hint="@string/zero"
                     android:textColorHint="@color/primary_text"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1" />
 
@@ -843,7 +843,7 @@
                     android:gravity="start"
                     android:text="@string/hit_points"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1"/>
 
@@ -858,7 +858,7 @@
                     android:hint="@string/zero"
                     android:textColorHint="@color/primary_text"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1" />
 
@@ -879,7 +879,7 @@
                     android:gravity="start"
                     android:text="@string/luck"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1"/>
 
@@ -894,7 +894,7 @@
                     android:hint="@string/zero"
                     android:textColorHint="@color/primary_text"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1" />
 
@@ -907,7 +907,7 @@
                     android:gravity="start"
                     android:text="@string/critical_hit"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1"/>
 
@@ -922,7 +922,7 @@
                     android:hint="@string/zero"
                     android:textColorHint="@color/primary_text"
                     android:textColor="@color/primary_text"
-                    android:textSize="15sp"
+                    android:textSize="14sp"
                     android:textStyle="bold"
                     android:maxLines="1" />
 
