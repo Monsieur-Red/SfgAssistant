@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.adView) AdView mAdView;
     @BindView(R.id.view_pager) MyViewPager viewPager;
 
+    private boolean drawerMenu;
     private LeftDrawerLayout mLeftDrawerLayout;
     private Toolbar toolbar;
     private ModelManager modelManager;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Fabric.with(this, new Crashlytics());
 
         SharedPreferences preferences = getSharedPreferences(getString(R.string.package_name), Context.MODE_PRIVATE);
-        boolean drawerMenu = preferences.getBoolean(Constants.SHARED_PREFS_MENU_DRAWER, false);
+        drawerMenu = preferences.getBoolean(Constants.SHARED_PREFS_MENU_DRAWER, false);
 
         FlatUI.initDefaultValues(this);
         FlatUI.setDefaultTheme(R.array.button_active);
@@ -135,11 +136,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (mLeftDrawerLayout.isShownMenu()) {
+        if (drawerMenu && mLeftDrawerLayout.isShownMenu())
             mLeftDrawerLayout.closeDrawer();
-        } else {
+        else
             super.onBackPressed();
-        }
     }
 
     public void closeDrawer(int position) {
