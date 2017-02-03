@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:src="@drawable/warrior"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/btn_warrior"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:src="@drawable/warrior"
+                android:background="@drawable/selector_button_class"/>
+
+            <ImageView
+                android:id="@+id/btn_mage"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:src="@drawable/mage"
+                android:background="@drawable/selector_button_class"/>
+
+            <ImageView
+                android:id="@+id/btn_scout"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:src="@drawable/scout"
+                android:background="@drawable/selector_button_class"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:src="@drawable/warrior"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_text_level"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="@string/level"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:inputType="number"
+                android:maxLength="4"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/edit_text_weapon_damage"
+                android:background="@drawable/background_edit_text"/>
+
+            <EditText
+                android:id="@+id/edit_text_weapon_damage"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_weight="1"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="@string/weapon_damage"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:inputType="number"
+                android:maxLength="8"
+                android:maxLines="1"
+                android:nextFocusDown="@+id/edit_text_basis_damage"
+                android:background="@drawable/background_edit_text"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:orientation="vertical"
+            android:background="@drawable/background_tab">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/basis"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/equipment"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/pets"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/temporary"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_view_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <EditText
+                    android:id="@+id/edit_text_basis_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_equipment_damage"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_equipment_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_pets_damage"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_pets_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_temporary_damage"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_temporary_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_basis_constitution"
+                    android:background="@drawable/background_edit_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/constitution"
+                    android:hint="@string/zero"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <EditText
+                    android:id="@+id/edit_text_basis_constitution"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_equipment_constitution"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_equipment_constitution"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_pets_constitution"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_pets_constitution"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_temporary_constitution"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_temporary_constitution"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_basis_luck"
+                    android:background="@drawable/background_edit_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/luck"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <EditText
+                    android:id="@+id/edit_text_basis_luck"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_equipment_luck"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_equipment_luck"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_pets_luck"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_pets_luck"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_temporary_luck"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_temporary_luck"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_modification_plus_damage"
+                    android:background="@drawable/background_edit_text"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:orientation="vertical"
+            android:background="@drawable/background_tab">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:id="@+id/view" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/guild"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/dungeon"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/bonus"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <Spinner
+                    android:id="@+id/spinner_bonus_guild"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+
+                <Spinner
+                    android:id="@+id/spinner_bonus_dungeon"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/checkbox_potion_eternal_life"
+                android:theme="@style/MyCheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:orientation="vertical"
+
+                android:layout_gravity="center"
+                android:text="@string/potion_eternal_life"
+                android:textColor="@color/primary_text"
+                android:textSize="14sp"
+                android:maxLines="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:orientation="vertical"
+            android:background="@drawable/background_tab">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/plus"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/minus"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/text_view_damage_modification"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <EditText
+                    android:id="@+id/edit_text_modification_plus_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_modification_minus_damage"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_modification_minus_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_modification_plus_constitution"
+                    android:background="@drawable/background_edit_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/constitution"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <EditText
+                    android:id="@+id/edit_text_modification_plus_constitution"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_modification_minus_constitution"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_modification_minus_constitution"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_modification_plus_luck"
+                    android:background="@drawable/background_edit_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/luck"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:maxLines="1"/>
+
+                <EditText
+                    android:id="@+id/edit_text_modification_plus_luck"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/edit_text_modification_minus_luck"
+                    android:background="@drawable/background_edit_text"/>
+
+                <EditText
+                    android:id="@+id/edit_text_modification_minus_luck"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:maxLines="1"
+                    android:imeOptions="actionDone"
+                    android:background="@drawable/background_edit_text"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:orientation="vertical"
+            android:background="@drawable/background_tab">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/text_view_news_damage"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/text_view_news_damage_value"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColorHint="@color/primary_text"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/damage"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/text_view_news_damage_value_2"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColorHint="@color/primary_text"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/constitution"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:id="@+id/text_view_news_constitution_value"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColorHint="@color/primary_text"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/hit_points"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/text_view_news_hit_points_value"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColorHint="@color/primary_text"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/luck"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/text_view_news_luck_value"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColorHint="@color/primary_text"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:text="@string/critical_hit"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"/>
+
+                <TextView
+                    android:id="@+id/text_view_news_critical_hit_value"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/zero"
+                    android:textColorHint="@color/primary_text"
+                    android:textColor="@color/primary_text"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

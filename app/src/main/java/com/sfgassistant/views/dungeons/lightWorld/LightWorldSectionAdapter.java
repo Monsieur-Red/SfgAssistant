@@ -30,7 +30,7 @@ public class LightWorldSectionAdapter extends StatelessSection {
     private boolean expanded;
 
     public LightWorldSectionAdapter(Context context, SectionedRecyclerViewAdapter adapter, DungeonDetails dungeonDetails, List<Dungeon> Dungeons) {
-        super(R.layout.fragment_dungeons_light_world_rv_section_header, R.layout.fragment_dungeons_light_world_rv_section_item);
+        super(R.layout.rv_section_header_dungeons_light_world, R.layout.rv_section_item_dungeons_light_world);
         this.context = context;
         this.adapter = adapter;
         this.dungeonDetails = dungeonDetails;

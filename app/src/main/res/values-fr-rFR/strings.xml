@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- BASICS -->
+    <string name="world">Monde</string>
+    <string name="light">Lumière</string>
+    <string name="shadow">Ombres</string>
+    <string name="name">Nom</string>
+    <string name="classs">Classe</string>
+
     <!-- Menu Drawer -->
     <string name="guides">Guides</string>
     <string name="calculators">Outils</string>
@@ -35,14 +42,11 @@
     <string name="constitution">Endurance</string>
     <string name="luck">Chance</string>
 
-    <!-- Calculators -->
-    <string name="quests_calculator">Quêtes</string>
-    <string name="stats_calculator">Stats</string>
-
-    <!-- Stats Calculator -->
-    <string-array name="calculators_tabs_title">
+    <!-- Stats Tools -->
+    <string-array name="tools_tabs_title">
         <item>Stats</item>
         <item>Armes</item>
+        <item>Donjons</item>
     </string-array>
     <string name="level">Niveau</string>
     <string name="weapon_damage">Dégâts arme</string>
@@ -57,7 +61,7 @@
     <string name="hit_points">Vie</string>
     <string name="critical_hit">Coup critique</string>
 
-    <!-- Weapons Comparator -->
+    <!-- Weapons Tool -->
     <string name="calculators_weapons_advice_1">(Sans équiper une arme)</string>
     <string name="calculators_weapons_advice_2">Quand tu vas équiper l\'arme, tu auras surement un peu plus de dégâts que prévu car je ne prends pas en compte les bonus temporaires (potions) dans mon calcul.</string>
     <string name="min_dmg">Dégâts Min</string>
@@ -77,6 +81,15 @@
     <string name="total_str">Total Force</string>
     <string name="total_dex">Total Habilité</string>
     <string name="dmg_average">Dégâts Moyens</string>
+
+    <!--Dungeons Tool-->
+    <string name="tools_dungeons_description">Compare les monstres des donjons</string>
+    <string name="tools_dungeons_dungeon_number">N° donjon</string>
+    <string name="tools_dungeons_monster_number">N° monstre</string>
+    <string name="tools_dungeons_monster_1">Monstre 1</string>
+    <string name="tools_dungeons_monster_2">Monstre 2</string>
+    <string name="tools_dungeons_monster_3">Monstre 3</string>
+    <string name="tools_dungeons_monster_4">Monstre 4</string>
 
     <!-- Dungeons -->
     <string-array name="dungeons_tabs_title">

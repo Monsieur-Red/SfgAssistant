@@ -7,6 +7,14 @@
     <string name="banner_ad_unit_id_testing" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6260347260794661/3525811436/</string>
 
+    <!-- BASICS -->
+    <string name="empty" translatable="false">-</string>
+    <string name="world">World</string>
+    <string name="light">Light</string>
+    <string name="shadow">Shadow</string>
+    <string name="name">Name</string>
+    <string name="classs">Class</string>
+
     <!-- Menu Drawer -->
     <!--<string name="news">News</string>-->
     <string name="guides">Guides</string>
@@ -51,14 +59,11 @@
     <string name="enchantments_faq" formatted="false" translatable="false">Q Where is the witch?\nA Magic shop -> click the Inconspicous book next to Fidget if you are level <b>66+</b>.\n\nQ What does the witch do?\nA She brews spell scrolls in her cauldron. She needs ingredients in order to complete her ritual. Once complete (=the cauldron shows 100%), a random spell scroll becomes available. You can directly buy it here: magic shop -> Inconspicous book -> click on the scroll you would like to buy and the equipped item the scroll matches will be automatically enchanted with it.\n\nQ What does the witch need for her ritual?\nA She needs many ingredients. The type of ingredients changes every day and it resets at midnight. For example, on day 1 she needs belts, on day 2 she needs rings, on day 3 she needs weapons. Note: the progress of the cauldron does not reset! Of course the goal of 100% does not have to be reached in only one day. The cauldron only resets once the ritual is complete and a new spell scroll is available.\n\nQ Type of ingredients?\nA She needs all types of items except shields!\n\n(More information on S&amp;F forum!!)</string>
     <string name="enchantments_type_effect" formatted="false" translatable="false">%s : %s</string>
 
-    <!-- Calculators -->
-    <string name="quests_calculator">Quests</string>
-    <string name="stats_calculator">Stats</string>
-
-    <!-- Stats Calculator -->
-    <string-array name="calculators_tabs_title">
+    <!-- Tools -->
+    <string-array name="tools_tabs_title">
         <item>Stats</item>
         <item>Weapons</item>
+        <item>Dungeons</item>
     </string-array>
     <string name="level">Level</string>
     <string name="weapon_damage">Weapon Damage</string>
@@ -76,7 +81,7 @@
     <string name="hit_points">Hit Points</string>
     <string name="critical_hit">Critical Hit</string>
 
-    <!-- Weapons Comparator -->
+    <!-- Weapons Tool -->
     <string name="calculators_weapons_advice_1">(Without your equipped weapon)</string>
     <string name="calculators_weapons_advice_2">When the weapon will be equipped, you should have a little more damage because the formula doesn\'t take temporary bonus such as potions into parameter.</string>
     <string name="min_dmg">Min Dmg</string>
@@ -96,6 +101,15 @@
     <string name="total_str">Total Str</string>
     <string name="total_dex">Total Dex</string>
     <string name="dmg_average">Dmg Average</string>
+
+    <!--Dungeons Tool-->
+    <string name="tools_dungeons_description">Check and compare dungeon monsters</string>
+    <string name="tools_dungeons_dungeon_number">Dungeon\'s\nnumber</string>
+    <string name="tools_dungeons_monster_number">Monster\'s\nnumber</string>
+    <string name="tools_dungeons_monster_1">Monster 1</string>
+    <string name="tools_dungeons_monster_2">Monster 2</string>
+    <string name="tools_dungeons_monster_3">Monster 3</string>
+    <string name="tools_dungeons_monster_4">Monster 4</string>
 
     <!-- Dungeons -->
     <string-array name="dungeons_tabs_title">

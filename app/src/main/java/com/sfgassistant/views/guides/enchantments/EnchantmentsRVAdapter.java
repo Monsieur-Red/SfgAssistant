@@ -4,13 +4,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sfgassistant.R;
 import com.sfgassistant.models.guide.Enchantment;
-import com.sfgassistant.utils.Constants;
-import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -41,7 +38,7 @@ public class EnchantmentsRVAdapter extends RecyclerView.Adapter<EnchantmentsRVAd
 
     @Override
     public DataObjectHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_guides_enchantments_rv_row, parent, false);
+        View                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.rv_row_guides_enchantments, parent, false);
         DataObjectHolder    holder = new DataObjectHolder(view);
 
         return (holder);

@@ -1,10 +1,8 @@
 package com.sfgassistant.presenters;
 
-import com.sfgassistant.R;
 import com.sfgassistant.models.ModelManager;
 import com.sfgassistant.models.guide.Classs;
 import com.sfgassistant.models.guide.Race;
-import com.sfgassistant.utils.Constants;
 import com.sfgassistant.views.guides.classes.Classes;
 import com.sfgassistant.views.guides.classes.ClassesView;
 
@@ -33,4 +31,5 @@ public class ClassesPresenter implements Classes.Presenter {
     public Classs getClass(int id) {
         return classes.get(id);
     }
+
 }

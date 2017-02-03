@@ -15,8 +15,6 @@ import com.sfgassistant.utils.Constants;
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.ButterKnife;
-
 /**
  * Created by pierr on 30/09/2016.
  */
@@ -55,7 +53,7 @@ public class TheTowerRvAdapter extends RecyclerView.Adapter<TheTowerRvAdapter.Da
 
     @Override
     public DataObjectHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_dungeons_the_tower_rv_row, parent, false);
+        View                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.rv_row_dungeons_the_tower, parent, false);
         return new DataObjectHolder(view);
     }
 

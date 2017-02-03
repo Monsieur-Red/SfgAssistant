@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.sfgassistant.views.calculators.CalculatorsView;
+import com.sfgassistant.views.tools.ToolsView;
 import com.sfgassistant.views.dungeons.DungeonsView;
 import com.sfgassistant.views.guides.GuidesView;
 import com.sfgassistant.views.settings.SettingsView;
@@ -30,7 +30,7 @@ public class MainPagerAdapter extends FragmentStatePagerAdapter {
 
         fragments = new ArrayList<>();
         fragments.add(new GuidesView());
-        fragments.add(new CalculatorsView());
+        fragments.add(new ToolsView());
         fragments.add(new DungeonsView());
         fragments.add(new SettingsView());
     }

@@ -5,14 +5,12 @@ import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sfgassistant.R;
 import com.sfgassistant.models.dungeons.Dungeon;
 import com.sfgassistant.models.dungeons.DungeonDetails;
 import com.sfgassistant.utils.Constants;
-import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -32,7 +30,7 @@ public class ShadowWorldSectionAdapter extends StatelessSection {
     private boolean expanded;
 
     public ShadowWorldSectionAdapter(Context context, SectionedRecyclerViewAdapter adapter, DungeonDetails dungeonDetails, List<Dungeon> Dungeons) {
-        super(R.layout.fragment_dungeons_light_world_rv_section_header, R.layout.fragment_dungeons_light_world_rv_section_item);
+        super(R.layout.rv_section_header_dungeons_light_world, R.layout.rv_section_item_dungeons_light_world);
         this.context = context;
         this.adapter = adapter;
         this.dungeonDetails = dungeonDetails;

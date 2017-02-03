@@ -58,4 +58,14 @@ public class Constants {
     public static final String CLASS_WARRIOR_STR = "Warrior";
     public static final String CLASS_SCOUT_STR = "Scout";
 
+    public enum DUNGEON_CALC {
+        LVL,
+        HP,
+        STR,
+        DEX,
+        INT,
+        CON,
+        LUCK
+    }
+
 }

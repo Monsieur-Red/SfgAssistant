@@ -10,8 +10,8 @@ android {
         applicationId "com.sfgassistant"
         minSdkVersion 16
         targetSdkVersion 25
-        versionCode 4
-        versionName "1.0.3"
+        versionCode 5
+        versionName "1.0.4"
     }
     buildTypes {
         release {
@@ -23,7 +23,7 @@ android {
     productFlavors {
         prod {
             applicationId = "com.sfgassistant"
-            versionName = "1.0.3"
+            versionName = "1.0.4"
         }
     }
 
