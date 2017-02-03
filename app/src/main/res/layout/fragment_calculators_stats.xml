@@ -81,6 +81,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
                 android:inputType="number"
+                android:maxLength="4"
                 android:maxLines="1"
                 android:nextFocusDown="@+id/edit_text_weapon_damage"
                 android:background="@drawable/background_edit_text"/>
@@ -97,6 +98,7 @@
                 android:textColor="@android:color/black"
                 android:textSize="14sp"
                 android:inputType="number"
+                android:maxLength="8"
                 android:maxLines="1"
                 android:nextFocusDown="@+id/edit_text_basis_damage"
                 android:background="@drawable/background_edit_text"/>
@@ -201,6 +203,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_equipment_damage"
                     android:background="@drawable/background_edit_text"/>
@@ -217,6 +220,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_pets_damage"
                     android:background="@drawable/background_edit_text"/>
@@ -233,6 +237,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_temporary_damage"
                     android:background="@drawable/background_edit_text"/>
@@ -249,6 +254,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_basis_constitution"
                     android:background="@drawable/background_edit_text"/>
@@ -285,6 +291,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_equipment_constitution"
                     android:background="@drawable/background_edit_text"/>
@@ -301,6 +308,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_pets_constitution"
                     android:background="@drawable/background_edit_text"/>
@@ -317,6 +325,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_temporary_constitution"
                     android:background="@drawable/background_edit_text"/>
@@ -333,6 +342,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_basis_luck"
                     android:background="@drawable/background_edit_text"/>
@@ -368,6 +378,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_equipment_luck"
                     android:background="@drawable/background_edit_text"/>
@@ -384,6 +395,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_pets_luck"
                     android:background="@drawable/background_edit_text"/>
@@ -400,6 +412,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_temporary_luck"
                     android:background="@drawable/background_edit_text"/>
@@ -416,6 +429,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_plus_damage"
                     android:background="@drawable/background_edit_text"/>
@@ -599,6 +613,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_minus_damage"
                     android:background="@drawable/background_edit_text"/>
@@ -615,6 +630,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_plus_constitution"
                     android:background="@drawable/background_edit_text"/>
@@ -651,6 +667,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_minus_constitution"
                     android:background="@drawable/background_edit_text"/>
@@ -667,6 +684,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_plus_luck"
                     android:background="@drawable/background_edit_text"/>
@@ -703,6 +721,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_modification_minus_luck"
                     android:background="@drawable/background_edit_text"/>
@@ -719,6 +738,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:imeOptions="actionDone"
                     android:background="@drawable/background_edit_text"/>

@@ -74,6 +74,7 @@
             android:textColor="@android:color/black"
             android:textSize="14sp"
             android:inputType="number"
+            android:maxLength="8"
             android:maxLines="1"
             android:nextFocusDown="@+id/edit_text_modification_minus_luck"
             android:background="@drawable/background_edit_text"/>
@@ -165,6 +166,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_weapon_2_min_dmg"
                     android:background="@drawable/background_edit_text"/>
@@ -181,6 +183,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_weapon_1_max_dmg"
                     android:background="@drawable/background_edit_text"/>
@@ -217,6 +220,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_weapon_2_max_dmg"
                     android:background="@drawable/background_edit_text"/>
@@ -233,6 +237,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_weapon_1_attribute"
                     android:background="@drawable/background_edit_text"/>
@@ -270,6 +275,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_weapon_2_attribute"
                     android:background="@drawable/background_edit_text"/>
@@ -286,6 +292,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_weapon_1_gem"
                     android:background="@drawable/background_edit_text"/>
@@ -323,6 +330,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:nextFocusDown="@+id/edit_text_weapon_2_gem"
                     android:background="@drawable/background_edit_text"/>
@@ -339,6 +347,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="14sp"
                     android:inputType="number"
+                    android:maxLength="8"
                     android:maxLines="1"
                     android:imeOptions="actionDone"
                     android:background="@drawable/background_edit_text"/>

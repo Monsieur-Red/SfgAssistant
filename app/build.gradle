@@ -3,13 +3,13 @@ apply plugin: 'io.fabric'
 apply plugin: 'com.neenbedankt.android-apt'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
 
     defaultConfig {
         applicationId "com.sfgassistant"
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 25
         versionCode 4
         versionName "1.0.3"
     }
@@ -23,7 +23,7 @@ android {
     productFlavors {
         prod {
             applicationId = "com.sfgassistant"
-            versionName = "1.0.3-free"
+            versionName = "1.0.3"
         }
     }
 
@@ -36,53 +36,36 @@ repositories {
     maven { url 'https://maven.fabric.io/public' }
 }
 
-ext {
-    junitVersion = '4.12'
-
-    // AppCompatV7 & RecyclerView
-    appcompatv7Version = '24.2.1'
-    recyclerViewv7Version = '24.2.1'
-
-    // Retrofit
-    retrofitVersion = '2.0.2'
-
-    // Butterknife
-    butterknifeVersion = '8.4.0'
-    butterknifeCompilerVersion = '8.4.0'
-
-    // OkHttp
-    okhttpVersion = '3.2.0'
-    okioVersion = '1.7.0'
-
-    // Gson & Moshi
-    gsonVersion = '2.6.2'
-    gsonConverterVersion = '2.0.1'
-    moshiVersion = '1.2.0'
-
-    // RxJava
-    rxjavaVersion = '1.1.2'
-    rxandroidVersion = '1.1.0'
-    rxjavaAdapterVersion = '2.0.1'
-
-    // Dagger
-    daggerCompilerVersion = '2.5'
-    daggerVersion = '2.5'
-    jsr250apiVersion = '1.0'
-
-}
-
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile "junit:junit:$junitVersion"
-    compile "com.android.support:appcompat-v7:$appcompatv7Version"
-    compile "com.android.support:design:$appcompatv7Version"
-    compile "com.android.support:recyclerview-v7:$recyclerViewv7Version"
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support:cardview-v7:25.1.1'
+    compile 'com.android.support:design:25.1.1'
+
+    /* Network */
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.okio:okio:1.7.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'io.reactivex:rxjava:1.1.2'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+
+    /* Dependency injector */
+    compile 'com.google.dagger:dagger:2.5'
+    apt 'com.google.dagger:dagger-compiler:2.5'
+    provided 'javax.annotation:jsr250-api:1.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+
+    /* Moshi Json Parser */
+    compile 'com.squareup.moshi:moshi:1.2.0'
+
+    /* Section Rv Adapter */
     compile 'io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.0.4'
-    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    compile "com.jakewharton:butterknife:$butterknifeVersion"
-    apt "com.jakewharton:butterknife-compiler:$butterknifeCompilerVersion"
-    compile "com.google.code.gson:gson:$gsonVersion"
-    compile "com.squareup.moshi:moshi:$moshiVersion"
 
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.mxn.soul:flowingdrawer-core:1.2.5'
